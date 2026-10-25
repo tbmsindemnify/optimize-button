@@ -37,3 +37,20 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / Seedance (ByteDance Seed)** — first snapshot — https://seed.bytedance.com/
 - **Video generation / OpenAI video guide (Sora shutdown notice)** — first snapshot — https://platform.openai.com/docs/guides/video-generation
 - **Video generation / LTX-Video GitHub (open weights)** — first snapshot — https://github.com/Lightricks/LTX-Video
+
+## 2026-10-25
+
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,998 -> 24,998 chars; last seen 2026-10-24) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 568 ( 568 )`
+    - `+Pull requests 569 ( 569 )`
+    - `-195.0k stars`
+    - `+195.2k stars`
+    - `-489 watching`
+    - `+491 watching`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,611 -> 4,611 chars; last seen 2026-10-24) — https://github.com/Wan-Video
+    - `-354`
+    - `+355`
+    - `-18,156`
+    - `-Apache-2.0`
+    - `-2,364`
+    - `-274`
