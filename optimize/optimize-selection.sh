@@ -36,12 +36,23 @@ read_selection() {
 }
 
 # --- put text back: type it over the selection, or copy it -----------------------------------------
+# Newlines are typed as Shift+Enter so a chat box gets a line break, never a send.
 type_text() {
   local text="$1"
   if [[ -n "${WAYLAND_DISPLAY:-}" ]] && command -v wtype >/dev/null; then
-    wtype -s 20 -- "$text"
+    local first=1
+    while IFS= read -r line || [[ -n "$line" ]]; do
+      if [[ $first -eq 0 ]]; then wtype -M shift -k Return -m shift; fi
+      first=0
+      [[ -n "$line" ]] && wtype -s 14 -- "$line"
+    done <<< "$text"
   elif command -v xdotool >/dev/null; then
-    xdotool type --delay 8 -- "$text"
+    local first=1
+    while IFS= read -r line || [[ -n "$line" ]]; do
+      if [[ $first -eq 0 ]]; then xdotool key shift+Return; fi
+      first=0
+      [[ -n "$line" ]] && xdotool type --delay 6 -- "$line"
+    done <<< "$text"
   elif command -v osascript >/dev/null; then
     printf '%s' "$text" | pbcopy && osascript -e 'tell application "System Events" to keystroke "v" using command down'
   else

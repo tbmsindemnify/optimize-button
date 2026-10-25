@@ -1,0 +1,6 @@
+{
+  "name": "prompt-transform",
+  "version": "0.5.0",
+  "description": "An Optimize button above the prompt box (and /optimize) that rewrites your prompt, compacts a long thread, adds deny rules for files Claude never needs, and once a day flags idle MCP servers and plugins, missing context-mode and RTK, and CLAUDE.md files over 200 lines; beside a one-bar meter of how warm the prompt cache is. It keeps Claude's skills up to date.",
+  "types": "./types/index.d.ts"
+}

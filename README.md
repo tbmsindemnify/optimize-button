@@ -4,6 +4,13 @@
 
 Tyler Mishoulam calls this his golden nugget. It started as a per-pane button in his [Herdr](https://github.com/herdrdev/herdr) fork and is published here generalized to **any large-language-model harness**: Claude Code, Codex, a chat box in a browser, a terminal, your own app.
 
+## Where to find the button
+
+- **Any app** — `optimize/optimize-selection.sh`: highlight text, press the hotkey, it is rewritten in place (unsent). Verified on a Wayland desktop.
+- **Claude Code** — `integrations/claude-code/plugin`: the original chip above the prompt box (Sonnet rewrite, cache meter, daily hygiene). Verified headless with `claude -p`.
+- **Herdr** — a fork with `✦ Optimize` on every agent pane: https://github.com/tbmsindemnify/herdr. Verified against a live session.
+- **Hermes** — `integrations/hermes/SKILL.md`. **Codex** — `integrations/codex` (custom prompt; not yet verified, see `docs/verification.md`).
+
 ## Two ways to use it
 
 1. **Build it in.** Call `optimize/optimize.py` from your harness (a button, a slash command, a pre-send hook). It reads a draft on stdin and returns a labelled packet, or JSON with `--json`.

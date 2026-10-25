@@ -97,7 +97,7 @@ DONE WHEN: the observable check that says the job is finished
 EFFORT: {p['effort']} ; one short reason
 AUTONOMY: read-only | propose-then-apply | apply ; a read-only draft never gains write autonomy
 SHAPE: the exact output form (checklist, table, diff, one line, file, ...)
-TOOLS/SKILLS: {p['skills']} ; list only what the job needs, and what to drop
+TOOLS/SKILLS: {p['skills']} ; name only skills/tools that appear in the draft or the catalogs below; if none apply write "none needed"; say what to drop
 CONTEXT: the specific files, pages, names or data the model should look at; if the draft names none, say "ask: ..." with the one question that unblocks it
 COMPACT: yes ({p['compact']}) only if the user says the thread is long or stale; otherwise no
 PROMPT: the rewritten request itself, 1-6 sentences, outcome first, constraints kept word for word

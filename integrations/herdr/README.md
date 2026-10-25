@@ -1,11 +1,14 @@
-# Where the button was born: Herdr
+# Herdr: the button on every agent pane
 
-[Herdr](https://github.com/herdrdev/herdr) is a terminal workspace manager for AI coding agents (Claude Code, Codex and others side by side). Tyler runs a personal fork with an **Optimize** button on every pane. The Python helpers in this folder are that implementation, published as reference:
+The Herdr version is published as a fork with the button built in:
+**https://github.com/tbmsindemnify/herdr** (branch `optimize-button`, Apache-2.0, fork of herdrdev/herdr v0.9.1).
 
-- `workspace_optimize.py` — the button's entry point: reads the pane's one-line draft, measures real context use from the agent's session file (`usage.py`), builds the packet, inserts it **unsent**, and on a second click can run the provider's native compaction.
-- `optimizer_providers.py` — separate Claude and Codex policies; discovers installed skills/plugins so the packet never invents one.
-- `optimizer_backend.py` — talks to a local model (exo on a Mac mini, or a guarded Ollama) through the OpenAI-compatible API.
-- `optimizer_session.py` — binding to one server/terminal/provider/session, cross-client locking, atomic recovery files.
-- `tile.py` — the Herdr pane API shim.
+- `✦ Optimize` in the chrome of every Claude Code / Codex / Antigravity / Hermes pane. Click → a local model (Ollama, or exo)
+  rewrites the pane's unsent draft and types it back, unsent. `CHANGES.md` there lists everything the fork changes.
+- Helpers live in that repo's `optimize/` directory (`workspace_optimize.py`, `optimizer_providers.py`, `optimizer_session.py`,
+  `optimizer_backend.py`, `usage.py`, `tile.py`); build with `ZIG=... ./install.sh`.
 
-These files depend on Herdr's internal pane API and on a local model endpoint, so they are not a drop-in for other harnesses. The harness-agnostic version is `optimize/optimize.py` + `optimize/optimize-selection.sh` at the repo root.
+Verified 2026-10-24 against a live Herdr session: Claude Code pane, draft "fix the login bug, don't touch the database" →
+editor cleared, prepared prompt inserted, not sent; constraint re-appended ("Constraints kept: don't touch the database").
+Two bugs found and fixed on the way: an unreachable exo host now falls through to Ollama, and Claude Code 2.1's rotating
+placeholder tips (`Try "how does <filepath> work?"`) are read as an empty editor.
