@@ -1,0 +1,171 @@
+Quickstart: connect your AI agent to the web - Tavily Docs
+Documentation Index
+Fetch the complete documentation index at: /llms.txt
+Use this file to discover all available pages before exploring further.
+Skip to main content
+Tavily Docs home page
+Search...
+⌘ K Ask Assistant ⌘ I
+Support
+Get an API key
+Get an API key
+Search...
+Navigation
+Get started
+Quickstart: connect your AI agent to the web
+Get started
+API Reference
+Integrations
+Examples
+Changelog
+API Playground
+Get started
+Quickstart
+MCP
+Agent Skills
+Claude
+CLI
+Python SDK
+JavaScript SDK
+Coding agents
+Claude Code
+Cursor
+Kiro
+OpenCode
+Hermes Agent
+Pi
+NanoClaw
+OpenClaw
+Grok Build
+API keys & credits
+Try Tavily Without an API Key
+API Key Management
+Headers & Authentication
+Credits & Pricing
+Rate Limits
+Best practices
+Search
+Extract
+Crawl
+Research
+Help
+Frequently Asked Questions
+Help Center
+Get started
+Quickstart: connect your AI agent to the web
+Copy page Copy page
+Add Tavily’s web search, extraction, crawling, and research to Claude, Codex, Cursor, Kiro, or any agent in one step, or call the API directly with a free API key.
+Copy page Copy page
+Onboard your agent
+Connect your agent to the web with Tavily. Get started for free.
+Get API key
+Tavily is the web layer for AI agents: real-time search , page extraction , site crawling and mapping , and cited research , returned as clean, LLM-ready content.
+Claude & Claude Code
+ChatGPT & Codex
+Cursor
+Kiro
+OpenCode
+Claude Code
+claude mcp add tavily --transport http https://mcp.tavily.com/mcp/
+Claude (claude.ai, Claude Desktop, and Cowork): click Add to Claude , then Connect , and sign in to Tavily. Claude Code : run the command above; Claude Code opens your browser to sign in to Tavily when you start a new session. See the Claude guide for the Tavily plugin and organization-wide access.
+Codex
+codex mcp add tavily --url https://mcp.tavily.com/mcp/
+codex mcp login tavily
+Click Add to ChatGPT and Codex to open the Tavily plugin, then connect it and sign in to Tavily. To use the MCP server in Codex instead, run the commands above. See the MCP guide for other options.
+mcp.json
+{
+"mcpServers" : {
+"tavily" : {
+"url" : "https://mcp.tavily.com/mcp/"
+}
+}
+}
+Click Add to Cursor and sign in to Tavily when Cursor prompts you, or add the server to ~/.cursor/mcp.json yourself. For the recommended plugin setup, standalone options, and examples, see the Cursor guide .
+~/.kiro/settings/mcp.json
+{
+"mcpServers" : {
+"tavily" : {
+"url" : "https://mcp.tavily.com/mcp/"
+}
+}
+}
+Click Add to Kiro and confirm the install, then click Authenticate next to tavily under MCP SERVERS in the Kiro panel and sign in to Tavily. For an API key, a local server, the CLI, and examples, see the Kiro guide .
+Terminal
+opencode.json
+curl -fsSL https://cli.tavily.com/install.sh | bash
+tvly login
+{
+"$schema" : "https://opencode.ai/config.json" ,
+"plugin" : [ "opencode-tavily" ]
+}
+Paste the setup prompt into OpenCode to let it set Tavily up, or install the Tavily CLI, sign in, and add the opencode-tavily plugin to your opencode.json . OpenCode installs the plugin on next launch. See the OpenCode guide for details.
+No account yet? Keyless access lets you call Search and Extract with no API key.
+​
+Make your first API call
+Get a free Tavily API key (1,000 API credits every month, no credit card required), install an SDK, and replace tvly-YOUR_API_KEY with your key.
+Python
+JavaScript
+cURL
+# pip install tavily-python
+from tavily import TavilyClient
+tavily_client = TavilyClient( api_key = "tvly-YOUR_API_KEY" )
+response = tavily_client.search( "Who is Leo Messi?" )
+print (response)
+// npm i @tavily/core
+const { tavily } = require ( "@tavily/core" );
+const tvly = tavily ({ apiKey: "tvly-YOUR_API_KEY" });
+const response = await tvly . search ( "Who is Leo Messi?" );
+console . log ( response );
+curl -X POST https://api.tavily.com/search \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer tvly-YOUR_API_KEY" \
+-d '{"query": "Who is Leo Messi?"}'
+Next, see the Python and JavaScript SDK guides, the API reference , or the Getting Started notebook for more advanced Python workflows.
+​
+Coding agents
+Cursor
+Kiro
+OpenCode
+Claude
+Hermes Agent
+Pi
+NanoClaw
+OpenClaw
+Grok Build
+Any other agent
+​
+Frameworks and platforms
+LangChain
+OpenAI
+Vercel AI SDK
+n8n
+CrewAI
+Mastra
+Find more in the Integrations tab.
+​
+Explore the API
+Search
+Search the web for current, relevant sources.
+Extract
+Pull clean content from one or more URLs.
+Research
+Get a cited report from multi-source research.
+Crawl
+Read many pages across a site.
+Map
+Discover a site’s structure.
+Playground
+Try the APIs in your browser.
+​
+Need help?
+Email support@tavily.com , ask in the community , or check Tavily status .
+Tavily MCP Server
+Next
+Tavily Docs home page linkedin x github youtube
+Resources
+Get started Tavily Search Crawler Tavily Status
+Legal
+Security & Compliance Privacy Policy Website Terms of Use Platform Terms of Use Cookie Notice
+linkedin x github youtube
+Assistant
+Responses are generated using AI and may contain mistakes.

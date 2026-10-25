@@ -1,0 +1,59 @@
+{
+  "updated": "2026-10-24",
+  "note": "Official pages only. The refresh job snapshots and diffs these daily; humans (or a reviewed PR) turn changes into rules. Add a source: title + url. Remove one when the vendor retires the page.",
+  "groups": [
+    {
+      "name": "Anthropic / Claude",
+      "sources": [
+        {"title": "Claude Code best practices", "url": "https://code.claude.com/docs/en/best-practices"},
+        {"title": "Claude Code costs and context", "url": "https://code.claude.com/docs/en/costs"},
+        {"title": "Claude Code skills", "url": "https://code.claude.com/docs/en/skills"},
+        {"title": "Claude Code commands (incl. /compact)", "url": "https://code.claude.com/docs/en/commands"},
+        {"title": "Claude Code settings", "url": "https://code.claude.com/docs/en/settings"},
+        {"title": "Claude Code plugins CLI", "url": "https://code.claude.com/docs/en/plugins/cli-reference"},
+        {"title": "Claude Code MCP", "url": "https://code.claude.com/docs/en/mcp"},
+        {"title": "Effective context engineering for AI agents", "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"},
+        {"title": "Prompting best practices (Claude platform docs)", "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"},
+        {"title": "Building agents: when to fold subagents into the main loop", "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"},
+        {"title": "Anthropic engineering blog index", "url": "https://www.anthropic.com/engineering"}
+      ]
+    },
+    {
+      "name": "OpenAI / Codex",
+      "sources": [
+        {"title": "Codex best practices", "url": "https://learn.chatgpt.com/docs/learn/best-practices"},
+        {"title": "Codex prompting", "url": "https://learn.chatgpt.com/docs/prompting"},
+        {"title": "Codex: build skills", "url": "https://learn.chatgpt.com/docs/build-skills"},
+        {"title": "Codex app-server", "url": "https://learn.chatgpt.com/docs/app-server"},
+        {"title": "Codex MCP (CLI)", "url": "https://learn.chatgpt.com/docs/extend/mcp?surface=cli"},
+        {"title": "Rethinking skills and prompts for GPT-6 Astra", "url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra"},
+        {"title": "OpenAI prompt engineering guide", "url": "https://platform.openai.com/docs/guides/prompt-engineering"},
+        {"title": "OpenAI developers blog index", "url": "https://developers.openai.com/blog"}
+      ]
+    },
+    {
+      "name": "Web scraping and search for agents",
+      "sources": [
+        {"title": "Firecrawl docs", "url": "https://docs.firecrawl.dev/"},
+        {"title": "Firecrawl GitHub", "url": "https://github.com/firecrawl/firecrawl"},
+        {"title": "Exa docs", "url": "https://docs.exa.ai/"},
+        {"title": "Exa privacy policy (query use)", "url": "https://exa.ai/privacy"},
+        {"title": "Tavily docs", "url": "https://docs.tavily.com/"},
+        {"title": "Crawl4AI GitHub", "url": "https://github.com/unclecode/crawl4ai"},
+        {"title": "Jina Reader", "url": "https://jina.ai/reader/"}
+      ]
+    },
+    {
+      "name": "Video generation",
+      "sources": [
+        {"title": "Google Veo (Gemini API video docs)", "url": "https://ai.google.dev/gemini-api/docs/video"},
+        {"title": "Kling AI", "url": "https://klingai.com/"},
+        {"title": "Runway", "url": "https://runwayml.com/"},
+        {"title": "Wan (Alibaba) GitHub", "url": "https://github.com/Wan-Video"},
+        {"title": "Seedance (ByteDance Seed)", "url": "https://seed.bytedance.com/"},
+        {"title": "OpenAI video guide (Sora shutdown notice)", "url": "https://platform.openai.com/docs/guides/video-generation"},
+        {"title": "LTX-Video GitHub (open weights)", "url": "https://github.com/Lightricks/LTX-Video"}
+      ]
+    }
+  ]
+}

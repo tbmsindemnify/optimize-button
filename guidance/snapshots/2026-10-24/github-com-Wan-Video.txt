@@ -1,0 +1,247 @@
+Wan · GitHub
+Skip to content
+Navigation Menu
+Sign in Appearance settings
+Wan-Video
+Platform AI CODE CREATION GitHub Copilot Write better code with AI
+GitHub Copilot app Direct agents from issue to merge
+MCP Registry Integrate external tools
+DEVELOPER WORKFLOWS Actions Automate any workflow
+Codespaces Instant dev environments
+Issues Plan and track work
+Code Review Manage code changes
+Code Quality Enforce quality at merge
+APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities
+Code security Secure your code as you build
+Secret protection Stop leaks before they start
+EXPLORE Why GitHub
+Documentation
+Blog
+Changelog
+Marketplace
+View all features
+Solutions BY COMPANY SIZE Enterprises
+Small and medium teams
+Startups
+Nonprofits
+BY USE CASE App Modernization
+DevSecOps
+DevOps
+CI/CD
+View all use cases
+BY INDUSTRY Healthcare
+Financial services
+Manufacturing
+Government
+See all industries
+View all solutions
+Resources EXPLORE BY TOPIC AI
+Software Development
+DevOps
+Security
+View all topics
+EXPLORE BY TYPE Customer stories
+Events & webinars
+Ebooks & reports
+Business insights
+GitHub Skills
+SUPPORT & SERVICES Documentation
+Customer support
+Community forum
+Trust center
+Partners
+View all resources
+Open Source COMMUNITY GitHub Sponsors Fund open source developers
+PROGRAMS Security Lab
+Maintainer Community
+GitHub Stars
+Archive Program
+REPOSITORIES Topics
+Trending
+Collections
+Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform
+AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features
+Copilot for Business Enterprise-grade AI features
+Premium Support Enterprise-grade 24/7 support
+Pricing
+Search /
+Sign in
+Sign up Appearance settings
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+Dismiss alert
+{{ message }}
+Wan
+Alibaba Cloud's Large-scale Generative Models.
+3.4k
+followers
+https://wan.video
+@Alibaba_Wan
+https://discord.com/invite/p5XbdQV7
+https://huggingface.co/Wan-AI
+https://modelscope.cn/organization/Wan-AI
+wan.ai@alibabacloud.com
+Overview
+Repositories
+Projects
+Packages
+People
+More
+Overview
+Repositories
+Projects
+Packages
+People
+Popular repositories
+Loading
+Wan2.2
+Wan2.2
+Public
+Wan: Open and Advanced Large-Scale Video Generative Models
+Python
+18.2k
+2.4k
+Wan2.1
+Wan2.1
+Public
+Wan: Open and Advanced Large-Scale Video Generative Models
+Python
+17.3k
+3.9k
+Wan-Dancer
+Wan-Dancer
+Public
+Python
+441
+50
+Wan-Animate-2
+Wan-Animate-2
+Public
+Python
+354
+39
+Wan-skills
+Wan-skills
+Public
+AI Agent Skills for Wan — Enable your AI Agent to easily leverage Wan's AIGC capabilities.
+Python
+76
+23
+diffusers
+diffusers
+Public
+Forked from huggingface/diffusers
+🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch and FLAX.
+Python
+64
+29
+Repositories
+-->
+Loading
+Type
+Select type
+All
+Public
+Sources
+Forks
+Archived
+Mirrors
+Templates
+Language
+Select language
+All
+Python
+Sort
+Select order
+Last updated
+Name
+Stars
+Showing 6 of 6 repositories
+Wan2.2
+Public
+Wan: Open and Advanced Large-Scale Video Generative Models
+Wan-Video/Wan2.2's past year of commit activity
+Python
+18,156
+Apache-2.0
+2,364
+274
+50
+Updated Sep 21, 2026
+Wan-Animate-2
+Public
+Wan-Video/Wan-Animate-2's past year of commit activity
+Python
+354
+Apache-2.0
+39
+6
+2
+Updated Aug 8, 2026
+Wan-Dancer
+Public
+Wan-Video/Wan-Dancer's past year of commit activity
+Python
+441
+Apache-2.0
+50
+0
+0
+Updated Jul 17, 2026
+Wan-skills
+Public
+AI Agent Skills for Wan — Enable your AI Agent to easily leverage Wan's AIGC capabilities.
+Wan-Video/Wan-skills's past year of commit activity
+Python
+76
+Apache-2.0
+23
+0
+0
+Updated Apr 17, 2026
+Wan2.1
+Public
+Wan: Open and Advanced Large-Scale Video Generative Models
+Wan-Video/Wan2.1's past year of commit activity
+Python
+17,291
+Apache-2.0
+3,905
+349
+40
+Updated Mar 5, 2026
+diffusers
+Public
+Forked from
+huggingface/diffusers
+🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch and FLAX.
+Wan-Video/diffusers's past year of commit activity
+Python
+64
+Apache-2.0
+7,541
+0
+0
+Updated Feb 27, 2025
+People
+This organization has no public members. You must be a member to see who’s a part of this organization.
+Top languages
+Python
+Most used topics
+Loading…
+Uh oh!
+There was an error while loading. Please reload this page .
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+You can’t perform that action at this time.
