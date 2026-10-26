@@ -54,3 +54,66 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-Apache-2.0`
     - `-2,364`
     - `-274`
+
+## 2026-10-26
+
+- **Anthropic / Claude / Claude Code best practices** — changed (35,131 -> 35,143 chars; last seen 2026-10-25) — https://code.claude.com/docs/en/best-practices
+    - `-Give Claude a way to verify its work`
+    - `+Back to top Give Claude a way to verify its work`
+- **Anthropic / Claude / Claude Code costs and context** — changed (39,699 -> 39,711 chars; last seen 2026-10-25) — https://code.claude.com/docs/en/costs
+    - `-Track your costs Using the /usage command`
+    - `+Back to top Track your costs Using the /usage command`
+- **Anthropic / Claude / Claude Code skills** — changed (101,418 -> 101,430 chars; last seen 2026-10-25) — https://code.claude.com/docs/en/skills
+    - `-Bundled skills Check your setup with /doctor`
+    - `+Back to top Bundled skills Check your setup with /doctor`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (44,556 -> 44,568 chars; last seen 2026-10-25) — https://code.claude.com/docs/en/commands
+    - `-Commands across a typical workflow`
+    - `+Back to top Commands across a typical workflow`
+- **Anthropic / Claude / Claude Code settings** — changed (36,679 -> 36,691 chars; last seen 2026-10-25) — https://code.claude.com/docs/en/settings
+    - `-Settings files and who they affect Compare the scope of each settings file`
+    - `+Back to top Settings files and who they affect Compare the scope of each settings file`
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (55,962 -> 55,974 chars; last seen 2026-10-25) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-claude plugin commands plugin init`
+    - `+Back to top claude plugin commands plugin init`
+- **Anthropic / Claude / Claude Code MCP** — changed (131,509 -> 131,521 chars; last seen 2026-10-25) — https://code.claude.com/docs/en/mcp
+    - `-What you can do with MCP`
+    - `+Back to top What you can do with MCP`
+- **Anthropic / Claude / Effective context engineering for AI agents** — changed (21,869 -> 21,800 chars; last seen 2026-10-25) — https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+    - `-AI research and products that put safety at the frontier. AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risk`
+    - `+Anthropic is a Public Benefit Corporation. Our mission is to ensure the world safely makes the transition through transformative AI.`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,696 -> 4,627 chars; last seen 2026-10-25) — https://www.anthropic.com/engineering
+    - `-AI research and products that put safety at the frontier. AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risk`
+    - `+Anthropic is a Public Benefit Corporation. Our mission is to ensure the world safely makes the transition through transformative AI.`
+- **Web scraping and search for agents / Firecrawl docs** — changed (171,784 -> 171,931 chars; last seen 2026-10-25) — https://docs.firecrawl.dev/
+    - `-Get started Build directly with the API`
+    - `+Back to top Get started Build directly with the API`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,998 -> 24,998 chars; last seen 2026-10-25) — https://github.com/firecrawl/firecrawl
+    - `-Issues 103 ( 103 )`
+    - `-Pull requests 569 ( 569 )`
+    - `+Issues 107 ( 107 )`
+    - `+Pull requests 580 ( 580 )`
+    - `-Star 195k ( 195k ) You must be signed in to star a repository`
+    - `+Star 196k ( 196k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,222 -> 22,222 chars; last seen 2026-10-25) — https://github.com/unclecode/crawl4ai
+    - `-Issues 47 ( 47 )`
+    - `-Pull requests 237 ( 237 )`
+    - `+Issues 46 ( 46 )`
+    - `+Pull requests 231 ( 231 )`
+    - `-Star 86.2k ( 86.2k ) You must be signed in to star a repository`
+    - `+Star 86.3k ( 86.3k ) You must be signed in to star a repository`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,611 -> 4,611 chars; last seen 2026-10-25) — https://github.com/Wan-Video
+    - `-18,165`
+    - `-Apache-2.0`
+    - `-2,366`
+    - `+18,190`
+    - `+Apache-2.0`
+    - `+2,367`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,417 -> 20,417 chars; last seen 2026-10-25) — https://github.com/Lightricks/LTX-Video
+    - `-Issues 90 ( 90 )`
+    - `+Issues 91 ( 91 )`
+    - `-118 watching`
+    - `+117 watching`
+    - `-118 watching`
+    - `+117 watching`
