@@ -1,0 +1,862 @@
+Blog | OpenAI Developers
+For the complete documentation index, see llms.txt . Markdown versions of documentation pages are available by appending
+.md to the page URL.
+ChatGPT Start searching API Dashboard
+Try ChatGPT
+Home
+API Overview
+Get started with the OpenAI API
+Models
+Explore models and compare capabilities
+Agents
+Build persistent agents on hosted infrastructure
+Tools
+Connect models to tools and data
+Audio & voice
+Build speech and realtime voice experiences
+Production
+Deploy and scale your API integrations
+API reference
+Explore endpoints, parameters, and responses
+ChatGPT Plugins
+Extend ChatGPT and Codex
+Sign in with ChatGPT
+Apps powered by your user's ChatGPT plan
+Commerce
+Build commerce flows in ChatGPT
+Ads
+Publish and measure ads in ChatGPT
+Workspace Agents
+Trigger published ChatGPT workspace agents
+ChatGPT + Codex user docs
+Guides and product docs for ChatGPT and Codex
+Use cases
+Example workflows and tasks teams can take on with ChatGPT or Codex
+Docs
+Use cases
+Training
+Resources
+Resources Showcase
+Demo apps to get inspired
+Blog
+Learnings and experiences from developers
+Cookbook
+Notebook examples for building with OpenAI models
+Learn
+Docs, videos, and demo apps for building with OpenAI
+Community
+Programs, meetups, and support for builders
+Search developer resources
+Search docs
+Suggested
+responses create reasoning_effort realtime prompt caching
+Primary navigation API ChatGPT Docs Use cases Training Resources Resources
+Search docs
+Suggested
+responses create reasoning_effort realtime prompt caching
+Overview Models Agents Tools Audio & voice Production API reference
+Docs Overview
+Home
+Get started
+Quickstart
+Using GPT-6
+Key concepts
+Core concepts
+Responses API
+Decisions API
+Conversation state
+Background mode
+Streaming
+WebSocket mode
+Mid-turn steering
+Multi-agent
+Webhooks
+File inputs
+Compaction
+Counting tokens
+SDKs and CLI
+OpenAI SDK
+OpenAI CLI
+Resources
+Changelog
+Deprecations
+Supported countries
+OpenAI Crawlers
+Terms and policies
+Legacy APIs
+Agent Builder Overview
+Migration guide
+Node reference
+Safety in building agents
+Evals Getting started
+Working with evals
+Prompt optimizer
+External models
+Graders
+Fine-tuning Optimization cycle
+Supervised fine-tuning
+Vision fine-tuning
+Direct preference optimization
+Reinforcement fine-tuning
+RFT use cases
+Best practices
+Assistants API Migration guide
+Model catalog
+Choose a model
+Pricing
+Model selection
+Text and code
+Text generation
+Code generation
+Structured output
+Prompting
+Overview
+Prompt engineering
+Citation formatting
+Migration guide
+Prompt generation
+Frontend prompting
+Reasoning
+Reasoning models
+Reasoning best practices
+Images
+Images and vision Image input cost calculator
+Image generation Overview
+Image prompting
+Realtime and audio
+Audio and speech
+Getting started
+Voice agents
+Specialized models
+Deep research
+Embeddings
+Moderation
+Overview
+Agents API
+Overview
+Quickstart
+Architecture
+Configuring Agents
+Sessions Run and continue sessions
+Events and items
+Manage sessions
+Scheduled automations
+Webhooks
+Environments and sandboxes OpenAI-hosted sandboxes
+Self-hosted sandboxes
+Sandbox lifecycle
+Pre-warm sandboxes
+Sandbox security
+Files and artifacts
+Tools and integrations Web search
+Computer use
+Functions
+MCP connections
+Plugins
+Vaults
+Multi-agent
+Observability and usage
+Tracing
+Errors and recovery
+API reference
+Bedrock Managed Agents
+Agents SDK
+Overview
+Quickstart
+Agent definitions
+Models and providers
+Running agents
+Sandbox agents
+Orchestration
+Guardrails
+Results and state
+Integrations and observability
+Evaluate agent workflows
+ChatKit
+Overview
+Customize
+Widgets
+Actions
+Advanced integrations
+Overview
+Function calling
+Search and retrieval
+Web search
+File search
+Retrieval
+Connect tools and data
+MCP servers
+Secure MCP Tunnel
+Build tool workflows
+Skills
+Tool search
+Programmatic tool calling
+Async tool calling
+Computer and code
+Shell
+Computer use Integration recipes
+Driver reference
+Apply Patch
+Local shell
+Code interpreter
+Media
+Image generation
+Overview
+GPT-Live
+Getting started
+Prompting
+Managing sessions
+Delegation and tools
+Migrate to GPT-Live
+Partner integrations
+Realtime API
+Getting started
+Prompting
+Managing conversations
+Voice activity detection
+Tools and MCP
+Build with voice
+Voice agents
+Connect voice to Decisions
+Custom voices
+Cost optimization
+Connections
+WebRTC
+WebRTC with WARP
+WebSockets
+Telephony and SIP
+Server-side controls
+Audio processing
+File transcription
+Live transcription
+Live translation
+Text to speech
+Audio in Chat Completions
+Go live
+Production best practices
+Deployment checklist
+Performance and quality
+Fast mode
+Ultrafast mode
+Latency optimization
+Predicted Outputs
+Accuracy optimization
+Evaluation
+Evaluation best practices
+Promptfoo
+Cost and throughput
+Cost optimization
+Prompt caching Prompt cache diagnostics
+Batch
+Flex processing
+Safety and governance
+Safety best practices
+Red teaming
+Daybreak
+Safety checks Safety classifiers
+Cybersecurity checks
+Misalignment monitoring
+Enforcement notifications
+Under-18 guidance
+CSAM guidance
+Content provenance
+Your data
+Private Safety Processing
+Permissions
+Infrastructure and access
+Terraform provider Overview
+Projects and access
+Service accounts
+Rate limits and spend
+Model, tool, and data controls
+Import and reconciliation
+Private Link
+IP allowlist
+Organization blocking
+Mutual TLS
+Workload identity federation Federation rules
+X.509 certificates
+Kubernetes
+AWS
+Microsoft Azure
+Google Cloud
+Oracle Cloud Infrastructure
+GitHub Actions
+SPIFFE
+Idira
+IP egress ranges
+Amazon Bedrock
+Operations
+Rate limits
+Spend limits
+Admin APIs
+Error codes
+Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases
+Docs Overview
+Home
+Quickstart
+Core concepts
+Plugin architecture
+Skills
+MCP server
+Plan
+Brainstorm use cases
+Define tools
+Build
+Build an MCP server
+Add UI to your MCP server (optional)
+Add events to your MCP server (optional)
+Extensions
+Authenticate users
+Build skills
+Package your plugin
+Examples
+Test and publish
+Connect and test your plugin
+Submit and publish
+Submit desktop-only plugins
+Submission error reference
+Conversion specs
+Restaurant reservation spec
+Get Quote spec
+Product checkout spec
+Guides
+UI guidelines
+Optimize Metadata
+Submit a Claude Code plugin
+Security & Privacy
+Troubleshooting
+Resources
+Changelog
+Plugin guidelines
+MCP server review requirements
+Plugin UI reference
+Checkout API reference
+Home
+Quickstart
+Request a client ID
+Identity
+On your website
+In your ChatGPT plugin
+Account security notification
+ChatGPT plan usage
+Overview
+UI/UX guidelines
+Registration and sign-in
+Accounts and sessions
+Models and inference
+Codex app-server
+Self-hosted VMs
+Token reference
+Errors and recovery
+Preview limitations
+Home
+Guides
+Get started
+Best practices
+File Upload
+Overview
+Products
+API
+Overview
+Feeds
+Products
+Promotions
+Ads Overview
+Measurement
+Measurement Pixel
+Multiple Pixels (Advanced)
+Image Tag
+Conversions API
+Supported Events
+Advertiser API
+Overview
+API Partner Setup
+Campaign Management
+Bidding & Budgets
+Targeting
+Product Feeds
+Hotel Feeds (limited beta)
+Conversion Tracking
+Reporting
+Troubleshooting
+Account Management
+API Reference
+Authentication
+Ad Account
+Audit Logs
+Campaigns
+Ad Groups
+Ads
+Insights
+Files
+Conversion Setup
+Home
+Get started
+Trigger workspace agent runs
+Authenticate with Workspace Agent access tokens
+Overview Features Configuration Developers Security Administration Use Cases Resources
+Docs Overview
+Home
+Get started
+Quickstart
+Use ChatGPT
+Get started with Work
+Meet dots
+Import from another agent
+Foundations
+Prompting
+Model selection
+Personalize ChatGPT
+Skills & Plugins
+Permissions
+Explore
+What's new
+Models
+Pricing
+Glossary
+Available on
+ChatGPT desktop app
+ChatGPT mobile app
+ChatGPT on the web
+Codex CLI
+Codex IDE extension
+Codex Cloud
+Releases
+Changelog
+Feature Maturity
+Open Source
+Overview
+Workflows
+Projects and chats
+Build plugins
+Visualizations
+Scheduled tasks
+Long-running work
+Notifications
+Pets
+Codex Micro
+Capabilities
+Browser
+Computer use
+Voice
+Composer Predictions
+Plugins
+Sign in with ChatGPT
+Web search
+Image generation
+Image inputs
+Appshots
+Browser extension
+Work with files
+Sites
+Overview
+Create a site
+Data and connections
+Publish and share
+Manage a site
+dots
+Meet dots
+Getting started
+Messaging
+Tasks and memory
+Computers and apps
+Controls
+ChatGPT Space
+Overview
+Getting started
+Pages
+Work with agents
+Collaboration
+Reference
+Commands
+Slash commands
+Settings
+Troubleshooting
+Overview
+Customization
+Overview
+Memories
+Computer History
+Config file
+Config Basics
+Advanced Config
+Config Reference
+Environment Variables
+Sample Config
+Agent configuration
+AGENTS.md
+Subagents
+Speed
+Rules
+Extend ChatGPT and Codex
+Record & Replay
+MCP
+Linux
+Desktop app
+Windows
+Desktop app
+Windows sandbox
+WSL
+Overview
+Development workflows
+Code review
+Integrated terminal
+Extend and automate
+Build skills
+Site tools (WebMCP)
+Annotations Extensibility
+Hooks
+Environments
+Modes
+Local environments
+Git worktrees
+Codex Cloud
+Cloud environments
+Build with Codex
+Codex SDK
+App Server
+Model catalogs
+GitHub Action
+Non-interactive mode
+Third-party integrations
+GitHub
+GitLab (Beta)
+Slack
+Linear
+Reference
+CLI customization
+Developer commands
+Developer settings
+Overview
+Permissions
+Profiles
+Sandboxing
+Auto-review
+Agent approvals & security
+Codex Security
+Overview
+Codex Security Cloud Setup
+Security Review
+Improving the threat model
+FAQ
+Codex Security plugin Quickstart
+Run a security scan
+Run a deep scan
+Review code changes
+Use the Security workbench
+Triage a backlog
+Fix findings
+Propose security hardening
+Write vulnerability reports
+Export and track findings
+Changelog
+Codex Security CLI Quickstart
+Run bulk scans
+CI/CD Overview
+GitHub Actions
+GitLab CI/CD
+Reference
+FAQ
+Codex Security SDK
+Cyber safety
+Models & Trusted Access
+Recommended configuration
+Overview
+Getting started
+Admin rollout guide
+Admin plugin
+Feature Configuration
+Dots
+Space
+Sites
+Teams and Team Tasks
+ChatGPT in Slack and Teams
+Workspace connections
+Local computer access for Work Cloud and dots
+Identity and access
+Authentication overview
+Groups and provisioning
+Dynamic groups
+User lifecycle management
+Roles and workspace permissions
+Personal access tokens
+Service accounts
+Deployment and configuration
+Windows app and CLI deployment
+Manage app updates
+Managed configuration
+Codex security cookbook
+Remote connections
+Workspace model availability
+Amazon Bedrock
+Bedrock GovCloud configuration
+Connect to a gateway Sign in with ChatGPT
+Use API/provider credentials
+Roll out a gateway
+Gateway compatibility
+Bedrock through LiteLLM
+ChatGPT EDU
+Education plans
+Higher education setup
+ChatGPT Work
+Overview
+Cloud security
+Local security
+Usage and cost
+Admin FAQ
+Collaboration and sharing
+GPTs and sharing
+Plugins and connections
+Plugin controls
+Plugin management
+Skill controls
+Migrate custom GPTs to plugins
+Usage and analytics
+Workspace analytics
+Usage Insights
+Analytics API
+Security and compliance
+Governance
+Agent security
+Prisma AIRS
+HIPAA configuration
+Compliance API and audit events
+Explore use cases
+Collections
+Home
+Videos
+Showcase
+OpenAI Academy
+Online trainings
+Community
+Codex Ambassadors
+Codex for Students
+Codex for Open Source
+Events
+Blog
+Company blog
+Developer blog
+Explore use cases
+Collections
+Home
+Videos
+Showcase
+OpenAI Academy
+Online trainings
+Community
+Codex Ambassadors
+Codex for Students
+Codex for Open Source
+Events
+Blog
+Company blog
+Developer blog
+Showcase Blog Cookbook Learn Community
+Docs Blog
+All posts
+Recent
+Designing failover across OpenAI model providers
+Maintaining software with the GPT-6 family
+Bringing my LED display to life with GPT-Live-1 and Codex
+Rethinking skills and prompts for GPT-6 Astra
+Architectural visualization with Astra
+Topics
+General
+API
+Apps SDK
+Audio
+Codex
+Life sciences
+Home
+Topics
+Sign-in with ChatGPT
+Agents
+Evals
+Multimodal
+Text
+Guardrails
+Optimization
+ChatGPT
+Codex
+gpt-oss
+Contribute
+Cookbook on GitHub
+Home
+OpenAI Developers plugin
+Docs MCP
+Categories
+Demo apps
+Videos
+Topics
+Agents
+Audio & Voice
+Computer Use
+Codex
+Evals
+gpt-oss
+Fine-tuning
+Image generation
+Scaling
+Tools
+Video generation
+Community
+Programs
+Codex Ambassadors Meet the ambassadors
+Codex for Students
+Codex for Open Source
+OpenAI for Startups
+Spaces
+Events
+Developer Forum
+Discord
+Reddit
+X
+API Dashboard
+Try ChatGPT
+All posts
+Recent
+Designing failover across OpenAI model providers
+Maintaining software with the GPT-6 family
+Bringing my LED display to life with GPT-Live-1 and Codex
+Rethinking skills and prompts for GPT-6 Astra
+Architectural visualization with Astra
+Topics
+General
+API
+Apps SDK
+Audio
+Codex
+Life sciences
+OpenAI Developer Blog
+Insights for developers building with OpenAI
+Oct 14
+Designing failover across OpenAI model providers
+Why direct OpenAI access matters for previews and critical workloads.
+API
+Oct 14
+Maintaining software with the GPT-6 family
+How OpenAI’s Core Experimentation team uses Codex to remove unused code, clean up stale experiments, and improve CI.
+Codex
+Sep 23
+Bringing my LED display to life with GPT-Live-1 and Codex
+How I used Codex, GPT-Live-1, and a Raspberry Pi to turn an LED display into a voice-controlled assistant.
+Codex
+Sep 11
+Rethinking skills and prompts for GPT-6 Astra
+Revisit skill descriptions, AGENTS.md, and task prompts to avoid bloated context.
+Codex
+Sep 4
+Architectural visualization with Astra
+How I used Astra to design a house, refine its everyday details, and explore it through Blender camera tours and an Unreal Engine 5 walkthrough.
+Codex
+Sep 4
+Building games with Astra
+How I built a procedural space exploration game in Codex, from concept art to planets you can land on.
+Codex
+Aug 28
+Meet Rosalind Workbench: Empowering every scientist to be their own research team
+How guided tasks, scientific viewers, and sequencing analysis help researchers follow a question from data to evidence.
+Life sciences
+Aug 25
+Automating repetitive work at OpenAI with Codex
+How Runme and WebMCP turn recurring engineering tasks into reviewable, reusable workflows.
+Codex
+Aug 25
+Meet the winners of OpenAI Build Week
+From a short-staffed veterinary clinic to speech accessibility, spatial audio, and ancient machines, the winning projects started with problems their builders knew well.
+General
+Aug 21
+Scaling cyber defenders with Daybreak
+Use ChatGPT, Codex Security, and open-source tools to investigate threats, validate vulnerabilities, and move from findings to reviewed, verified fixes.
+Codex
+Aug 19
+Codex as a platform: build on the open agent harness
+Build Codex into the products and workflows your users already know.
+Codex
+Jul 20
+Custom Code Review rules for Codex
+Provide more detailed rules for Codex to spot issues and better adhere your conventions during code review.
+Codex
+Jun 23
+Mastering remote engineering work from your phone
+Use Remote in the ChatGPT mobile app to start, steer, review, and organize engineering work.
+Codex
+Jun 26
+Making private MCP servers reachable without making them public
+How we preserved private network boundaries while supporting MCP streaming, authentication, and an inspectable client.
+General
+Mar 25
+How Perplexity Brought Voice Search to Millions Using the Realtime API
+Lessons from how Perplexity Computer's voice agent was built with the Realtime API.
+Audio
+Mar 20
+Designing delightful frontends with GPT-5.4
+Practical techniques for steering GPT-5.4 toward polished, production-ready frontend designs.
+General
+Mar 11
+From prompts to products: One year of Responses
+Five stories from developers building agentic products with the Responses API in its first year.
+API
+Mar 9
+Using skills to accelerate OSS maintenance
+Using skills and GitHub Actions to optimize Codex workflows in the OpenAI Agents SDK repos.
+Codex
+Feb 26
+Building frontend UIs with Codex and Figma
+Use Codex and Figma to bring real, running interfaces into Figma, refine them, and bring changes back to Codex.
+Codex
+Feb 23
+Run long horizon tasks with Codex
+Codex
+Feb 11
+Shell + Skills + Compaction: Tips for long-running agents that do real work
+Practical patterns for building with skills, hosted shell, and server-side compaction in the Responses API.
+API
+Feb 4
+15 lessons learned building ChatGPT Apps
+And how we incorporated them into a Codex Skill to help you build ChatGPT Apps 10x faster.
+Apps SDK
+Jan 22
+Testing Agent Skills Systematically with Evals
+A practical guide to turning agent skills into something you can test, score, and improve over time.
+Codex
+Jan 11
+Supercharging Codex with JetBrains MCP at Skyscanner
+How Skyscanner integrated Codex CLI with JetBrains IDEs to speed up debugging, testing, and development workflows.
+Codex
+Dec 30
+OpenAI for Developers in 2025
+A year-end roundup of the biggest model, API, and platform shifts for building production-grade agents.
+General
+Dec 22
+Updates for developers building with voice
+New audio model snapshots and broader access to Custom Voices for production voice apps.
+Audio
+Nov 24
+What makes a great ChatGPT app
+How to build capabilities that make conversations better.
+Apps SDK
+Oct 27
+Using Codex for education at Dagster Labs
+Learn how Dagster uses Codex in their open-source projects to accelerate documentation, translate content across mediums, and even measure how complete their docs are.
+Codex
+Oct 10
+How Codex ran OpenAI DevDay 2025
+Learn how Codex helped us build experiences, demos, products, and more
+Codex
+Sep 22
+Why we built the Responses API
+How the Responses API unlocks persistent reasoning, hosted tools, and multimodal workflows for GPT-5.
+API
+Sep 12
+Developer notes on the Realtime API
+Details worth noticing in recent realtime speech-to-speech updates
+Audio
+Sep 11
+Hello, world!
+Introducing our developer blog
+General
+Ask AI
+Docs agent
+Loading docs agent...

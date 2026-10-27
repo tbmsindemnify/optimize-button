@@ -117,3 +117,72 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+117 watching`
     - `-118 watching`
     - `+117 watching`
+
+## 2026-10-27
+
+- **Anthropic / Claude / Claude Code best practices** — changed (35,143 -> 46,485 chars; last seen 2026-10-26) — https://code.claude.com/docs/en/best-practices
+    - `-Back to top Give Claude a way to verify its work`
+    - `-Explore first, then plan, then code`
+    - `-Provide specific context in your prompts Provide rich content`
+    - `-Configure your environment Write an effective CLAUDE.md`
+    - `-Configure permissions`
+    - `-Use CLI tools`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (44,568 -> 44,064 chars; last seen 2026-10-26) — https://code.claude.com/docs/en/commands
+    - `-/effort [level|auto|status|ultracode [on|off]] Set the effort level : low to xhigh , max , or auto ; status prints it. ultracode or ultracode on turns ultracode on for the session at the current leve`
+    - `+/effort [level|auto|status|ultracode [on|off]] Set the effort level : low to xhigh , max , or auto ; status prints it. ultracode or ultracode on turns ultracode on for the session, and ultracode off `
+- **Anthropic / Claude / Claude Code MCP** — changed (131,521 -> 132,234 chars; last seen 2026-10-26) — https://code.claude.com/docs/en/mcp
+    - `-Respond to MCP elicitation requests`
+    - `+Respond to MCP elicitation requests Elicitation modes Claude Code declares`
+    - `-On connections that use protocol revision 2026-07-28 , Claude Code declares elicitation: {form: {}, url: {}} in its client capabilities, so a server there can request either mode through the protocol`
+    - `+Elicitation modes Claude Code declares`
+    - `+If you build an MCP server, the client capabilities Claude Code sends when it connects tell your server which elicitation modes it can request. Claude Code declares elicitation: {form: {}, url: {}} o`
+    - `+Connections that use protocol revision 2026-07-28`
+- **OpenAI / Codex / Codex best practices** — changed (26,156 -> 26,186 chars; last seen 2026-10-26) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Account security notification`
+- **OpenAI / Codex / Codex prompting** — changed (32,236 -> 32,266 chars; last seen 2026-10-26) — https://learn.chatgpt.com/docs/prompting
+    - `+Account security notification`
+- **OpenAI / Codex / Codex: build skills** — changed (21,397 -> 21,427 chars; last seen 2026-10-26) — https://learn.chatgpt.com/docs/build-skills
+    - `+Account security notification`
+- **OpenAI / Codex / Codex app-server** — changed (108,962 -> 108,992 chars; last seen 2026-10-26) — https://learn.chatgpt.com/docs/app-server
+    - `+Account security notification`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (37,989 -> 38,019 chars; last seen 2026-10-26) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Account security notification`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (18,949 -> 18,979 chars; last seen 2026-10-26) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Account security notification`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,495 -> 52,525 chars; last seen 2026-10-26) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Account security notification`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,566 -> 17,596 chars; last seen 2026-10-26) — https://developers.openai.com/blog
+    - `+Account security notification`
+- **Web scraping and search for agents / Firecrawl docs** — changed (171,931 -> 172,344 chars; last seen 2026-10-26) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,998 -> 24,998 chars; last seen 2026-10-26) — https://github.com/firecrawl/firecrawl
+    - `-Issues 107 ( 107 )`
+    - `-Pull requests 580 ( 580 )`
+    - `+Issues 108 ( 108 )`
+    - `+Pull requests 578 ( 578 )`
+    - `-195.6k stars`
+    - `+196.0k stars`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,222 -> 22,222 chars; last seen 2026-10-26) — https://github.com/unclecode/crawl4ai
+    - `-Star 86.3k ( 86.3k ) You must be signed in to star a repository`
+    - `+Star 86.4k ( 86.4k ) You must be signed in to star a repository`
+    - `-86.3k stars`
+    - `+86.4k stars`
+    - `-419 watching`
+    - `+418 watching`
+- **Video generation / Runway** — changed (4,258 -> 4,216 chars; last seen 2026-10-26) — https://runwayml.com/
+    - `-Runway | Building Real-World Intelligence`
+    - `+Runway | Intelligent tools for scaling content and teams.`
+    - `-Building Real-World Intelligence`
+    - `-Runway is building foundational Real-World Intelligence that can understand, simulate and act in the world. We offer products and services built on-top of this intelligence to empower individuals and`
+    - `+Intelligent tools for scaling content and teams.`
+    - `+Runway is building foundational Real-World Intelligence that is changing how the world’s top brands, companies, agencies and studios are able to tell their stories.`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,611 -> 4,611 chars; last seen 2026-10-26) — https://github.com/Wan-Video
+    - `-355`
+    - `+356`
+    - `-18,190`
+    - `-Apache-2.0`
+    - `-2,367`
+    - `-275`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,741 -> 39,771 chars; last seen 2026-10-26) — https://platform.openai.com/docs/guides/video-generation
+    - `+Account security notification`
