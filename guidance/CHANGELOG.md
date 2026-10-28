@@ -186,3 +186,118 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-275`
 - **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,741 -> 39,771 chars; last seen 2026-10-26) — https://platform.openai.com/docs/guides/video-generation
     - `+Account security notification`
+
+## 2026-10-28
+
+- **Anthropic / Claude / Claude Code skills** — changed (101,430 -> 101,234 chars; last seen 2026-10-27) — https://code.claude.com/docs/en/skills
+    - `-upgrade Move your project’s Anthropic SDK dependency across a major version, currently the Python anthropic package from 0.x to 1.x v2.1.236 or later`
+    - `+upgrade Upgrade your project’s Anthropic SDK to a new major version and update your code for its breaking changes v2.1.236 or later`
+    - `-All fields are optional. Only description is recommended so Claude knows when to use the skill. A field name must match the table exactly, hyphens included: Claude Code ignores a field it doesn’t rec`
+    - `+All fields are optional. Only description is recommended so Claude knows when to use the skill. A field name must match the table exactly, hyphens included: Claude Code ignores a field it doesn’t rec`
+    - `-Boolean fields accept yes , no , on , off , 1 , and 0 in any letter case, in addition to true and false . Before v2.1.218, Claude Code recognized only true and false .`
+    - `-background No Only applies with context: fork . Set to false to wait for the forked subagent’s result in the turn that invoked the skill, instead of running it in the background . Default: true . Req`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (44,064 -> 43,928 chars; last seen 2026-10-27) — https://code.claude.com/docs/en/commands
+    - `-/deep-research runs only when you invoke it. Before v2.1.218, Claude could also start it on its own.`
+    - `+/deep-research runs only when you invoke it.`
+    - `-/artifacts List the artifacts you own or that are shared with you, then attach one to the session, open it in your browser, or copy its link. Available where artifacts are. Requires Claude Code v2.1.`
+    - `+/artifacts List the artifacts you own or that are shared with you, then attach one to the session, open it in your browser, or copy its link. Available where artifacts are`
+- **Anthropic / Claude / Claude Code settings** — changed (36,691 -> 36,689 chars; last seen 2026-10-27) — https://code.claude.com/docs/en/settings
+    - `-/config : in your browser at claude.ai/code, opens the Claude Code section of your claude.ai settings instead of changing a value. To change a setting for a cloud session, set an environment variable`
+    - `+/config : in your browser at claude.ai/code, opens your claude.ai Code or Claude Code settings page instead of changing a value. To change a setting for a cloud session, set an environment variable o`
+- **Anthropic / Claude / Claude Code MCP** — changed (132,234 -> 132,128 chars; last seen 2026-10-27) — https://code.claude.com/docs/en/mcp
+    - `-In --output-format stream-json runs, Claude Code also reports a skipped --mcp-config entry in the system/init event’s mcp_server_errors field , so scripts can detect that the server never loaded. Thi`
+    - `+In --output-format stream-json runs, Claude Code also reports a skipped --mcp-config entry in the system/init event’s mcp_server_errors field , so scripts can detect that the server never loaded.`
+    - `-When a server’s status is ✘ Failed to connect , claude mcp list appends the failure detail to that status line, and claude mcp get <name> shows it on an Issue: line: the HTTP status or error code, pl`
+    - `+Connection failures and unconfigured servers`
+    - `+When a server’s status is ✘ Failed to connect , claude mcp list appends the failure detail to that status line, and claude mcp get <name> shows it on an Issue: line. The detail is the HTTP status or `
+    - `+Claude Code redacts credential-like text from this detail and never includes the expanded server URL, which can carry secrets. Claude Code appends no detail to a ✘ Connection error status, because th`
+- **Anthropic / Claude / Prompting best practices (Claude platform docs)** — changed (3,674 -> 3,674 chars; last seen 2026-10-27) — https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+    - `-Don't have a first draft prompt? Generate one with the metaprompt recipe from the Claude Cookbook.`
+    - `+Don’t have a first draft prompt? Generate one with the metaprompt recipe from the Claude Cookbook.`
+    - `-For model-specific tuning guidance for Claude's latest models, start here.`
+    - `+For model-specific tuning guidance for Claude’s latest models, start here.`
+    - `-All prompting techniques (from clarity and examples to XML structuring, role prompting, thinking, and prompt chaining) are covered in Prompting best practices . That's the living reference; start the`
+    - `+All prompting techniques (from clarity and examples to XML structuring, role prompting, thinking, and prompt chaining) are covered in Prompting best practices . That’s the living reference; start the`
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (23,090 -> 23,036 chars; last seen 2026-10-27) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `+Article Oct 27, 2026`
+    - `+Manage costs and demonstrate ROI for Claude Code on Google Cloud`
+    - `+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.`
+    - `+Claude Code`
+    - `-Article Oct 13, 2026`
+    - `-Uber's CISO on building an insider threat program for AI`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,627 -> 4,627 chars; last seen 2026-10-27) — https://www.anthropic.com/engineering
+    - `-48 posts`
+    - `+49 posts`
+    - `-34 posts`
+    - `+35 posts`
+    - `-24 posts`
+    - `+25 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,186 -> 26,136 chars; last seen 2026-10-27) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **OpenAI / Codex / Codex prompting** — changed (32,266 -> 32,216 chars; last seen 2026-10-27) — https://learn.chatgpt.com/docs/prompting
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **OpenAI / Codex / Codex: build skills** — changed (21,427 -> 21,377 chars; last seen 2026-10-27) — https://learn.chatgpt.com/docs/build-skills
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **OpenAI / Codex / Codex app-server** — changed (108,992 -> 108,942 chars; last seen 2026-10-27) — https://learn.chatgpt.com/docs/app-server
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,019 -> 37,969 chars; last seen 2026-10-27) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (18,979 -> 18,929 chars; last seen 2026-10-27) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,525 -> 52,475 chars; last seen 2026-10-27) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,596 -> 17,546 chars; last seen 2026-10-27) — https://developers.openai.com/blog
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,344 -> 172,359 chars; last seen 2026-10-27) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,998 -> 24,799 chars; last seen 2026-10-27) — https://github.com/firecrawl/firecrawl
+    - `-Sign in Appearance settings`
+    - `-Platform AI CODE CREATION GitHub Copilot Write better code with AI`
+    - `-GitHub Copilot app Direct agents from issue to merge`
+    - `-MCP Registry Integrate external tools`
+    - `-DEVELOPER WORKFLOWS Actions Automate any workflow`
+    - `-Codespaces Instant dev environments`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,222 -> 22,023 chars; last seen 2026-10-27) — https://github.com/unclecode/crawl4ai
+    - `-Sign in Appearance settings`
+    - `-Platform AI CODE CREATION GitHub Copilot Write better code with AI`
+    - `-GitHub Copilot app Direct agents from issue to merge`
+    - `-MCP Registry Integrate external tools`
+    - `-DEVELOPER WORKFLOWS Actions Automate any workflow`
+    - `-Codespaces Instant dev environments`
+- **Video generation / Google Veo (Gemini API video docs)** — changed (5,025 -> 5,033 chars; last seen 2026-10-27) — https://ai.google.dev/gemini-api/docs/video
+    - `+API CLI`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,611 -> 4,412 chars; last seen 2026-10-27) — https://github.com/Wan-Video
+    - `-Sign in Appearance settings`
+    - `+Sign in`
+    - `-Platform AI CODE CREATION GitHub Copilot Write better code with AI`
+    - `-GitHub Copilot app Direct agents from issue to merge`
+    - `-MCP Registry Integrate external tools`
+    - `-DEVELOPER WORKFLOWS Actions Automate any workflow`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,771 -> 39,721 chars; last seen 2026-10-27) — https://platform.openai.com/docs/guides/video-generation
+    - `-Connect to a gateway Sign in with ChatGPT`
+    - `-Use API/provider credentials`
+    - `+Connect to a gateway`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,417 -> 20,218 chars; last seen 2026-10-27) — https://github.com/Lightricks/LTX-Video
+    - `-Sign in Appearance settings`
+    - `-Platform AI CODE CREATION GitHub Copilot Write better code with AI`
+    - `-GitHub Copilot app Direct agents from issue to merge`
+    - `-MCP Registry Integrate external tools`
+    - `-DEVELOPER WORKFLOWS Actions Automate any workflow`
+    - `-Codespaces Instant dev environments`
