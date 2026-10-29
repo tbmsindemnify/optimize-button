@@ -301,3 +301,126 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-MCP Registry Integrate external tools`
     - `-DEVELOPER WORKFLOWS Actions Automate any workflow`
     - `-Codespaces Instant dev environments`
+
+## 2026-10-29
+
+- **Anthropic / Claude / Claude Code best practices** — changed (46,485 -> 219,507 chars; last seen 2026-10-28) — https://code.claude.com/docs/en/best-practices
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `-Assistant`
+    - `-Responses are generated using AI and may contain mistakes.`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (39,711 -> 188,145 chars; last seen 2026-10-28) — https://code.claude.com/docs/en/costs
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `-Assistant`
+    - `-Responses are generated using AI and may contain mistakes.`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (101,234 -> 472,843 chars; last seen 2026-10-28) — https://code.claude.com/docs/en/skills
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `-Control characters in injected commands`
+    - `+When no shell command was run`
+    - `+Angle brackets in a skill description show as &lt; and &gt;`
+    - `-description Recommended What the skill does and when to use it. Claude uses this to decide when to apply the skill. If omitted, uses the first non-empty line of the markdown content. Put the key use `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (43,928 -> 200,637 chars; last seen 2026-10-28) — https://code.claude.com/docs/en/commands
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `-Assistant`
+    - `-Responses are generated using AI and may contain mistakes.`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (36,689 -> 193,541 chars; last seen 2026-10-28) — https://code.claude.com/docs/en/settings
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `-Assistant`
+    - `-Responses are generated using AI and may contain mistakes.`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (55,974 -> 310,393 chars; last seen 2026-10-28) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `+Advice on the README`
+    - `-1 Validation failed or Validation failed (--strict treats warnings as errors) An error, or a warning under --strict`
+    - `+1 Validation failed or Validation failed (--strict treats warnings as errors) An error, or a warning under --strict . Advice doesn’t count, with or without --strict`
+    - `-contents : per-file results, each naming its file and carrying errors , warnings , and notes arrays`
+- **Anthropic / Claude / Claude Code MCP** — changed (132,128 -> 568,703 chars; last seen 2026-10-28) — https://code.claude.com/docs/en/mcp
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `-Supported syntax`
+    - `-Expansion locations`
+    - `+Variables set to an empty string`
+    - `+Use OAuth with a server behind an authenticating proxy`
+- **OpenAI / Codex / Codex best practices** — changed (26,136 -> 26,190 chars; last seen 2026-10-28) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **OpenAI / Codex / Codex prompting** — changed (32,216 -> 32,270 chars; last seen 2026-10-28) — https://learn.chatgpt.com/docs/prompting
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **OpenAI / Codex / Codex: build skills** — changed (21,377 -> 21,431 chars; last seen 2026-10-28) — https://learn.chatgpt.com/docs/build-skills
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **OpenAI / Codex / Codex app-server** — changed (108,942 -> 108,996 chars; last seen 2026-10-28) — https://learn.chatgpt.com/docs/app-server
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (37,969 -> 38,023 chars; last seen 2026-10-28) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (18,929 -> 18,983 chars; last seen 2026-10-28) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,475 -> 52,529 chars; last seen 2026-10-28) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,546 -> 17,600 chars; last seen 2026-10-28) — https://developers.openai.com/blog
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,359 -> 172,343 chars; last seen 2026-10-28) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,799 -> 24,799 chars; last seen 2026-10-28) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 587 ( 587 )`
+    - `+Pull requests 594 ( 594 )`
+    - `-Star 196k ( 196k ) You must be signed in to star a repository`
+    - `+Star 197k ( 197k ) You must be signed in to star a repository`
+    - `-196.3k stars`
+    - `+196.7k stars`
+- **Web scraping and search for agents / Exa docs** — changed (12,025 -> 360,944 chars; last seen 2026-10-28) — https://docs.exa.ai/
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `+Suggestions`
+    - `+Help me set up the Exa MCP How do i get started with Exa Search? What is Exa Agent?`
+    - `+Fireworks`
+    - `-Assistant`
+- **Web scraping and search for agents / Tavily docs** — changed (5,010 -> 119,861 chars; last seen 2026-10-28) — https://docs.tavily.com/
+    - `-Quickstart: connect your AI agent to the web - Tavily Docs`
+    - `+Connect your AI agent to the web - Tavily Docs`
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `-Quickstart: connect your AI agent to the web`
+    - `-Get started`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,023 -> 22,023 chars; last seen 2026-10-28) — https://github.com/unclecode/crawl4ai
+    - `-Issues 47 ( 47 )`
+    - `-Pull requests 239 ( 239 )`
+    - `+Issues 49 ( 49 )`
+    - `+Pull requests 243 ( 243 )`
+    - `-419 watching`
+    - `+418 watching`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,412 -> 4,412 chars; last seen 2026-10-28) — https://github.com/Wan-Video
+    - `-18.2k`
+    - `+18.3k`
+    - `-18,235`
+    - `-Apache-2.0`
+    - `-2,376`
+    - `-276`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,721 -> 39,811 chars; last seen 2026-10-28) — https://platform.openai.com/docs/guides/video-generation
+    - `+API credits for ChatGPT subscribers`
+    - `-Plugin management`
+    - `+Import and sync plugins from GitHub`
+    - `+API credits for ChatGPT subscribers`
