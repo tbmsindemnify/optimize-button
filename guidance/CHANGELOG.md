@@ -424,3 +424,77 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-Plugin management`
     - `+Import and sync plugins from GitHub`
     - `+API credits for ChatGPT subscribers`
+
+## 2026-10-30
+
+- **Anthropic / Claude / Claude Code best practices** — changed (219,507 -> 219,071 chars; last seen 2026-10-29) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (188,145 -> 187,042 chars; last seen 2026-10-29) — https://code.claude.com/docs/en/costs
+    - `-Claude Code uses tokens for some background functionality even when idle:`
+    - `-Conversation summarization : Background jobs that summarize previous conversations for the claude --resume feature`
+    - `-Command processing : Some commands like /usage may generate requests to check status`
+    - `-These background processes consume a small amount of tokens (typically under $0.04 per session) even without active interaction.`
+    - `+Session recap and idle compaction can use tokens while you’re idle. See session recap and idle compaction for when each runs and how to turn it off.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (472,843 -> 472,839 chars; last seen 2026-10-29) — https://code.claude.com/docs/en/skills
+    - `-effort No Effort level when this skill is active. Overrides the session effort level. When you omit it, the level comes from the effort resolution order . Options: low , medium , high , xhigh , max ;`
+    - `+effort No Effort level for the rest of the current turn. Overrides the session effort level, but not the CLAUDE_CODE_EFFORT_LEVEL environment variable. With context: fork , the value sets the forked `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (200,637 -> 199,848 chars; last seen 2026-10-29) — https://code.claude.com/docs/en/commands
+    - `-/model [model] Switch the AI model and save it as your default for new sessions. For models that support it, use left/right arrows to adjust effort level . With no argument, opens a picker; press s o`
+    - `+/model [model] Switch the AI model and save it as your default for new sessions. For models that support it, use left/right arrows to adjust effort level . With no argument, opens a picker; press s o`
+    - `+/restart Restart Claude Code and resume this session, which applies an installed update. Run it when the footer offers it after an update installs. Requires a Pro or Max plan and a native install on `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (193,541 -> 193,105 chars; last seen 2026-10-29) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (310,393 -> 309,957 chars; last seen 2026-10-29) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (568,703 -> 568,267 chars; last seen 2026-10-29) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (23,036 -> 23,052 chars; last seen 2026-10-29) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `-Building agents: When to fold subagents into your main agent loop | Claude by Anthropic`
+    - `+Claude Platform`
+    - `+Managed Agents`
+    - `-Managed Agents`
+    - `+Building agents: When to fold subagents into your main agent loop | Claude by Anthropic`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,343 -> 171,769 chars; last seen 2026-10-29) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,799 -> 24,799 chars; last seen 2026-10-29) — https://github.com/firecrawl/firecrawl
+    - `-Issues 108 ( 108 )`
+    - `-Pull requests 594 ( 594 )`
+    - `+Issues 111 ( 111 )`
+    - `+Pull requests 600 ( 600 )`
+    - `-196.7k stars`
+    - `+197.0k stars`
+- **Web scraping and search for agents / Exa docs** — changed (360,944 -> 360,589 chars; last seen 2026-10-29) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,201 -> 15,214 chars; last seen 2026-10-29) — https://exa.ai/privacy
+    - `+Exa Snapshot`
+- **Web scraping and search for agents / Tavily docs** — changed (119,861 -> 119,781 chars; last seen 2026-10-29) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,023 -> 22,023 chars; last seen 2026-10-29) — https://github.com/unclecode/crawl4ai
+    - `-Issues 49 ( 49 )`
+    - `-Pull requests 243 ( 243 )`
+    - `+Issues 52 ( 52 )`
+    - `+Pull requests 248 ( 248 )`
+    - `-Star 86.5k ( 86.5k ) You must be signed in to star a repository`
+    - `+Star 86.6k ( 86.6k ) You must be signed in to star a repository`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,412 -> 4,412 chars; last seen 2026-10-29) — https://github.com/Wan-Video
+    - `-359`
+    - `+360`
+    - `-18,261`
+    - `-Apache-2.0`
+    - `-2,383`
+    - `+18,274`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,218 -> 20,218 chars; last seen 2026-10-29) — https://github.com/Lightricks/LTX-Video
+    - `-Issues 91 ( 91 )`
+    - `+Issues 92 ( 92 )`
