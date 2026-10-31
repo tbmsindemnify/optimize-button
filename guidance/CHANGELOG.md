@@ -498,3 +498,115 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,218 -> 20,218 chars; last seen 2026-10-29) — https://github.com/Lightricks/LTX-Video
     - `-Issues 91 ( 91 )`
     - `+Issues 92 ( 92 )`
+
+## 2026-10-31
+
+- **Anthropic / Claude / Claude Code best practices** — changed (219,071 -> 219,513 chars; last seen 2026-10-30) — https://code.claude.com/docs/en/best-practices
+    - `-/usage is the first place to look. On Pro, Max, Team, and Enterprise it breaks your usage down by skill, subagent, plugin, and MCP server. It also flags patterns like long context or frequent cache m`
+    - `+/usage is the first place to look. On Pro, Max, Ultra, Team, and Enterprise it breaks your usage down by skill, subagent, plugin, and MCP server. It also flags patterns like long context or frequent `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (187,042 -> 187,740 chars; last seen 2026-10-30) — https://code.claude.com/docs/en/costs
+    - `-Claude Code charges by API token consumption. For subscription plan pricing (Pro, Max, Team, Enterprise), see claude.com/pricing . Per-developer costs vary widely based on model selection, codebase s`
+    - `+Claude Code charges by API token consumption. For subscription plan pricing (Pro, Max, Ultra, Team, Enterprise), see claude.com/pricing . Per-developer costs vary widely based on model selection, cod`
+    - `-The Session block in /usage shows API token usage and is intended for API users. Claude Max and Pro subscribers have usage included in their subscription, so the session cost figure isn’t relevant fo`
+    - `+The Session block in /usage shows API token usage and is intended for API users. Claude Pro, Max, and Ultra subscribers have usage included in their subscription, so the session cost figure isn’t rel`
+    - `-On a Pro, Max, Team, or Enterprise plan, /usage also shows a breakdown of what counts against your plan limits, with recommendations:`
+    - `+On a Pro, Max, Ultra, Team, or Enterprise plan, /usage also shows a breakdown of what counts against your plan limits, with recommendations:`
+- **Anthropic / Claude / Claude Code skills** — changed (472,839 -> 473,281 chars; last seen 2026-10-30) — https://code.claude.com/docs/en/skills
+    - `-Usage : on a Pro, Max, Team, or Enterprise plan, the changes /usage recommends to lower your plan usage, measured over the last 7 days. Claude proposes the changes it can make itself and reports the `
+    - `+Usage : on a Pro, Max, Ultra, Team, or Enterprise plan, the changes /usage recommends to lower your plan usage, measured over the last 7 days. Claude proposes the changes it can make itself and repor`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (199,848 -> 200,352 chars; last seen 2026-10-30) — https://code.claude.com/docs/en/commands
+    - `-/auto-mode-setup Draft autoMode.environment entries from your project and recent sessions, then review the draft and save it to your user settings. On a Pro, Max, or Team plan, requires Claude Code v`
+    - `+/auto-mode-setup Draft autoMode.environment entries from your project and recent sessions, then review the draft and save it to your user settings. On a Pro, Max, Ultra, or Team plan, requires Claude`
+    - `-/privacy-settings View and update your privacy settings. Only available for Pro and Max plan subscribers`
+    - `+/privacy-settings View and update your privacy settings. Only available for Pro, Max, and Ultra plan subscribers`
+    - `-/restart Restart Claude Code and resume this session, which applies an installed update. Run it when the footer offers it after an update installs. Requires a Pro or Max plan and a native install on `
+    - `+/restart Restart Claude Code and resume this session, which applies an installed update. Run it when the footer offers it after an update installs. Requires a Pro, Max, or Ultra plan and a native ins`
+- **Anthropic / Claude / Claude Code settings** — changed (193,105 -> 193,533 chars; last seen 2026-10-30) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (309,957 -> 310,385 chars; last seen 2026-10-30) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (568,267 -> 568,695 chars; last seen 2026-10-30) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **OpenAI / Codex / Codex best practices** — changed (26,190 -> 26,214 chars; last seen 2026-10-30) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **OpenAI / Codex / Codex prompting** — changed (32,270 -> 32,294 chars; last seen 2026-10-30) — https://learn.chatgpt.com/docs/prompting
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **OpenAI / Codex / Codex: build skills** — changed (21,431 -> 21,455 chars; last seen 2026-10-30) — https://learn.chatgpt.com/docs/build-skills
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **OpenAI / Codex / Codex app-server** — changed (108,996 -> 109,020 chars; last seen 2026-10-30) — https://learn.chatgpt.com/docs/app-server
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,023 -> 38,047 chars; last seen 2026-10-30) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (18,983 -> 19,007 chars; last seen 2026-10-30) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,529 -> 52,553 chars; last seen 2026-10-30) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,600 -> 17,624 chars; last seen 2026-10-30) — https://developers.openai.com/blog
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **Web scraping and search for agents / Firecrawl docs** — changed (171,769 -> 171,912 chars; last seen 2026-10-30) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,799 -> 24,799 chars; last seen 2026-10-30) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 600 ( 600 )`
+    - `+Pull requests 623 ( 623 )`
+    - `-197.0k stars`
+    - `+197.3k stars`
+    - `-6,736 Commits`
+    - `-6,736 Commits`
+- **Web scraping and search for agents / Exa docs** — changed (360,589 -> 360,837 chars; last seen 2026-10-30) — https://docs.exa.ai/
+    - `-Assistant`
+    - `-Responses are generated using AI and may contain mistakes.`
+    - `-Suggestions`
+    - `-Help me set up the Exa MCP How do i get started with Exa Search? What is Exa Agent?`
+    - `-⌘ K Ask Assistant ⌘ I`
+    - `+⌘ K`
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,214 -> 15,250 chars; last seen 2026-10-30) — https://exa.ai/privacy
+    - `+Solutions Use cases`
+    - `+GTM`
+    - `+Coding`
+    - `+AI Assistants`
+    - `+Inference Providers`
+    - `+Model Training`
+- **Web scraping and search for agents / Tavily docs** — changed (119,781 -> 120,413 chars; last seen 2026-10-30) — https://docs.tavily.com/
+    - `+Claude Code`
+    - `+Codex`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,023 -> 22,023 chars; last seen 2026-10-30) — https://github.com/unclecode/crawl4ai
+    - `-Pull requests 248 ( 248 )`
+    - `+Pull requests 253 ( 253 )`
+- **Video generation / Runway** — changed (4,216 -> 4,268 chars; last seen 2026-10-30) — https://runwayml.com/
+    - `-Enterprises get 2 months of usage free. Sign by 10/31.`
+    - `+Enterprises get up to 2 months of usage free. Enterprises get up to 2 months of usage free. Sign by 12/31.`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,412 -> 4,410 chars; last seen 2026-10-30) — https://github.com/Wan-Video
+    - `-3.9k`
+    - `-18,274`
+    - `-Apache-2.0`
+    - `-2,389`
+    - `-278`
+    - `+18,287`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,811 -> 39,835 chars; last seen 2026-10-30) — https://platform.openai.com/docs/guides/video-generation
+    - `-Managed configuration`
+    - `+Managed configuration Self-host configuration`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,218 -> 20,218 chars; last seen 2026-10-30) — https://github.com/Lightricks/LTX-Video
+    - `-Star 11.2k ( 11.2k ) You must be signed in to star a repository`
+    - `+Star 11.3k ( 11.3k ) You must be signed in to star a repository`
+    - `-11.2k stars`
+    - `+11.3k stars`
+    - `-11.2k stars`
+    - `+11.3k stars`
