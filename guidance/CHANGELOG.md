@@ -670,3 +670,118 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,218 -> 20,218 chars; last seen 2026-10-31) — https://github.com/Lightricks/LTX-Video
     - `-Pull requests 13 ( 13 )`
     - `+Pull requests 14 ( 14 )`
+
+## 2026-11-02
+
+- **Anthropic / Claude / Claude Code best practices** — changed (219,657 -> 219,760 chars; last seen 2026-11-01) — https://code.claude.com/docs/en/best-practices
+    - `-When it does block something, you get a notification and the action shows up under Recently denied in /permissions , where you can retry it with a manual approval. After three blocks in a row (or twe`
+    - `+When auto mode blocks an action, you get a notification and the action shows up under Recently blocked in /permissions , where you can approve the action so Claude may retry . After three blocks in a`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (187,884 -> 187,884 chars; last seen 2026-11-01) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (473,425 -> 473,425 chars; last seen 2026-11-01) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (200,496 -> 200,018 chars; last seen 2026-11-01) — https://code.claude.com/docs/en/commands
+    - `-/permissions Manage allow, ask, and deny rules for tool permissions. Opens an interactive dialog where you can view rules by scope, add or remove rules, manage working directories, and review recent `
+    - `+/permissions Manage allow, ask, and deny rules for tool permissions. Opens an interactive dialog where you can view rules by scope, add or remove rules, manage working directories, and review recent `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (193,677 -> 194,427 chars; last seen 2026-11-01) — https://code.claude.com/docs/en/settings
+    - `+permissions.blockWritesOutsideWorkingDirectories true from any scope Honored even when a managed source sets false . Requires Claude Code v2.1.314 or later`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (310,529 -> 310,529 chars; last seen 2026-11-01) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (562,946 -> 568,839 chars; last seen 2026-11-01) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **OpenAI / Codex / Codex best practices** — changed (26,214 -> 26,231 chars; last seen 2026-11-01) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Automatic review`
+- **OpenAI / Codex / Codex prompting** — changed (32,294 -> 32,311 chars; last seen 2026-11-01) — https://learn.chatgpt.com/docs/prompting
+    - `+Automatic review`
+- **OpenAI / Codex / Codex: build skills** — changed (21,455 -> 21,750 chars; last seen 2026-11-01) — https://learn.chatgpt.com/docs/build-skills
+    - `+Automatic review`
+    - `-Useful skills relevant to a broad audience such as the skill-creator and plan skills. Available to everyone when they start Codex.`
+    - `+Includes skill-creator and skill-installer . Enabled by default.`
+    - `-Restart Codex after changing ~/.codex/config.toml .`
+    - `+Use exactly one selector per entry. An absolute path matches one`
+    - `+SKILL.md file. A name matches every skill with that name. When more than`
+- **OpenAI / Codex / Codex app-server** — changed (109,020 -> 112,024 chars; last seen 2026-11-01) — https://learn.chatgpt.com/docs/app-server
+    - `+Automatic review`
+    - `-By default, app-server starts a local Code Mode host. To use a remote host`
+    - `-instead, pass its secure WebSocket URL:`
+    - `-codex app-server --code-mode-host wss://code-mode.example.com/host`
+    - `-Mode host. It doesn’t change --listen , which controls how clients connect to`
+    - `-app-server. Every thread in the same app-server process shares the selected`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,047 -> 38,817 chars; last seen 2026-11-01) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Automatic review`
+    - `-codex mcp login <server-name> .`
+    - `+codex mcp login <server-name> . If you’re using a terminal without a local`
+    - `+browser, run codex mcp login <server-name> --no-browser . Open the printed`
+    - `+authorization URL in a browser and sign in. Paste the full redirect URL back`
+    - `+into the terminal, even if the browser can’t load the callback page.`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,007 -> 19,024 chars; last seen 2026-11-01) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Automatic review`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,553 -> 52,570 chars; last seen 2026-11-01) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Automatic review`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,624 -> 17,641 chars; last seen 2026-11-01) — https://developers.openai.com/blog
+    - `+Automatic review`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,056 -> 172,056 chars; last seen 2026-11-01) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,799 -> 24,799 chars; last seen 2026-11-01) — https://github.com/firecrawl/firecrawl
+    - `-Issues 109 ( 109 )`
+    - `-Pull requests 632 ( 632 )`
+    - `+Issues 111 ( 111 )`
+    - `+Pull requests 642 ( 642 )`
+    - `-Fork 10.4k ( 10.4k )`
+    - `+Fork 10.5k ( 10.5k )`
+- **Web scraping and search for agents / Exa docs** — changed (355,362 -> 361,043 chars; last seen 2026-11-01) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (120,557 -> 121,004 chars; last seen 2026-11-01) — https://docs.tavily.com/
+    - `+Kilo`
+    - `+Company Data`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,023 -> 22,023 chars; last seen 2026-11-01) — https://github.com/unclecode/crawl4ai
+    - `-Pull requests 255 ( 255 )`
+    - `+Pull requests 251 ( 251 )`
+    - `-Star 86.7k ( 86.7k ) You must be signed in to star a repository`
+    - `+Star 86.8k ( 86.8k ) You must be signed in to star a repository`
+    - `-86.7k stars`
+    - `+86.8k stars`
+- **Video generation / Google Veo (Gemini API video docs)** — changed (5,033 -> 66 chars; last seen 2026-11-01) — https://ai.google.dev/gemini-api/docs/video
+    - `-Video generation in the Gemini API | Google AI for Developers`
+    - `-Skip to main content`
+    - `-English`
+    - `-Deutsch`
+    - `-Español – América Latina`
+    - `-Français`
+- **Video generation / Runway** — changed (4,268 -> 4,285 chars; last seen 2026-11-01) — https://runwayml.com/
+    - `-Enterprise Sales Login Try Runway`
+    - `+Enterprise Sales Contact Sales Login Try Runway`
+    - `-Introducing Runway Ads Runway Ads automatically generates on-brand video and image ads, publishes them to Meta, Google and TikTok, then builds the next round around what earned spend. Learn more`
+    - `+Runway Ads Is Generally Available Runway Ads is now on every paid plan. Connect Meta, Google and TikTok, generate on-brand variants of your top ads and publish the ones your team approves. Learn more`
+    - `-Runway Joins the OpenAI Marketplace Runway is now in the OpenAI Marketplace. Eligible enterprise teams can use existing OpenAI commitments to buy the best video, image and audio tools. Learn more`
+    - `+Introducing Runway App Studio App Studio lets you build custom creative apps inside Runway with no code. Describe the tool you need, then share it with your team or anyone on Runway. Learn more`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,410 -> 4,410 chars; last seen 2026-11-01) — https://github.com/Wan-Video
+    - `-441`
+    - `+442`
+    - `-18,303`
+    - `-Apache-2.0`
+    - `-2,401`
+    - `-279`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,835 -> 39,852 chars; last seen 2026-11-01) — https://platform.openai.com/docs/guides/video-generation
+    - `+Automatic review`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,218 -> 20,402 chars; last seen 2026-11-01) — https://github.com/Lightricks/LTX-Video
+    - `-Pull requests 14 ( 14 )`
+    - `+Pull requests 13 ( 13 )`
+    - `-89 Commits`
+    - `-89 Commits`
+    - `+91 Commits`
+    - `+91 Commits`
