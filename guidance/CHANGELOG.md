@@ -785,3 +785,96 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-89 Commits`
     - `+91 Commits`
     - `+91 Commits`
+
+## 2026-11-03
+
+- **Anthropic / Claude / Claude Code best practices** — changed (219,760 -> 219,760 chars; last seen 2026-11-02) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (187,884 -> 187,896 chars; last seen 2026-11-02) — https://code.claude.com/docs/en/costs
+    - `-The Session block at the top of /usage shows detailed token usage statistics for your current session. Claude Code computes the dollar figure locally from token counts at list price, unless a modelPr`
+    - `+The Session block at the top of /usage shows detailed token usage statistics for your current session.`
+    - `+Claude Code computes the dollar figure locally from token counts at list price, unless a modelPricing table is in effect. An administrator sets one in your organization’s managed settings so the figu`
+    - `-On Pro and Max plans, when you reach your spend limit with usage credits still available, Claude Code prompts you to raise or remove the limit without leaving the CLI. If the server rejects the chang`
+    - `+On Pro, Max, and Ultra plans, when you reach your spend limit with usage credits left, Claude Code prompts you to raise or remove the limit without leaving the CLI. If the server rejects the change, `
+    - `-Claude Console (API) Console usage page Workspace spend limits Console dashboard , Claude Code Analytics API`
+- **Anthropic / Claude / Claude Code skills** — changed (473,425 -> 473,425 chars; last seen 2026-11-02) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (200,018 -> 199,860 chars; last seen 2026-11-02) — https://code.claude.com/docs/en/commands
+    - `-/verify runs only when you invoke it. Before v2.1.215, Claude could also run /verify on its own.`
+    - `+/verify runs only when you invoke it.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (194,427 -> 195,278 chars; last seen 2026-11-02) — https://code.claude.com/docs/en/settings
+    - `+If you remove permissions.blockReadsOutsideWorkingDirectories mid-session, the file tools keep the block in the running session. To lift it, remove the key from every settings file that sets it, then`
+    - `-useAutoModeDuringPlan false from any managed source, --settings , ~/.claude/settings.json , or .claude/settings.local.json Honored even when the winning managed source sets true ; a false in .claude/`
+    - `+useAutoModeDuringPlan false from any managed source, --settings , ~/.claude/settings.json , or .claude/settings.local.json Honored even when the winning managed source sets true ; a false in .claude/`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (310,529 -> 310,529 chars; last seen 2026-11-02) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (568,839 -> 571,719 chars; last seen 2026-11-02) — https://code.claude.com/docs/en/mcp
+    - `-Respond to MCP elicitation requests Elicitation modes Claude Code declares`
+    - `+Respond to MCP elicitation requests Answer an elicitation request in a cloud session`
+    - `+Elicitation modes Claude Code declares`
+    - `-When an OAuth server you already signed in to rejects your stored token with 401 Unauthorized , Claude Code refreshes the token, reconnects, and retries the request once. It flags the server in /mcp `
+    - `+When an OAuth server you already signed in to rejects your stored token with 401 Unauthorized , Claude Code reconnects with or without a new token:`
+    - `+Your stored login has a refresh token : it refreshes the token, reconnects, and retries the request once. The server is flagged in /mcp only if that retry also fails.`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,627 -> 4,627 chars; last seen 2026-11-02) — https://www.anthropic.com/engineering
+    - `-35 posts`
+    - `+36 posts`
+    - `-35 posts`
+    - `+36 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,231 -> 26,252 chars; last seen 2026-11-02) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+NFS home directories`
+- **OpenAI / Codex / Codex prompting** — changed (32,311 -> 32,332 chars; last seen 2026-11-02) — https://learn.chatgpt.com/docs/prompting
+    - `+NFS home directories`
+- **OpenAI / Codex / Codex: build skills** — changed (21,750 -> 21,771 chars; last seen 2026-11-02) — https://learn.chatgpt.com/docs/build-skills
+    - `+NFS home directories`
+- **OpenAI / Codex / Codex app-server** — changed (112,024 -> 112,045 chars; last seen 2026-11-02) — https://learn.chatgpt.com/docs/app-server
+    - `+NFS home directories`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,817 -> 38,838 chars; last seen 2026-11-02) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+NFS home directories`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,024 -> 19,045 chars; last seen 2026-11-02) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+NFS home directories`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,570 -> 52,591 chars; last seen 2026-11-02) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+NFS home directories`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,641 -> 17,662 chars; last seen 2026-11-02) — https://developers.openai.com/blog
+    - `+NFS home directories`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,056 -> 172,056 chars; last seen 2026-11-02) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,799 -> 24,811 chars; last seen 2026-11-02) — https://github.com/firecrawl/firecrawl
+    - `-Events`
+    - `+Developer articles`
+    - `-Issues 111 ( 111 )`
+    - `-Pull requests 642 ( 642 )`
+    - `+Issues 112 ( 112 )`
+    - `+Pull requests 640 ( 640 )`
+- **Web scraping and search for agents / Exa docs** — changed (361,043 -> 361,043 chars; last seen 2026-11-02) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,023 -> 22,039 chars; last seen 2026-11-02) — https://github.com/unclecode/crawl4ai
+    - `-Events`
+    - `+Developer articles`
+    - `-Issues 53 ( 53 )`
+    - `-Pull requests 251 ( 251 )`
+    - `+Issues 54 ( 54 )`
+    - `+Pull requests 250 ( 250 )`
+- **Video generation / Runway** — changed (4,285 -> 4,282 chars; last seen 2026-11-02) — https://runwayml.com/
+    - `-Affiliate Program`
+    - `+Runway Rewards`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,410 -> 4,422 chars; last seen 2026-11-02) — https://github.com/Wan-Video
+    - `-Events`
+    - `+Developer articles`
+    - `-362`
+    - `+364`
+    - `-18,328`
+    - `-Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,852 -> 39,873 chars; last seen 2026-11-02) — https://platform.openai.com/docs/guides/video-generation
+    - `+NFS home directories`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,402 -> 20,414 chars; last seen 2026-11-02) — https://github.com/Lightricks/LTX-Video
+    - `-Events`
+    - `+Developer articles`
