@@ -4,7 +4,7 @@ These rules come from the labs' own published pages (sources listed under each s
 
 ---
 
-# Provider guidance reviewed 2026-10-24
+# Provider guidance reviewed 2026-11-04
 
 These are dated implementation principles, not a promise that every installed model or extension is available. The Optimize button loads separate policy records from `optimizer_providers.py` and passes them to BOTH Ollama and EXO. Model-specific effort defaults are not guessed.
 
@@ -38,6 +38,10 @@ Sources:
 - https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
 
 Installed Claude Code 2.1.309 supports `/compact [instructions]`. Project-local skill/plugin changes affect other panes in that project; MCP toggles are also project scoped. `--settings` is session-scoped at launch; `--plugin-dir` adds a plugin for one launch. `/reload-plugins` does not turn shared settings into pane-only settings. Prepared overrides use `skillOverrides` and `enabledPlugins`, without changing provider files or permissions. Plugin-provided skills cannot independently be switched off through the standalone skill override.
+
+- 2026-11-04: Use `/context all` to check whether Claude loaded a file; for `/batch`, approve the plan before worktree jobs run, and expect a PR or a status report for each job. Source: https://code.claude.com/docs/en/best-practices
+
+- 2026-11-04: Secure self-hosted Crawl4AI Docker servers with a self-managed token; cloud use instead requires an API key. Source: https://github.com/unclecode/crawl4ai
 
 ## Observable implementation limits
 

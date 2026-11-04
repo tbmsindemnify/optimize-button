@@ -26,3 +26,5 @@ The labs' guidance (see `guidance/provider-guidance.md`) converges on one idea: 
 
 ## Words that cost quality
 - "Make it good / better / optimize it" with no measure. "Be comprehensive." "Use your best judgment" without boundaries. "Do everything." Replace each with the outcome, the measure and the boundary.
+
+- 2026-11-04: To verify a Claude Code instruction file loaded, use `/context all`; `/batch` requires plan approval before parallel worktree jobs run. Source: https://code.claude.com/docs/en/best-practices

@@ -878,3 +878,130 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,402 -> 20,414 chars; last seen 2026-11-02) — https://github.com/Lightricks/LTX-Video
     - `-Events`
     - `+Developer articles`
+
+## 2026-11-04
+
+- **Anthropic / Claude / Claude Code best practices** — changed (219,760 -> 220,021 chars; last seen 2026-11-03) — https://code.claude.com/docs/en/best-practices
+    - `-In a session, run /context to confirm that Claude loaded the file.`
+    - `+In a session, run /context all to confirm that Claude loaded the file.`
+    - `-For one big mechanical change across many files, /batch migrate every handler to the v2 response helpers splits the work into 5 to 30 units and shows you the plan. Then it runs each unit in its own w`
+    - `+For one big mechanical change across many files, /batch migrate every handler to the v2 response helpers splits the work into 5 to 30 units and shows you the plan. Once you approve it, each unit gets`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (187,896 -> 188,029 chars; last seen 2026-11-03) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (473,425 -> 473,558 chars; last seen 2026-11-03) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (199,860 -> 200,023 chars; last seen 2026-11-03) — https://code.claude.com/docs/en/commands
+    - `-/batch <instruction> Skill . Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once appr`
+    - `+/batch <instruction> Skill . Orchestrate large-scale changes across a codebase in parallel. Researches the codebase, decomposes the work into 5 to 30 independent units, and presents a plan. Once appr`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (195,278 -> 195,411 chars; last seen 2026-11-03) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (310,529 -> 310,662 chars; last seen 2026-11-03) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (571,719 -> 571,852 chars; last seen 2026-11-03) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **OpenAI / Codex / Codex best practices** — changed (26,252 -> 26,304 chars; last seen 2026-11-03) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **OpenAI / Codex / Codex prompting** — changed (32,332 -> 32,384 chars; last seen 2026-11-03) — https://learn.chatgpt.com/docs/prompting
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **OpenAI / Codex / Codex: build skills** — changed (21,771 -> 21,823 chars; last seen 2026-11-03) — https://learn.chatgpt.com/docs/build-skills
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **OpenAI / Codex / Codex app-server** — changed (112,045 -> 112,097 chars; last seen 2026-11-03) — https://learn.chatgpt.com/docs/app-server
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,838 -> 38,890 chars; last seen 2026-11-03) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,045 -> 19,097 chars; last seen 2026-11-03) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,591 -> 52,629 chars; last seen 2026-11-03) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,662 -> 17,714 chars; last seen 2026-11-03) — https://developers.openai.com/blog
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,056 -> 172,189 chars; last seen 2026-11-03) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,811 -> 24,811 chars; last seen 2026-11-03) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 640 ( 640 )`
+    - `+Pull requests 642 ( 642 )`
+    - `-198.3k stars`
+    - `+198.5k stars`
+    - `-495 watching`
+    - `+494 watching`
+- **Web scraping and search for agents / Exa docs** — changed (361,043 -> 360,907 chars; last seen 2026-11-03) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,250 -> 15,261 chars; last seen 2026-11-03) — https://exa.ai/privacy
+    - `-Blog Docs Pricing`
+    - `+Blog Docs Enterprise Pricing`
+- **Web scraping and search for agents / Tavily docs** — changed (121,004 -> 121,300 chars; last seen 2026-11-03) — https://docs.tavily.com/
+    - `+Replit`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (22,039 -> 23,484 chars; last seen 2026-11-03) — https://github.com/unclecode/crawl4ai
+    - `-GitHub - unclecode/crawl4ai: Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Disc`
+    - `+GitHub - unclecode/crawl4ai: Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is th`
+    - `-Issues 54 ( 54 )`
+    - `-Pull requests 250 ( 250 )`
+    - `+Issues 56 ( 56 )`
+    - `+Pull requests 252 ( 252 )`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,422 -> 4,422 chars; last seen 2026-11-03) — https://github.com/Wan-Video
+    - `-18.3k`
+    - `+18.4k`
+    - `-364`
+    - `+366`
+    - `-18,341`
+    - `-Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,873 -> 39,925 chars; last seen 2026-11-03) — https://platform.openai.com/docs/guides/video-generation
+    - `+Theme Light Dark System`
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `-Deep research`
+    - `-Local shell`
+    - `+API keys and service accounts`

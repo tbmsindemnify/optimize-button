@@ -15,3 +15,5 @@ Checked 2026-10-24. The refresh job watches the official docs in `guidance/sourc
 Pairing that works: **Exa finds, Firecrawl reads.** Exa returns the five pages that match what you meant; Firecrawl turns each into clean text; the model gets exactly the pages that matter, with the source attached to every fact.
 
 Rule the button enforces: the question can leave the building, the file cannot. Searches go out; client files, PII and internal strategy never go into a search query or a hosted scraper.
+
+- 2026-11-04: For Crawl4AI Docker deployments, secure the server with a self-managed token; its hosted cloud uses an API key, while local Python or CLI remains an option. Source: https://github.com/unclecode/crawl4ai
