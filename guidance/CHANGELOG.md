@@ -1009,3 +1009,151 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,414 -> 20,414 chars; last seen 2026-11-03) — https://github.com/Lightricks/LTX-Video
     - `-Issues 92 ( 92 )`
     - `+Issues 93 ( 93 )`
+
+## 2026-11-05
+
+- **Anthropic / Claude / Claude Code best practices** — changed (219,752 -> 224,470 chars; last seen 2026-11-04) — https://code.claude.com/docs/en/best-practices
+    - `+--append-system-prompt , --mcp-config , and --settings explicitly pass in what the run does need. Hooks you pass with --settings don’t run under --bare , so don’t use --bare for a run that needs them`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (187,760 -> 192,078 chars; last seen 2026-11-04) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (473,289 -> 477,857 chars; last seen 2026-11-04) — https://code.claude.com/docs/en/skills
+    - `-effort No Effort level for the rest of the current turn. Overrides the session effort level, but not the CLAUDE_CODE_EFFORT_LEVEL environment variable. With context: fork , the value sets the forked `
+    - `+effort No Effort level for the rest of the current turn. Overrides the session effort level, but not the CLAUDE_CODE_EFFORT_LEVEL environment variable. With context: fork , the value sets the forked `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (199,754 -> 204,072 chars; last seen 2026-11-04) — https://code.claude.com/docs/en/commands
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (195,142 -> 199,677 chars; last seen 2026-11-04) — https://code.claude.com/docs/en/settings
+    - `-Configuration error : ~/.claude.json can’t be parsed. Claude Code copies the broken file to ~/.claude/backups/.claude.json.corrupted.<timestamp> and asks whether to exit and fix it by hand or reset t`
+    - `+Configuration error : ~/.claude.json can’t be parsed. A claude -p run exits, and your file is unchanged. See Configuration error in ~/.claude.json to restore an earlier copy. Claude Code copies the b`
+    - `-A -p run shows no dialog. Unless a managed settings document can’t be parsed , Claude Code skips the broken file or values and continues with the rest, so after a -p run that ignores a setting, run c`
+    - `+A -p run shows no dialog. Unless a managed settings document can’t be parsed , Claude Code skips a broken user, project, or local file or its broken values and continues with the rest. After a -p run`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (310,393 -> 314,711 chars; last seen 2026-11-04) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (571,583 -> 575,901 chars; last seen 2026-11-04) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Effective context engineering for AI agents** — changed (21,800 -> 21,823 chars; last seen 2026-11-04) — https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+    - `-Anthropic is a Public Benefit Corporation. Our mission is to ensure the world safely makes the transition through transformative AI.`
+    - `+Anthropic is a Public Benefit Corporation. Our mission is the responsible development and maintenance of advanced AI for the long-term benefit of humanity.`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,627 -> 4,650 chars; last seen 2026-11-04) — https://www.anthropic.com/engineering
+    - `-25 posts`
+    - `+26 posts`
+    - `-17 posts`
+    - `+18 posts`
+    - `-25 posts`
+    - `+26 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,304 -> 26,285 chars; last seen 2026-11-04) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **OpenAI / Codex / Codex prompting** — changed (32,384 -> 32,389 chars; last seen 2026-11-04) — https://learn.chatgpt.com/docs/prompting
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **OpenAI / Codex / Codex: build skills** — changed (21,823 -> 21,789 chars; last seen 2026-11-04) — https://learn.chatgpt.com/docs/build-skills
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **OpenAI / Codex / Codex app-server** — changed (112,097 -> 112,062 chars; last seen 2026-11-04) — https://learn.chatgpt.com/docs/app-server
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,890 -> 38,871 chars; last seen 2026-11-04) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,097 -> 19,078 chars; last seen 2026-11-04) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,629 -> 52,610 chars; last seen 2026-11-04) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,714 -> 17,695 chars; last seen 2026-11-04) — https://developers.openai.com/blog
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **Web scraping and search for agents / Firecrawl docs** — changed (171,920 -> 172,634 chars; last seen 2026-11-04) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,811 -> 24,812 chars; last seen 2026-11-04) — https://github.com/firecrawl/firecrawl
+    - `-Copilot AI coding agent for tasks, projects and automated work`
+    - `+Copilot AI coding agent for tasks, projects, and automated work`
+    - `-Issues 112 ( 112 )`
+    - `-Pull requests 639 ( 639 )`
+    - `+Issues 113 ( 113 )`
+    - `+Pull requests 640 ( 640 )`
+- **Web scraping and search for agents / Exa docs** — changed (360,907 -> 361,340 chars; last seen 2026-11-04) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (121,157 -> 122,493 chars; last seen 2026-11-04) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,488 -> 23,485 chars; last seen 2026-11-04) — https://github.com/unclecode/crawl4ai
+    - `-Copilot AI coding agent for tasks, projects and automated work`
+    - `+Copilot AI coding agent for tasks, projects, and automated work`
+    - `-Star 86.9k ( 86.9k ) You must be signed in to star a repository`
+    - `+Star 87k ( 87k ) You must be signed in to star a repository`
+    - `-86.9k stars`
+    - `+87.0k stars`
+- **Web scraping and search for agents / Jina Reader** — changed (32,969 -> 32,801 chars; last seen 2026-11-04) — https://jina.ai/reader/
+    - `-Models`
+    - `-API`
+    - `-keyboard_arrow_down`
+    - `-Reader`
+    - `-Convert any URL to Markdown for better grounding LLMs.`
+    - `-Embeddings`
+- **Video generation / Kling AI** — changed (6,639 -> 6,597 chars; last seen 2026-11-04) — https://klingai.com/
+    - `-© 2024-2026 kling.ai All rights reserved.`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,422 -> 4,423 chars; last seen 2026-11-04) — https://github.com/Wan-Video
+    - `-Copilot AI coding agent for tasks, projects and automated work`
+    - `+Copilot AI coding agent for tasks, projects, and automated work`
+    - `-366`
+    - `+372`
+    - `-18,370`
+    - `-Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,925 -> 39,906 chars; last seen 2026-11-04) — https://platform.openai.com/docs/guides/video-generation
+    - `+Working with agents`
+    - `-Model catalogs`
+    - `-Deployment and configuration`
+    - `+Configuration`
+    - `+Advanced deployment`
+    - `-Bedrock GovCloud configuration`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,414 -> 20,415 chars; last seen 2026-11-04) — https://github.com/Lightricks/LTX-Video
+    - `-Copilot AI coding agent for tasks, projects and automated work`
+    - `+Copilot AI coding agent for tasks, projects, and automated work`
+    - `-Issues 93 ( 93 )`
+    - `+Issues 94 ( 94 )`
