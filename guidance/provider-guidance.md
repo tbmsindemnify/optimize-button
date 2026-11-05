@@ -4,7 +4,7 @@ These rules come from the labs' own published pages (sources listed under each s
 
 ---
 
-# Provider guidance reviewed 2026-10-24
+# Provider guidance reviewed 2026-11-05
 
 These are dated implementation principles, not a promise that every installed model or extension is available. The Optimize button loads separate policy records from `optimizer_providers.py` and passes them to BOTH Ollama and EXO. Model-specific effort defaults are not guessed.
 
@@ -26,6 +26,8 @@ Installed Codex 0.164.0 and local source `970111f6cb` support bare `/compact`; i
 
 Provide clear scope and an observable verification method. Keep context relevant, load skills progressively, retain useful deferred tool search, and use independent subagents where context isolation or parallel work helps. Compaction should retain current goal, corrections, constraints, decisions, exact paths, unresolved defects and verification evidence. Avoid overlapping specialist scaffolding solely for domain labels; October 22's architecture article emphasizes end-to-end task evaluations.
 
+- 2026-11-05: Do not use `--bare` when a Claude Code run needs hooks supplied via `--settings`; those hooks do not run in bare mode. Source: https://code.claude.com/docs/en/best-practices
+
 Sources:
 - https://code.claude.com/docs/en/best-practices
 - https://code.claude.com/docs/en/costs
@@ -38,6 +40,10 @@ Sources:
 - https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
 
 Installed Claude Code 2.1.309 supports `/compact [instructions]`. Project-local skill/plugin changes affect other panes in that project; MCP toggles are also project scoped. `--settings` is session-scoped at launch; `--plugin-dir` adds a plugin for one launch. `/reload-plugins` does not turn shared settings into pane-only settings. Prepared overrides use `skillOverrides` and `enabledPlugins`, without changing provider files or permissions. Plugin-provided skills cannot independently be switched off through the standalone skill override.
+
+## Web scraping
+
+- 2026-11-05: For Jina Reader, check the `X-Base` option when redirects and relative URLs matter: the documented option now resolves against the initial URL. Source: https://jina.ai/reader/
 
 ## Observable implementation limits
 
