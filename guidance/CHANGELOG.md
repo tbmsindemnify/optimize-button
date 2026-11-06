@@ -1157,3 +1157,93 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+Copilot AI coding agent for tasks, projects, and automated work`
     - `-Issues 93 ( 93 )`
     - `+Issues 94 ( 94 )`
+
+## 2026-11-06
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,470 -> 224,613 chars; last seen 2026-11-05) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,078 -> 192,221 chars; last seen 2026-11-05) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (477,857 -> 478,000 chars; last seen 2026-11-05) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (204,072 -> 204,215 chars; last seen 2026-11-05) — https://code.claude.com/docs/en/commands
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (199,677 -> 199,820 chars; last seen 2026-11-05) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (314,711 -> 314,854 chars; last seen 2026-11-05) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (575,901 -> 576,044 chars; last seen 2026-11-05) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Effective context engineering for AI agents** — changed (21,823 -> 21,813 chars; last seen 2026-11-05) — https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+    - `-Chapter 01 : Context engineering vs. prompt engineering`
+    - `+01 Context engineering vs. prompt engineering`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,650 -> 4,650 chars; last seen 2026-11-05) — https://www.anthropic.com/engineering
+    - `-49 posts`
+    - `+51 posts`
+    - `-36 posts`
+    - `+37 posts`
+    - `-18 posts`
+    - `+17 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,285 -> 26,245 chars; last seen 2026-11-05) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+- **OpenAI / Codex / Codex prompting** — changed (32,389 -> 32,349 chars; last seen 2026-11-05) — https://learn.chatgpt.com/docs/prompting
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+- **OpenAI / Codex / Codex: build skills** — changed (21,789 -> 21,749 chars; last seen 2026-11-05) — https://learn.chatgpt.com/docs/build-skills
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+- **OpenAI / Codex / Codex app-server** — changed (112,062 -> 112,278 chars; last seen 2026-11-05) — https://learn.chatgpt.com/docs/app-server
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+    - `-59 import { spawn } from "node:child_process" ;`
+    - `+66 import { spawn } from "node:child_process" ;`
+    - `+if (msg.params?.turn?.status !== "completed" ) {`
+    - `+console. error (msg.params?.turn?.error ?? "The turn did not complete." );`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,871 -> 38,831 chars; last seen 2026-11-05) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,078 -> 19,038 chars; last seen 2026-11-05) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,610 -> 52,570 chars; last seen 2026-11-05) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,695 -> 17,655 chars; last seen 2026-11-05) — https://developers.openai.com/blog
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,634 -> 172,767 chars; last seen 2026-11-05) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,812 -> 24,812 chars; last seen 2026-11-05) — https://github.com/firecrawl/firecrawl
+    - `-Issues 113 ( 113 )`
+    - `-Pull requests 640 ( 640 )`
+    - `+Issues 112 ( 112 )`
+    - `+Pull requests 662 ( 662 )`
+    - `-198.9k stars`
+    - `+199.2k stars`
+- **Web scraping and search for agents / Exa docs** — changed (361,340 -> 361,483 chars; last seen 2026-11-05) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (122,493 -> 122,793 chars; last seen 2026-11-05) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,423 -> 4,423 chars; last seen 2026-11-05) — https://github.com/Wan-Video
+    - `-442`
+    - `+443`
+    - `-372`
+    - `+376`
+    - `-18,387`
+    - `-Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,906 -> 39,826 chars; last seen 2026-11-05) — https://platform.openai.com/docs/guides/video-generation
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
+    - `-Reinforcement fine-tuning`
+    - `-RFT use cases`
