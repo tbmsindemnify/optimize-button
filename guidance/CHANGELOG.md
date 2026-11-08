@@ -1363,3 +1363,80 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-Amazon Bedrock`
     - `+Cloud providers`
     - `+Amazon Bedrock`
+
+## 2026-11-08
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,418 -> 224,418 chars; last seen 2026-11-07) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,026 -> 192,026 chars; last seen 2026-11-07) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (477,805 -> 477,805 chars; last seen 2026-11-07) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (204,020 -> 204,020 chars; last seen 2026-11-07) — https://code.claude.com/docs/en/commands
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (199,625 -> 199,625 chars; last seen 2026-11-07) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (316,909 -> 316,909 chars; last seen 2026-11-07) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (578,464 -> 579,360 chars; last seen 2026-11-07) — https://code.claude.com/docs/en/mcp
+    - `-Answer with a task only when the request carries the extension, or Claude gets the tool error Unsupported result type 'task' for tools/call . Claude gets the same error when taskId , status , created`
+    - `+Answer with a task only when the request carries the extension, or the call fails with the tool error Unsupported result type 'task' for tools/call . The call fails the same way if your answer has no`
+    - `-createdAt , lastUpdatedAt , ttlMs Required, and ttlMs may be null . Claude Code doesn’t drop a task because its ttlMs has passed`
+    - `-pollIntervalMs Optional, but not null . Milliseconds between tasks/get requests, clamped to between 250 and 30000. Claude Code uses 2000 when the field is absent, and reads the value again from each `
+    - `+createdAt , lastUpdatedAt , ttlMs Required by the tasks extension, and ttlMs may be null . Claude Code doesn’t drop a task because its ttlMs has passed`
+    - `+pollIntervalMs Optional. Milliseconds between tasks/get requests, clamped to between 250 and 30000. Claude Code uses 2000 when the field is absent or null , and reads the value again from each tasks/`
+- **OpenAI / Codex / Codex best practices** — changed (26,274 -> 26,294 chars; last seen 2026-11-07) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Preserved reasoning`
+- **OpenAI / Codex / Codex prompting** — changed (32,378 -> 32,398 chars; last seen 2026-11-07) — https://learn.chatgpt.com/docs/prompting
+    - `+Preserved reasoning`
+- **OpenAI / Codex / Codex: build skills** — changed (21,778 -> 21,798 chars; last seen 2026-11-07) — https://learn.chatgpt.com/docs/build-skills
+    - `+Preserved reasoning`
+- **OpenAI / Codex / Codex app-server** — changed (112,307 -> 112,327 chars; last seen 2026-11-07) — https://learn.chatgpt.com/docs/app-server
+    - `+Preserved reasoning`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,860 -> 38,880 chars; last seen 2026-11-07) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Preserved reasoning`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,067 -> 19,087 chars; last seen 2026-11-07) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Preserved reasoning`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,599 -> 52,639 chars; last seen 2026-11-07) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Preserved reasoning`
+    - `+Preserved reasoning`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,684 -> 17,704 chars; last seen 2026-11-07) — https://developers.openai.com/blog
+    - `+Preserved reasoning`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,637 -> 172,572 chars; last seen 2026-11-07) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,816 -> 24,816 chars; last seen 2026-11-07) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 664 ( 664 )`
+    - `+Pull requests 663 ( 663 )`
+    - `-Star 199k ( 199k ) You must be signed in to star a repository`
+    - `+Star 200k ( 200k ) You must be signed in to star a repository`
+    - `-199.4k stars`
+    - `+199.7k stars`
+- **Web scraping and search for agents / Exa docs** — changed (361,288 -> 361,288 chars; last seen 2026-11-07) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (122,797 -> 122,620 chars; last seen 2026-11-07) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,485 -> 23,489 chars; last seen 2026-11-07) — https://github.com/unclecode/crawl4ai
+    - `-Pull requests 255 ( 255 )`
+    - `+Pull requests 260 ( 260 )`
+    - `-Star 87k ( 87k ) You must be signed in to star a repository`
+    - `+Star 87.1k ( 87.1k ) You must be signed in to star a repository`
+    - `-87.0k stars`
+    - `+87.1k stars`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,423 -> 4,423 chars; last seen 2026-11-07) — https://github.com/Wan-Video
+    - `-18.4k`
+    - `+18.5k`
+    - `-376`
+    - `+377`
+    - `-18,443`
+    - `-Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,899 -> 39,919 chars; last seen 2026-11-07) — https://platform.openai.com/docs/guides/video-generation
+    - `+Preserved reasoning`
