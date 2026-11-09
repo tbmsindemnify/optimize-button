@@ -1440,3 +1440,157 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+377`
 - **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,899 -> 39,919 chars; last seen 2026-11-07) — https://platform.openai.com/docs/guides/video-generation
     - `+Preserved reasoning`
+
+## 2026-11-09
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,418 -> 224,369 chars; last seen 2026-11-08) — https://code.claude.com/docs/en/best-practices
+    - `-Effort is the main control for how long Claude thinks, and it replaces most of what people used to do with prompt wording. Claude Opus 5.5, Sonnet 5.5, and Haiku 5.5 default to medium , which is plen`
+    - `+Effort is the main control for how long Claude thinks, and it replaces most of what people used to do with prompt wording. Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 default to medium , wh`
+    - `-For the model itself, the default Opus 5.5 handles most coding well and Sonnet costs less on routine work. Claude Fable 5.1 is there when you select it explicitly with /model fable , and Haiku is a g`
+    - `+For the model itself, the default Opus 5.5 handles most coding well and Sonnet costs less on routine work. To use Claude Fable 5.2 , run /model fable . Haiku is a good fit for subagents doing simple `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,026 -> 192,060 chars; last seen 2026-11-08) — https://code.claude.com/docs/en/costs
+    - `-A spend limit message from a Claude apps gateway : the developer passed a spend cap you set on your self-hosted gateway, and the gateway blocks their requests until the period resets or you raise the`
+    - `+A spend limit message from a Claude apps gateway : the developer passed a spend cap you set on your self-hosted gateway. The gateway blocks their requests until you raise the cap, or until the cap re`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (477,805 -> 477,805 chars; last seen 2026-11-08) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (204,020 -> 204,304 chars; last seen 2026-11-08) — https://code.claude.com/docs/en/commands
+    - `-/usage Show session cost, plan usage limits, and activity stats. On a Pro, Max, Ultra, Team, or Enterprise plan, includes a breakdown of what counts against your plan limits . /cost and /stats are al`
+    - `+/usage Show session cost, plan usage limits, and activity stats. On a Pro, Max, Ultra, Team, or Enterprise plan, includes a breakdown of what counts against your plan limits . Behind a Claude apps ga`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (199,625 -> 200,466 chars; last seen 2026-11-08) — https://code.claude.com/docs/en/settings
+    - `+permissions.denyInsteadOfPrompting true from ~/.claude/settings.json or --settings Honored even when a managed source sets false . Requires Claude Code v2.1.319 or later`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (316,909 -> 316,909 chars; last seen 2026-11-08) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (579,360 -> 579,360 chars; last seen 2026-11-08) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Effective context engineering for AI agents** — changed (21,813 -> 21,813 chars; last seen 2026-11-08) — https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+    - `-Published`
+    - `-Sep 29, 2025`
+    - `-Team`
+    - `-Engineering`
+    - `-Topics`
+    - `-Context engineering`
+- **Anthropic / Claude / Prompting best practices (Claude platform docs)** — changed (3,674 -> 3,701 chars; last seen 2026-11-08) — https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+    - `-Overview Prompting best practices Prompting Claude Fable 5.1 Prompting Claude Fable 5 Prompting Claude Opus 5.5 Prompting Claude Opus 5 Prompting Claude Opus 4.8 Prompting Claude Sonnet 5.5 Prompting`
+    - `+Overview Prompting best practices Prompting Claude Fable 5.2 Prompting Claude Fable 5.1 Prompting Claude Fable 5 Prompting Claude Opus 5.5 Prompting Claude Opus 5 Prompting Claude Opus 4.8 Prompting `
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,597 -> 4,829 chars; last seen 2026-11-08) — https://www.anthropic.com/engineering
+    - `+Engineering`
+    - `+Nov 6, 2026 The components of agent memory`
+    - `+For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.`
+- **OpenAI / Codex / Codex best practices** — changed (26,294 -> 26,323 chars; last seen 2026-11-08) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / Codex prompting** — changed (32,398 -> 32,427 chars; last seen 2026-11-08) — https://learn.chatgpt.com/docs/prompting
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / Codex: build skills** — changed (21,798 -> 21,827 chars; last seen 2026-11-08) — https://learn.chatgpt.com/docs/build-skills
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / Codex app-server** — changed (112,327 -> 112,356 chars; last seen 2026-11-08) — https://learn.chatgpt.com/docs/app-server
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,880 -> 38,909 chars; last seen 2026-11-08) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,087 -> 19,139 chars; last seen 2026-11-08) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,639 -> 52,648 chars; last seen 2026-11-08) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (17,704 -> 17,953 chars; last seen 2026-11-08) — https://developers.openai.com/blog
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,572 -> 172,572 chars; last seen 2026-11-08) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,816 -> 24,816 chars; last seen 2026-11-08) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 663 ( 663 )`
+    - `+Pull requests 659 ( 659 )`
+    - `-199.7k stars`
+    - `+200.1k stars`
+    - `-6,804 Commits`
+    - `-6,804 Commits`
+- **Web scraping and search for agents / Exa docs** — changed (361,288 -> 361,468 chars; last seen 2026-11-08) — https://docs.exa.ai/
+    - `+Assistant`
+    - `+Responses are generated using AI and may contain mistakes.`
+    - `+Suggestions`
+    - `+Help me set up the Exa MCP How do i get started with Exa Search? What is Exa Agent?`
+    - `-⌘ K`
+    - `+⌘ K Ask Assistant ⌘ I`
+- **Web scraping and search for agents / Tavily docs** — changed (122,620 -> 122,620 chars; last seen 2026-11-08) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-08) — https://github.com/unclecode/crawl4ai
+    - `-Issues 57 ( 57 )`
+    - `-Pull requests 260 ( 260 )`
+    - `+Issues 58 ( 58 )`
+    - `+Pull requests 264 ( 264 )`
+    - `-423 watching`
+    - `+424 watching`
+- **Video generation / Runway** — changed (4,282 -> 4,268 chars; last seen 2026-11-08) — https://runwayml.com/
+    - `-Enterprise Sales Contact Sales Login Try Runway`
+    - `+Enterprise Sales Login Try Runway`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,423 -> 4,423 chars; last seen 2026-11-08) — https://github.com/Wan-Video
+    - `-18,468`
+    - `-Apache-2.0`
+    - `-2,450`
+    - `-285`
+    - `+18,491`
+    - `+Apache-2.0`
+- **Video generation / Seedance (ByteDance Seed)** — changed (4,993 -> 5,065 chars; last seen 2026-11-08) — https://seed.bytedance.com/
+    - `-Seed2.1`
+    - `-A next-generation agent for real-world productivity.`
+    - `-Learn more Tech blog Try now`
+    - `+Seedream 5.5`
+    - `+A multimodal image generation model with greater creativity and more precise execution.`
+    - `+Learn more Tech blog`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,919 -> 39,948 chars; last seen 2026-11-08) — https://platform.openai.com/docs/guides/video-generation
+    - `-Primary navigation API ChatGPT Docs Use cases Training Resources Resources Theme Light Dark System`
+    - `+Primary navigation API ChatGPT Docs Use cases Training Resources Resources`
+    - `+Theme Light Dark System`
+    - `-Preserved reasoning`
+    - `+Keep the prefix unchanged`
+    - `+Build a retro handheld game with Codex and ModRetro Chromatic`

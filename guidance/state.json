@@ -1,200 +1,200 @@
 {
   "https://ai.google.dev/gemini-api/docs/video": {
-    "checked": "2026-11-08",
+    "checked": "2026-11-09",
     "sha256": "dc0cb25c4b4ed1d6fdc8d27da5c16693ec8d1490adc52a18f701d99955d0be7b",
     "snapshot": "guidance/snapshots/2026-11-02/ai-google-dev-gemini-api-docs-video.txt",
     "title": "Google Veo (Gemini API video docs)"
   },
   "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop": {
-    "checked": "2026-11-08",
+    "checked": "2026-11-09",
     "sha256": "7119ab6085a51bd07dd84544aecadc4f872cc4171eee082144a892e546e5ce62",
     "snapshot": "guidance/snapshots/2026-11-01/claude-com-resources-articles-building-agents-when-to-fold-subagents-into-your-main-agent-loop.txt",
     "title": "Building agents: when to fold subagents into the main loop"
   },
   "https://code.claude.com/docs/en/best-practices": {
-    "checked": "2026-11-08",
-    "sha256": "d0eb17266158d9abeca5d71fabd9bc183e1be8e163f934bcc8b5fa7d87985dd8",
-    "snapshot": "guidance/snapshots/2026-11-08/code-claude-com-docs-en-best-practices.txt",
+    "checked": "2026-11-09",
+    "sha256": "f780831d6b0266ae9948a71712151181249da97014010d07a5ded6cc0c36a0f0",
+    "snapshot": "guidance/snapshots/2026-11-09/code-claude-com-docs-en-best-practices.txt",
     "title": "Claude Code best practices"
   },
   "https://code.claude.com/docs/en/commands": {
-    "checked": "2026-11-08",
-    "sha256": "9769445453e0b35466482a72a459360b35d8ce9883eab2de4a5f945fe7b38b35",
-    "snapshot": "guidance/snapshots/2026-11-08/code-claude-com-docs-en-commands.txt",
+    "checked": "2026-11-09",
+    "sha256": "85f50ff84d6ddeccf7bf71e5be810de8de17ff63551e7b5f298d484d295be647",
+    "snapshot": "guidance/snapshots/2026-11-09/code-claude-com-docs-en-commands.txt",
     "title": "Claude Code commands (incl. /compact)"
   },
   "https://code.claude.com/docs/en/costs": {
-    "checked": "2026-11-08",
-    "sha256": "b14d7cb99709ea11049d533df61d9c0dc93c3a9e54e6e99050720f8fdc8bb787",
-    "snapshot": "guidance/snapshots/2026-11-08/code-claude-com-docs-en-costs.txt",
+    "checked": "2026-11-09",
+    "sha256": "4c633e1d2aff567a0c592318613db37b9d789bfce9a5ef6421562a931b451317",
+    "snapshot": "guidance/snapshots/2026-11-09/code-claude-com-docs-en-costs.txt",
     "title": "Claude Code costs and context"
   },
   "https://code.claude.com/docs/en/mcp": {
-    "checked": "2026-11-08",
-    "sha256": "7400e4aa996c634551a9059236107a48182481b2292c4e2feccf3ec803d27fb8",
-    "snapshot": "guidance/snapshots/2026-11-08/code-claude-com-docs-en-mcp.txt",
+    "checked": "2026-11-09",
+    "sha256": "be8eeb697f473b07e088d0d5e78a00d9d1a338cd9b3c0a798e81b5f25dec053a",
+    "snapshot": "guidance/snapshots/2026-11-09/code-claude-com-docs-en-mcp.txt",
     "title": "Claude Code MCP"
   },
   "https://code.claude.com/docs/en/plugins/cli-reference": {
-    "checked": "2026-11-08",
-    "sha256": "c812a3ef5ce3e5c32f17b334ee953ba0d82c70c7b40ab4f7a893d9c01c2feb87",
-    "snapshot": "guidance/snapshots/2026-11-08/code-claude-com-docs-en-plugins-cli-reference.txt",
+    "checked": "2026-11-09",
+    "sha256": "1c8563e4cc22112134353725c77cec9d6f79bccaf5f18e6a276e0b2d07fe4088",
+    "snapshot": "guidance/snapshots/2026-11-09/code-claude-com-docs-en-plugins-cli-reference.txt",
     "title": "Claude Code plugins CLI"
   },
   "https://code.claude.com/docs/en/settings": {
-    "checked": "2026-11-08",
-    "sha256": "57c4563dff25ac3a6d3fe84ffe39d77d64afec600fdcca7edd04589b7f2ae4c3",
-    "snapshot": "guidance/snapshots/2026-11-08/code-claude-com-docs-en-settings.txt",
+    "checked": "2026-11-09",
+    "sha256": "b3ac44f410f43c154e82d0eb02fee80010ab44b3e8ea9e699d65ab712b5782d8",
+    "snapshot": "guidance/snapshots/2026-11-09/code-claude-com-docs-en-settings.txt",
     "title": "Claude Code settings"
   },
   "https://code.claude.com/docs/en/skills": {
-    "checked": "2026-11-08",
-    "sha256": "9782ca205455d828cfe0ff60082862d05c1a38d6887a428f4344be647bfeded8",
-    "snapshot": "guidance/snapshots/2026-11-08/code-claude-com-docs-en-skills.txt",
+    "checked": "2026-11-09",
+    "sha256": "1021e62e0aa804b1df76f3155dbd8b396ccc7b88b71f34db375ff07d7ef536d8",
+    "snapshot": "guidance/snapshots/2026-11-09/code-claude-com-docs-en-skills.txt",
     "title": "Claude Code skills"
   },
   "https://developers.openai.com/blog": {
-    "checked": "2026-11-08",
-    "sha256": "9a4d4f3b093a4580381b6f7456936d8d84235b6273040e6244b2bffcf2fda99e",
-    "snapshot": "guidance/snapshots/2026-11-08/developers-openai-com-blog.txt",
+    "checked": "2026-11-09",
+    "sha256": "4bebb03917e967e52bd8b81e8ed72bd01833764086ed3db550f96df8311987be",
+    "snapshot": "guidance/snapshots/2026-11-09/developers-openai-com-blog.txt",
     "title": "OpenAI developers blog index"
   },
   "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra": {
-    "checked": "2026-11-08",
-    "sha256": "30e4eb4dbaa3a6447277dd87e027dd11ac9baa445dc4a259f24988e514669fd8",
-    "snapshot": "guidance/snapshots/2026-11-08/developers-openai-com-blog-rethinking-skills-and-prompts-for-gpt-6-astra.txt",
+    "checked": "2026-11-09",
+    "sha256": "f77f639b057cc38fdeb301d5e8bba9328a9a8b1e86fab7e9942cdb870baf941e",
+    "snapshot": "guidance/snapshots/2026-11-09/developers-openai-com-blog-rethinking-skills-and-prompts-for-gpt-6-astra.txt",
     "title": "Rethinking skills and prompts for GPT-6 Astra"
   },
   "https://docs.exa.ai/": {
-    "checked": "2026-11-08",
-    "sha256": "d08de0ff64e13435743a4b5f83b10812fb093e53bd77338f934ee3d447119529",
-    "snapshot": "guidance/snapshots/2026-11-08/docs-exa-ai.txt",
+    "checked": "2026-11-09",
+    "sha256": "9dcc2df74e2caf6cd79e9d102e938baac7283d1603dbdfe9616e920f5ad4c962",
+    "snapshot": "guidance/snapshots/2026-11-09/docs-exa-ai.txt",
     "title": "Exa docs"
   },
   "https://docs.firecrawl.dev/": {
-    "checked": "2026-11-08",
-    "sha256": "afbd9b2f82d79056bf7ccc73994b1c5f2c5b4fb354831da5123902dc74241e06",
-    "snapshot": "guidance/snapshots/2026-11-08/docs-firecrawl-dev.txt",
+    "checked": "2026-11-09",
+    "sha256": "5ec1205602cd8a285950f88885e151b73122ab54f99d1cdc430b7ea77b51033f",
+    "snapshot": "guidance/snapshots/2026-11-09/docs-firecrawl-dev.txt",
     "title": "Firecrawl docs"
   },
   "https://docs.tavily.com/": {
-    "checked": "2026-11-08",
-    "sha256": "c524fc90f98f30e4cf1ff1063fcc76d6f3cf984821378d6d869be7a11766207b",
-    "snapshot": "guidance/snapshots/2026-11-08/docs-tavily-com.txt",
+    "checked": "2026-11-09",
+    "sha256": "326388c980c0c34ae740bc995158c0f72775bc6331514ed0a36a3d2db1674eca",
+    "snapshot": "guidance/snapshots/2026-11-09/docs-tavily-com.txt",
     "title": "Tavily docs"
   },
   "https://exa.ai/privacy": {
-    "checked": "2026-11-08",
+    "checked": "2026-11-09",
     "sha256": "46edda1f9c58ef50205c0f9c9dee142cf08b972228bcdc9005dce1bfe7602da8",
     "snapshot": "guidance/snapshots/2026-11-04/exa-ai-privacy.txt",
     "title": "Exa privacy policy (query use)"
   },
   "https://github.com/Lightricks/LTX-Video": {
-    "checked": "2026-11-08",
+    "checked": "2026-11-09",
     "sha256": "d0a928ecaf4390b59e3b2874a667720e8b4f036961c11d06930619ec335b9e7f",
     "snapshot": "guidance/snapshots/2026-11-05/github-com-Lightricks-LTX-Video.txt",
     "title": "LTX-Video GitHub (open weights)"
   },
   "https://github.com/Wan-Video": {
-    "checked": "2026-11-08",
-    "sha256": "55508a6ec6c9ea36d4ccc3653045698d0f56075a4619d7a55dd953adfe9d27e5",
-    "snapshot": "guidance/snapshots/2026-11-08/github-com-Wan-Video.txt",
+    "checked": "2026-11-09",
+    "sha256": "9b5475efdaf16bbe9bc4d66df45cc0e718f572e9da4c876fdd39fd326bcb6d66",
+    "snapshot": "guidance/snapshots/2026-11-09/github-com-Wan-Video.txt",
     "title": "Wan (Alibaba) GitHub"
   },
   "https://github.com/firecrawl/firecrawl": {
-    "checked": "2026-11-08",
-    "sha256": "488ef85e12827eba62060b85de5b7e7bf68ec873cb57a6f8f17c1a5ab5adaa88",
-    "snapshot": "guidance/snapshots/2026-11-08/github-com-firecrawl-firecrawl.txt",
+    "checked": "2026-11-09",
+    "sha256": "9d8061fe5b5a9daaae5c3a8c5664a9846652191404748c09f6bc3b77c70fb29b",
+    "snapshot": "guidance/snapshots/2026-11-09/github-com-firecrawl-firecrawl.txt",
     "title": "Firecrawl GitHub"
   },
   "https://github.com/unclecode/crawl4ai": {
-    "checked": "2026-11-08",
-    "sha256": "85ee01eecd41807952443e927abe21c1e93d6d7d219dab1f42955e92b6a6a2fa",
-    "snapshot": "guidance/snapshots/2026-11-08/github-com-unclecode-crawl4ai.txt",
+    "checked": "2026-11-09",
+    "sha256": "49cc11e20e50e45c71d25c6153f352616b020fcb09e73874907a334e3016c3e3",
+    "snapshot": "guidance/snapshots/2026-11-09/github-com-unclecode-crawl4ai.txt",
     "title": "Crawl4AI GitHub"
   },
   "https://jina.ai/reader/": {
-    "checked": "2026-11-08",
+    "checked": "2026-11-09",
     "sha256": "2564595a8e860d594649c1b234d944feb9de54a4e4c9a552cea940c143236d97",
     "snapshot": "guidance/snapshots/2026-11-05/jina-ai-reader.txt",
     "title": "Jina Reader"
   },
   "https://klingai.com/": {
-    "checked": "2026-11-08",
+    "checked": "2026-11-09",
     "sha256": "47e826ffe444951619af6d9b7ff52ad12bff033c763c10955a83a8e6287670bb",
     "snapshot": "guidance/snapshots/2026-11-05/klingai-com.txt",
     "title": "Kling AI"
   },
   "https://learn.chatgpt.com/docs/app-server": {
-    "checked": "2026-11-08",
-    "sha256": "fd53cec3e6703972a04c9e3472f58e113f7c17f0058040b09defcbaecf858921",
-    "snapshot": "guidance/snapshots/2026-11-08/learn-chatgpt-com-docs-app-server.txt",
+    "checked": "2026-11-09",
+    "sha256": "b3e85b659e4ddbaeeb63cfee77e9e868082529d08a96b8e06b09b1b1482d4c26",
+    "snapshot": "guidance/snapshots/2026-11-09/learn-chatgpt-com-docs-app-server.txt",
     "title": "Codex app-server"
   },
   "https://learn.chatgpt.com/docs/build-skills": {
-    "checked": "2026-11-08",
-    "sha256": "65ef4a758128b501147164daff0f98b48b1906f60fbec2fc9fc7e25f33df2363",
-    "snapshot": "guidance/snapshots/2026-11-08/learn-chatgpt-com-docs-build-skills.txt",
+    "checked": "2026-11-09",
+    "sha256": "b711e462c2cb20b569fbef715a5ea1d009b83fa8c0c3fa73d696a59e1981df50",
+    "snapshot": "guidance/snapshots/2026-11-09/learn-chatgpt-com-docs-build-skills.txt",
     "title": "Codex: build skills"
   },
   "https://learn.chatgpt.com/docs/extend/mcp?surface=cli": {
-    "checked": "2026-11-08",
-    "sha256": "c2395a62dad773f1a24b3e378aa98c75f329c46b90c787cd9b0d6e6b1d494748",
-    "snapshot": "guidance/snapshots/2026-11-08/learn-chatgpt-com-docs-extend-mcp-surface-cli.txt",
+    "checked": "2026-11-09",
+    "sha256": "df31324c2ddee5f6ad962f1bbeb7119fbd59e8bb1171fd9163c5e2ae02f17ca6",
+    "snapshot": "guidance/snapshots/2026-11-09/learn-chatgpt-com-docs-extend-mcp-surface-cli.txt",
     "title": "Codex MCP (CLI)"
   },
   "https://learn.chatgpt.com/docs/learn/best-practices": {
-    "checked": "2026-11-08",
-    "sha256": "ed13362d1c09cb612309bcd84026e7020d9ce5d0cd829cb9ab0cd93d8abc16e7",
-    "snapshot": "guidance/snapshots/2026-11-08/learn-chatgpt-com-docs-learn-best-practices.txt",
+    "checked": "2026-11-09",
+    "sha256": "2011c7c9176db0f7c43c57231d4d0d0da046eed16e15bf2021939599cb004fc7",
+    "snapshot": "guidance/snapshots/2026-11-09/learn-chatgpt-com-docs-learn-best-practices.txt",
     "title": "Codex best practices"
   },
   "https://learn.chatgpt.com/docs/prompting": {
-    "checked": "2026-11-08",
-    "sha256": "e201aa4c56e4e9d9c395e36faa0e46f3bc2858c9402ebc27e2c55ac52d188945",
-    "snapshot": "guidance/snapshots/2026-11-08/learn-chatgpt-com-docs-prompting.txt",
+    "checked": "2026-11-09",
+    "sha256": "54fae3c31ac526aa3c070ada7989031cdb2a6e3b1b40e6056a25b3f6fc231243",
+    "snapshot": "guidance/snapshots/2026-11-09/learn-chatgpt-com-docs-prompting.txt",
     "title": "Codex prompting"
   },
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview": {
-    "checked": "2026-11-08",
-    "sha256": "b0ef595cec1d0f9d3671b239267bba7558450eeb19cf1fac5b999a0978e42f29",
-    "snapshot": "guidance/snapshots/2026-10-28/platform-claude-com-docs-en-build-with-claude-prompt-engineering-overview.txt",
+    "checked": "2026-11-09",
+    "sha256": "dd86359beca2967c425d41fdb24bb649a33fe3bae9e68907da0362fd2af1d401",
+    "snapshot": "guidance/snapshots/2026-11-09/platform-claude-com-docs-en-build-with-claude-prompt-engineering-overview.txt",
     "title": "Prompting best practices (Claude platform docs)"
   },
   "https://platform.openai.com/docs/guides/prompt-engineering": {
-    "checked": "2026-11-08",
-    "sha256": "332cef70ddb98e0fc024e1722af83560f49da2c7808cf53ca7f8ce12ccc7b6c0",
-    "snapshot": "guidance/snapshots/2026-11-08/platform-openai-com-docs-guides-prompt-engineering.txt",
+    "checked": "2026-11-09",
+    "sha256": "42e0d98d40d7efe45cd628214aba08e2c3a53f512c4f7435dd051d307470ce81",
+    "snapshot": "guidance/snapshots/2026-11-09/platform-openai-com-docs-guides-prompt-engineering.txt",
     "title": "OpenAI prompt engineering guide"
   },
   "https://platform.openai.com/docs/guides/video-generation": {
-    "checked": "2026-11-08",
-    "sha256": "1e31b267bbee23e5f50eee9c521a8fced7137cd65ae9e858005f0485cbe8f97f",
-    "snapshot": "guidance/snapshots/2026-11-08/platform-openai-com-docs-guides-video-generation.txt",
+    "checked": "2026-11-09",
+    "sha256": "657049b9283cde85657b5376a2cfba3530808e2020331db4a90c75339a75056f",
+    "snapshot": "guidance/snapshots/2026-11-09/platform-openai-com-docs-guides-video-generation.txt",
     "title": "OpenAI video guide (Sora shutdown notice)"
   },
   "https://runwayml.com/": {
-    "checked": "2026-11-08",
-    "sha256": "e96674aa95c9877b9ecedb1b2fcf839bfd87342ce64fd468af5982594b19f9e0",
-    "snapshot": "guidance/snapshots/2026-11-03/runwayml-com.txt",
+    "checked": "2026-11-09",
+    "sha256": "8ea2f3321a3326d6754b3884e4489c700d31182fa29a7da6446c8e7f47f6e9bd",
+    "snapshot": "guidance/snapshots/2026-11-09/runwayml-com.txt",
     "title": "Runway"
   },
   "https://seed.bytedance.com/": {
-    "checked": "2026-11-08",
-    "sha256": "f398da9ebdea73ff32cfd2c38808855241d392495033b04cc37c73ca1871fd81",
-    "snapshot": "guidance/snapshots/2026-10-24/seed-bytedance-com.txt",
+    "checked": "2026-11-09",
+    "sha256": "1cb28e0ecbe54239406e215942348295de7de403fb53ef6ec7fc769285b8db84",
+    "snapshot": "guidance/snapshots/2026-11-09/seed-bytedance-com.txt",
     "title": "Seedance (ByteDance Seed)"
   },
   "https://www.anthropic.com/engineering": {
-    "checked": "2026-11-08",
-    "sha256": "15756f783b9ed898ea344d7b1ea504ad4595733984df2a583012962cef904a5f",
-    "snapshot": "guidance/snapshots/2026-11-07/www-anthropic-com-engineering.txt",
+    "checked": "2026-11-09",
+    "sha256": "da0669c6bca44343b6e1cfac74356f598d48ad32e138868093a6cb36b8d98627",
+    "snapshot": "guidance/snapshots/2026-11-09/www-anthropic-com-engineering.txt",
     "title": "Anthropic engineering blog index"
   },
   "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents": {
-    "checked": "2026-11-08",
-    "sha256": "7d8e385f93f3abf4b52b50b861f57bf9e176cc209197a2f15dd26a15d86f3cf7",
-    "snapshot": "guidance/snapshots/2026-11-06/www-anthropic-com-engineering-effective-context-engineering-for-ai-agents.txt",
+    "checked": "2026-11-09",
+    "sha256": "110ef9b4e46321b8a3e1fc0e8d502ff95f36635fac1d4f1489f8fa70e9e66270",
+    "snapshot": "guidance/snapshots/2026-11-09/www-anthropic-com-engineering-effective-context-engineering-for-ai-agents.txt",
     "title": "Effective context engineering for AI agents"
   }
 }
