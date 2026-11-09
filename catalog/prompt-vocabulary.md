@@ -19,6 +19,7 @@ The labs' guidance (see `guidance/provider-guidance.md`) converges on one idea: 
 ## Context
 - Point at the exact file, page, record, or number. "Look at X" beats "you know my project."
 - Load only the skill/tool the job needs. Every tool definition left plugged in is tokens on every turn.
+- 2026-11-09: For persistent memory, keep always-loaded context small, retrieve detail as needed, and check notes against original records when reviewing memory. Source: https://www.anthropic.com/research/components-of-agent-memory
 - 2026-11-08: For Claude Code MCP task responses that must work before 2.1.317, include `createdAt`, `lastUpdatedAt`, and `ttlMs`; omit `pollIntervalMs` or give a number. Source: https://code.claude.com/docs/en/mcp
 - 2026-11-07: If a Claude Code cloud session lists an MCP tool as unavailable, check deny rules, server connection and model visibility, and the 128-character full-name limit before assuming it can be used. Source: https://code.claude.com/docs/en/mcp
 - When context is missing, ask the one question that unblocks the task instead of guessing.
