@@ -1730,3 +1730,97 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+11.4k stars`
     - `-11.3k stars`
     - `+11.4k stars`
+
+## 2026-11-11
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,374 -> 224,400 chars; last seen 2026-11-10) — https://code.claude.com/docs/en/best-practices
+    - `-What's New`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,001 -> 192,018 chars; last seen 2026-11-10) — https://code.claude.com/docs/en/costs
+    - `-What's New`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (477,635 -> 477,653 chars; last seen 2026-11-10) — https://code.claude.com/docs/en/skills
+    - `-What's New`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (203,451 -> 203,471 chars; last seen 2026-11-10) — https://code.claude.com/docs/en/commands
+    - `-What's New`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (200,487 -> 200,451 chars; last seen 2026-11-10) — https://code.claude.com/docs/en/settings
+    - `-What's New`
+    - `-Configuration error : ~/.claude.json can’t be parsed. A claude -p run exits, and your file is unchanged. See Configuration error in ~/.claude.json to restore an earlier copy. Claude Code copies the b`
+    - `+Configuration error : ~/.claude.json can’t be parsed. A claude -p run exits. See Configuration error in ~/.claude.json to restore an earlier copy. Claude Code copies the broken file to ~/.claude/back`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (317,504 -> 317,537 chars; last seen 2026-11-10) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-What's New`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (579,007 -> 579,022 chars; last seen 2026-11-10) — https://code.claude.com/docs/en/mcp
+    - `-What's New`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (22,819 -> 23,057 chars; last seen 2026-11-10) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `+Contents`
+    - `+Agent building failure modes for large organizations`
+    - `+Using an agent loop with progressive disclosure`
+    - `+How to fold subagents into the main agent loop`
+    - `+How several teams can contribute to a single agent`
+    - `+Tools to accelerate this work`
+- **OpenAI / Codex / Codex best practices** — changed (26,338 -> 26,357 chars; last seen 2026-11-10) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Student Collective`
+- **OpenAI / Codex / Codex prompting** — changed (32,442 -> 32,461 chars; last seen 2026-11-10) — https://learn.chatgpt.com/docs/prompting
+    - `+Student Collective`
+- **OpenAI / Codex / Codex: build skills** — changed (21,842 -> 21,861 chars; last seen 2026-11-10) — https://learn.chatgpt.com/docs/build-skills
+    - `+Student Collective`
+- **OpenAI / Codex / Codex app-server** — changed (112,371 -> 112,390 chars; last seen 2026-11-10) — https://learn.chatgpt.com/docs/app-server
+    - `+Student Collective`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,924 -> 38,943 chars; last seen 2026-11-10) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Student Collective`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,169 -> 19,188 chars; last seen 2026-11-10) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Student Collective`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,663 -> 52,682 chars; last seen 2026-11-10) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Student Collective`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (18,171 -> 18,190 chars; last seen 2026-11-10) — https://developers.openai.com/blog
+    - `+Student Collective`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,572 -> 172,687 chars; last seen 2026-11-10) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,816 -> 24,816 chars; last seen 2026-11-10) — https://github.com/firecrawl/firecrawl
+    - `-Issues 114 ( 114 )`
+    - `-Pull requests 667 ( 667 )`
+    - `+Issues 115 ( 115 )`
+    - `+Pull requests 675 ( 675 )`
+    - `-Fork 10.5k ( 10.5k )`
+    - `-Star 200k ( 200k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (361,473 -> 361,509 chars; last seen 2026-11-10) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (116,736 -> 122,258 chars; last seen 2026-11-10) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-10) — https://github.com/unclecode/crawl4ai
+    - `-Pull requests 268 ( 268 )`
+    - `+Pull requests 272 ( 272 )`
+- **Video generation / Runway** — changed (4,268 -> 4,138 chars; last seen 2026-11-10) — https://runwayml.com/
+    - `-A complete toolkit to run policy inference through photorealistic simulation.`
+    - `-From policy inference and evaluation to synthetic data generation, every component is powered by GWM-1, our state-of-the-art General World Model. Pick the surface you need — we'll work with you to fi`
+    - `+Robot policies built on video pretraining.`
+    - `+Start with Praxis-1, our state-of-the-art world action model, available to everyone with open weights under the Apache 2.0 license. Fine-tune it on your embodiment and run it on your own hardware.`
+    - `-Policy Model`
+    - `-Offline Policy Evaluation`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,423 -> 4,423 chars; last seen 2026-11-10) — https://github.com/Wan-Video
+    - `-18.5k`
+    - `+18.6k`
+    - `-377`
+    - `+379`
+    - `-18,514`
+    - `-Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,963 -> 39,982 chars; last seen 2026-11-10) — https://platform.openai.com/docs/guides/video-generation
+    - `+Student Collective`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-10) — https://github.com/Lightricks/LTX-Video
+    - `-Pull requests 13 ( 13 )`
+    - `+Pull requests 14 ( 14 )`
