@@ -1824,3 +1824,135 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-10) — https://github.com/Lightricks/LTX-Video
     - `-Pull requests 13 ( 13 )`
     - `+Pull requests 14 ( 14 )`
+
+## 2026-11-12
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,400 -> 224,400 chars; last seen 2026-11-11) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,018 -> 192,018 chars; last seen 2026-11-11) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (477,653 -> 478,191 chars; last seen 2026-11-11) — https://code.claude.com/docs/en/skills
+    - `+latency-optimize Find where the time goes in your existing Claude API code and propose changes that reduce how long people wait v2.1.319 or later`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (203,471 -> 203,505 chars; last seen 2026-11-11) — https://code.claude.com/docs/en/commands
+    - `-/claude-api [migrate|upgrade|api-version|managed-agents-onboard|managed-agents-secure|prompt-audit|cost-optimize|build-eval|hillclimb|preserved-thinking-migration] Skill . Load Claude API and Managed`
+    - `+/claude-api [migrate|upgrade|api-version|managed-agents-onboard|managed-agents-secure|prompt-audit|cost-optimize|latency-optimize|build-eval|hillclimb|preserved-thinking-migration] Skill . Load Claud`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (200,451 -> 200,451 chars; last seen 2026-11-11) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (317,537 -> 317,537 chars; last seen 2026-11-11) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (579,022 -> 579,022 chars; last seen 2026-11-11) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (23,057 -> 22,995 chars; last seen 2026-11-11) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `+Article Nov 12, 2026`
+    - `+The Claude Tag guide for startups`
+    - `+How leading startups use Claude Tag to ship faster and scale operations`
+    - `+Claude Tag`
+    - `-Article Oct 27, 2026`
+    - `-Manage costs and demonstrate ROI for Claude Code on Google Cloud`
+- **OpenAI / Codex / Codex best practices** — changed (26,357 -> 26,379 chars; last seen 2026-11-11) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex prompting** — changed (32,461 -> 32,483 chars; last seen 2026-11-11) — https://learn.chatgpt.com/docs/prompting
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex: build skills** — changed (21,861 -> 21,883 chars; last seen 2026-11-11) — https://learn.chatgpt.com/docs/build-skills
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex app-server** — changed (112,390 -> 112,412 chars; last seen 2026-11-11) — https://learn.chatgpt.com/docs/app-server
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,943 -> 38,965 chars; last seen 2026-11-11) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,188 -> 19,203 chars; last seen 2026-11-11) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,682 -> 52,704 chars; last seen 2026-11-11) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (18,190 -> 18,412 chars; last seen 2026-11-11) — https://developers.openai.com/blog
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,687 -> 172,687 chars; last seen 2026-11-11) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (24,816 -> 25,496 chars; last seen 2026-11-11) — https://github.com/firecrawl/firecrawl
+    - `-Issues 115 ( 115 )`
+    - `-Pull requests 675 ( 675 )`
+    - `+Issues 116 ( 116 )`
+    - `+Pull requests 680 ( 680 )`
+    - `-200.9k stars`
+    - `+201.2k stars`
+- **Web scraping and search for agents / Exa docs** — changed (361,509 -> 361,509 chars; last seen 2026-11-11) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (122,258 -> 122,258 chars; last seen 2026-11-11) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-11) — https://github.com/unclecode/crawl4ai
+    - `-Issues 59 ( 59 )`
+    - `-Pull requests 272 ( 272 )`
+    - `+Issues 62 ( 62 )`
+    - `+Pull requests 279 ( 279 )`
+    - `-Star 87.2k ( 87.2k ) You must be signed in to star a repository`
+    - `+Star 87.3k ( 87.3k ) You must be signed in to star a repository`
+- **Video generation / Runway** — changed (4,138 -> 4,064 chars; last seen 2026-11-11) — https://runwayml.com/
+    - `-Introducing Praxis-1 An open-weight world action model that turns Runway's video pretraining into control for real robots. Learn more`
+    - `+Praxis-1 Is Now Available Praxis-1, Runway’s world action model for robotics, is now available with open weights under Apache 2.0. Download it on Hugging Face and GitHub. Learn more`
+    - `-Runway Joins Claude Marketplace Enterprise customers can now buy Runway Creative through Claude Marketplace and apply their existing Anthropic commitment toward Runway. Learn more`
+    - `+Runway Dev is in Claude Code, Codex and Cursor Learn more`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,423 -> 4,425 chars; last seen 2026-11-11) — https://github.com/Wan-Video
+    - `+4.1k`
+    - `-445`
+    - `+446`
+    - `-379`
+    - `+380`
+    - `-18,550`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,982 -> 40,004 chars; last seen 2026-11-11) — https://platform.openai.com/docs/guides/video-generation
+    - `-Codex Security Cloud Setup`
+    - `+Daybreak Defense Factory Setup`
+    - `-Managed configuration Self-host configuration`
+    - `+Managed configuration Desktop browser policies`
+    - `+Self-host configuration`
+    - `+Securing persistent agents like OpenClaw at OpenAI`
