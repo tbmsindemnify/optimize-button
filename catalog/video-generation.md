@@ -4,6 +4,8 @@ Checked 2026-10-24 against vendor pages and current roundups (llms.blog "Best AI
 
 Status note: OpenAI shut down Sora 2 and the Videos API on September 24, 2026 (OpenAI video guide and deprecations page). Do not route video work to Sora.
 
+- 2026-11-12: Runway Dev offers an optional MCP-and-skills plugin for building API integrations in Claude Code, Codex and Cursor; the plugin itself does not generate media. Source: https://docs.dev.runwayml.com/guides/plugin/
+
 | Tool | Maker | Good for (per vendor/roundups) | Access | Open weights |
 |---|---|---|---|---|
 | Veo 3.1 / Gemini Omni Flash | Google | dialogue, native audio, conversational editing; widest access (Gemini app, API, YouTube Shorts) | API + app | no |
