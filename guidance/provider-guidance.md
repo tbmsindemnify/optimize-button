@@ -1,10 +1,10 @@
 # Provider guidance — the rules the Optimize button applies
 
-These rules come from the labs' own published pages (sources listed under each section). They are refreshed from the daily snapshots in `snapshots/` by a reviewed pull request; the date in the first line below is the last human review. Originally written for Tyler's Herdr fork, which is why some lines reference installed Codex/Claude Code versions; the generic rules are the same.
+These rules come from the labs' own published pages (sources listed under each section). They are refreshed from the daily snapshots in `snapshots/` by a reviewed pull request; the date in the first line below is the last source review. Originally written for Tyler's Herdr fork, which is why some lines reference installed Codex/Claude Code versions; the generic rules are the same.
 
 ---
 
-# Provider guidance reviewed 2026-10-24
+# Provider guidance reviewed 2026-11-12
 
 These are dated implementation principles, not a promise that every installed model or extension is available. The Optimize button loads separate policy records from `optimizer_providers.py` and passes them to BOTH Ollama and EXO. Model-specific effort defaults are not guessed.
 
@@ -25,6 +25,8 @@ Installed Codex 0.164.0 and local source `970111f6cb` support bare `/compact`; i
 ## Claude Code
 
 Provide clear scope and an observable verification method. Keep context relevant, load skills progressively, retain useful deferred tool search, and use independent subagents where context isolation or parallel work helps. Compaction should retain current goal, corrections, constraints, decisions, exact paths, unresolved defects and verification evidence. Avoid overlapping specialist scaffolding solely for domain labels; October 22's architecture article emphasizes end-to-end task evaluations.
+
+- 2026-11-12: For latency work on existing Claude API code, consider the bundled `/claude-api latency-optimize` skill if Claude Code is v2.1.319 or later; do not assume it is available in older installations. Source: https://code.claude.com/docs/en/skills
 
 Sources:
 - https://code.claude.com/docs/en/best-practices
