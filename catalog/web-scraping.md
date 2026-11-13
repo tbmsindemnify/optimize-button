@@ -14,4 +14,7 @@ Checked 2026-10-24. The refresh job watches the official docs in `guidance/sourc
 
 Pairing that works: **Exa finds, Firecrawl reads.** Exa returns the five pages that match what you meant; Firecrawl turns each into clean text; the model gets exactly the pages that matter, with the source attached to every fact.
 
+- 2026-11-13: Firecrawl documents an optional hosted MCP connection for Factory Droid for web search, scraping and interaction; authenticate outside the agent chat. Source: https://docs.firecrawl.dev/quickstarts/factory-droid
+- 2026-11-13: Firecrawl v1 scrape, crawl, batch scrape, search, map and account endpoints are scheduled to stop working on 2026-12-10 at 15:00 UTC; migrate affected integrations to v2 beforehand. Source: https://docs.firecrawl.dev/migrate-to-v2
+
 Rule the button enforces: the question can leave the building, the file cannot. Searches go out; client files, PII and internal strategy never go into a search query or a hosted scraper.
