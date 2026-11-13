@@ -1956,3 +1956,162 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+Managed configuration Desktop browser policies`
     - `+Self-host configuration`
     - `+Securing persistent agents like OpenClaw at OpenAI`
+
+## 2026-11-13
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,400 -> 224,372 chars; last seen 2026-11-12) — https://code.claude.com/docs/en/best-practices
+    - `-{ "type" : "command" , "command" : "npx prettier --write --ignore-unknown \" $(jq -r '.tool_input.file_path') \" " }`
+    - `+{ "type" : "command" , "command" : "f=$(jq -r '.tool_input.file_path') && npx prettier --write --ignore-unknown \" $f \" " }`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,018 -> 191,952 chars; last seen 2026-11-12) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (478,191 -> 478,071 chars; last seen 2026-11-12) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (203,505 -> 203,071 chars; last seen 2026-11-12) — https://code.claude.com/docs/en/commands
+    - `-/verify runs only when you invoke it.`
+    - `-/deep-research runs only when you invoke it.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (200,451 -> 200,483 chars; last seen 2026-11-12) — https://code.claude.com/docs/en/settings
+    - `+Code Mode`
+    - `-The reload covers user, project, local, and managed settings, and Claude Code runs the ConfigChange hook for each settings-file change it detects, not for managed settings that arrive from MDM or the`
+    - `+The reload covers user, project, local, and managed settings. Claude Code runs the ConfigChange hook for direct edits to settings files, not for managed settings that arrive from MDM or the claude.ai`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (317,537 -> 317,457 chars; last seen 2026-11-12) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (579,022 -> 578,814 chars; last seen 2026-11-12) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Prompting best practices (Claude platform docs)** — changed (3,701 -> 3,693 chars; last seen 2026-11-12) — https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+    - `-Before prompt engineering `
+    - `+Before prompt engineering`
+    - `-When to prompt engineer `
+    - `+When to prompt engineer`
+    - `-How to prompt engineer `
+    - `+How to prompt engineer`
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (22,995 -> 22,992 chars; last seen 2026-11-12) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `-For example, one company found the dozen of specialist subagents within its customer-facing agent made a consistent on-brand experience difficult to maintain and added latency that hurt the user expe`
+    - `+For example, one company found the dozen specialist subagents within its customer-facing agent made a consistent on-brand experience difficult to maintain and added latency that hurt the user experie`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,829 -> 4,817 chars; last seen 2026-11-12) — https://www.anthropic.com/engineering
+    - `+Nov 13, 2026 Building strong safety evaluations`
+    - `-Apr 18, 2025 Claude Code: Best practices for agentic coding`
+    - `-28 posts`
+    - `+29 posts`
+    - `-28 posts`
+    - `+29 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,379 -> 26,662 chars; last seen 2026-11-12) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **OpenAI / Codex / Codex prompting** — changed (32,483 -> 32,766 chars; last seen 2026-11-12) — https://learn.chatgpt.com/docs/prompting
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **OpenAI / Codex / Codex: build skills** — changed (21,883 -> 22,166 chars; last seen 2026-11-12) — https://learn.chatgpt.com/docs/build-skills
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **OpenAI / Codex / Codex app-server** — changed (112,412 -> 112,695 chars; last seen 2026-11-12) — https://learn.chatgpt.com/docs/app-server
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (38,965 -> 39,248 chars; last seen 2026-11-12) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,203 -> 19,486 chars; last seen 2026-11-12) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,704 -> 52,814 chars; last seen 2026-11-12) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (18,412 -> 18,695 chars; last seen 2026-11-12) — https://developers.openai.com/blog
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
+- **Web scraping and search for agents / Firecrawl docs** — changed (172,687 -> 176,111 chars; last seen 2026-11-12) — https://docs.firecrawl.dev/
+    - `+Factory Droid`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (25,496 -> 25,496 chars; last seen 2026-11-12) — https://github.com/firecrawl/firecrawl
+    - `-Issues 116 ( 116 )`
+    - `-Pull requests 680 ( 680 )`
+    - `+Issues 117 ( 117 )`
+    - `+Pull requests 678 ( 678 )`
+    - `-Star 201k ( 201k ) You must be signed in to star a repository`
+    - `+Star 202k ( 202k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (361,509 -> 361,505 chars; last seen 2026-11-12) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,261 -> 15,323 chars; last seen 2026-11-12) — https://exa.ai/privacy
+    - `-Contact sales Sign up`
+    - `+Sign in Sign up API Dashboard`
+    - `+Contact sales`
+    - `-Blog Docs Enterprise Pricing`
+    - `-Contact sales Sign up`
+    - `+Docs Pricing`
+- **Web scraping and search for agents / Tavily docs** — changed (122,258 -> 122,248 chars; last seen 2026-11-12) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-12) — https://github.com/unclecode/crawl4ai
+    - `-Issues 62 ( 62 )`
+    - `-Pull requests 279 ( 279 )`
+    - `+Issues 65 ( 65 )`
+    - `+Pull requests 281 ( 281 )`
+- **Video generation / Kling AI** — changed (6,597 -> 7,107 chars; last seen 2026-11-12) — https://klingai.com/
+    - `+Kling AI User Guide Video 3.0 IMAGE 3.0 VIDEO 3.0 Omni IMAGE 3.0 Omni Element Library 3.0`
+    - `+Release History Cinema-Grade Native 4K, Now on Kling Al Kling Al Team Features Now Available Kling VIDEO 3.0 Motion Control: Major Launch`
+    - `+Blog World’s First Native 4K Video Model Kling-Powered L'Ultimo Uomo Reale Inside Portugal's AI World Cup Film`
+    - `+Video`
+    - `+Video Generation Text to Video Image to Video AI Video Editor`
+    - `+Image`
+- **Video generation / Runway** — changed (4,064 -> 4,089 chars; last seen 2026-11-12) — https://runwayml.com/
+    - `-Enterprises get up to 2 months of usage free. Enterprises get up to 2 months of usage free. Sign by 12/31.`
+    - `-See terms Contact sales`
+    - `+Enterprises get up to 2 months of usage free. Sign by 12/31. See terms Enterprises get up to 2 months of usage free. Sign by 12/31. See terms`
+    - `+Contact sales`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,492 chars; last seen 2026-11-12) — https://github.com/Wan-Video
+    - `-380`
+    - `+383`
+    - `-18,591`
+    - `-Apache-2.0`
+    - `-2,474`
+    - `-287`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (40,004 -> 40,287 chars; last seen 2026-11-12) — https://platform.openai.com/docs/guides/video-generation
+    - `+Agent Access`
+    - `+Allow verified ChatGPT browser visits to your website`
+    - `+Data residency`
+    - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
+    - `-Guides`
