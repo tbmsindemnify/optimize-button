@@ -1,10 +1,10 @@
 # Provider guidance — the rules the Optimize button applies
 
-These rules come from the labs' own published pages (sources listed under each section). They are refreshed from the daily snapshots in `snapshots/` by a reviewed pull request; the date in the first line below is the last human review. Originally written for Tyler's Herdr fork, which is why some lines reference installed Codex/Claude Code versions; the generic rules are the same.
+These rules come from the labs' own published pages (sources listed under each section). They are refreshed from the daily snapshots in `snapshots/` by a reviewed pull request; the date below is the latest source review proposed for human review. Originally written for Tyler's Herdr fork, which is why some lines reference installed Codex/Claude Code versions; the generic rules are the same.
 
 ---
 
-# Provider guidance reviewed 2026-10-24
+# Provider guidance reviewed 2026-11-13
 
 These are dated implementation principles, not a promise that every installed model or extension is available. The Optimize button loads separate policy records from `optimizer_providers.py` and passes them to BOTH Ollama and EXO. Model-specific effort defaults are not guessed.
 
@@ -38,6 +38,13 @@ Sources:
 - https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
 
 Installed Claude Code 2.1.309 supports `/compact [instructions]`. Project-local skill/plugin changes affect other panes in that project; MCP toggles are also project scoped. `--settings` is session-scoped at launch; `--plugin-dir` adds a plugin for one launch. `/reload-plugins` does not turn shared settings into pane-only settings. Prepared overrides use `skillOverrides` and `enabledPlugins`, without changing provider files or permissions. Plugin-provided skills cannot independently be switched off through the standalone skill override.
+
+- 2026-11-13: Do not rely on the `ConfigChange` hook to detect managed settings delivered by MDM or the claude.ai console; it runs for direct settings-file edits. Source: https://code.claude.com/docs/en/settings
+
+## Web scraping tools
+
+- 2026-11-13: Firecrawl documents hosted MCP search, scraping and interaction for Factory Droid; authenticate the connection separately rather than pasting credentials into chat. Source: https://docs.firecrawl.dev/quickstarts/factory-droid
+- 2026-11-13: For affected Firecrawl v1 scrape, crawl, batch scrape, search, map and account endpoints, plan a v2 migration before the announced shutdown on 2026-12-10 at 15:00 UTC; do not treat them as retired yet. Source: https://docs.firecrawl.dev/migrate-to-v2
 
 ## Observable implementation limits
 
