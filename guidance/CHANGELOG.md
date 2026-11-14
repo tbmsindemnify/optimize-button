@@ -2115,3 +2115,80 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases`
     - `+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases`
     - `-Guides`
+
+## 2026-11-14
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,372 -> 224,372 chars; last seen 2026-11-13) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (191,952 -> 191,952 chars; last seen 2026-11-13) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (478,071 -> 479,554 chars; last seen 2026-11-13) — https://code.claude.com/docs/en/skills
+    - `-You invoke a bundled skill by typing / followed by the skill name. Claude invokes some bundled skills automatically when relevant; others, including /verify , run only when you invoke them.`
+    - `+You invoke a bundled skill by typing / followed by the skill name. Claude invokes some bundled skills automatically when relevant.`
+    - `-Live change detection covers SKILL.md text only. For a skill folder that is also a plugin , changes to hooks/ , .mcp.json , agents/ , and output-styles/ need /reload-plugins to take effect.`
+    - `+Live change detection covers SKILL.md text. For a skill folder that is also a plugin , changes to .mcp.json , agents/ , and output-styles/ need /reload-plugins to take effect. Changes to hooks/ need `
+    - `-Outside auto mode , when a command’s permission check returns anything other than allow, Claude Code aborts the invocation with the same error. This includes a rule that would normally ask you. To ke`
+    - `+Outside auto mode , when a command’s permission check returns anything other than allow, Claude Code aborts the invocation. To keep an unmatched command from aborting, pre-approve it with allowed-too`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (203,071 -> 202,989 chars; last seen 2026-11-13) — https://code.claude.com/docs/en/commands
+    - `-/stickers Order Claude Code stickers`
+    - `+/stickers Check Claude Code sticker availability`
+    - `-/upgrade Open the upgrade page in your browser to switch to a higher plan tier. When the browser fails to open, the command shows a sign-in prompt without printing the URL`
+    - `+/upgrade Open the upgrade page in your browser to switch to a higher plan tier. When no browser can open the page, for example over SSH, the command prints the page’s URL above its sign-in prompt. Pr`
+    - `-/usage-credits Configure usage credits, or request them from your admin, when you hit a limit. Opens your usage-credits billing settings in the browser, except that Team and Enterprise members withou`
+    - `+/usage-credits Configure usage credits, or request them from your admin, when you hit a limit. Opens your usage-credits billing settings in the browser. Team and Enterprise members without billing ac`
+- **Anthropic / Claude / Claude Code settings** — changed (200,483 -> 200,483 chars; last seen 2026-11-13) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (317,457 -> 317,483 chars; last seen 2026-11-13) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-ref The pinned branch or tag. github and git sources, only when pinned`
+    - `+ref The pinned branch, tag, or commit SHA. github and git sources, only when pinned`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (578,814 -> 578,673 chars; last seen 2026-11-13) — https://code.claude.com/docs/en/mcp
+    - `-A running task can open an elicitation dialog to ask you for input. While /tasks is open, the dialog stays hidden, so close /tasks to answer. Declining or pressing Esc is an answer to the server, whi`
+    - `+A running task can open an elicitation dialog to ask you for input. While /tasks is open, the dialog stays hidden, so close /tasks to answer. Declining is an answer to the server, which then decides `
+    - `+Unless you’ve set Claude to wait for the result , press Esc in the dialog to answer later. To reopen the question, run /tasks , open the task’s details, and press Enter . Answering later requires Cla`
+    - `-Start the session with --strict-mcp-config . Claude Code then uses only the MCP servers you pass with --mcp-config . Skipping the approval prompt for the project-scoped servers Claude Code isn’t load`
+    - `+Start the session with --strict-mcp-config . Claude Code then loads the servers you pass with --mcp-config and skips the ones configured in places such as .mcp.json . Skipping the approval prompt for`
+    - `-If you open a local session in the Desktop app’s Code tab with the same stdio server name at the top level of ~/.claude.json (user scope) and in .mcp.json , the Code tab uses the ~/.claude.json defin`
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (22,992 -> 22,997 chars; last seen 2026-11-13) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `-Article Nov 12, 2026`
+    - `+Article Nov 13, 2026`
+    - `+Building always-on agents`
+    - `+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.`
+    - `+Claude Platform`
+    - `+Article Nov 13, 2026`
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,111 -> 176,111 chars; last seen 2026-11-13) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (25,496 -> 25,496 chars; last seen 2026-11-13) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 678 ( 678 )`
+    - `+Pull requests 682 ( 682 )`
+    - `-201.5k stars`
+    - `+201.7k stars`
+    - `-498 watching`
+    - `+500 watching`
+- **Web scraping and search for agents / Exa docs** — changed (361,505 -> 361,505 chars; last seen 2026-11-13) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (122,248 -> 117,942 chars; last seen 2026-11-13) — https://docs.tavily.com/
+    - `-curl -fsSL https://cli.tavily.com/install.sh | bash`
+    - `-tvly login`
+    - `+npx @tavily/cli init`
+    - `-tavily_client = TavilyClient( api_key = "tvly-YOUR_API_KEY" )`
+    - `+tavily_client = TavilyClient(api_key= "tvly-YOUR_API_KEY" )`
+    - `-print (response)`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-13) — https://github.com/unclecode/crawl4ai
+    - `-423 watching`
+    - `+422 watching`
+    - `-423 watching`
+    - `+422 watching`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,492 -> 4,425 chars; last seen 2026-11-13) — https://github.com/Wan-Video
+    - `-18,625`
+    - `-Apache-2.0`
+    - `-2,478`
+    - `+18,639`
+    - `+Apache-2.0`
+    - `+2,480`

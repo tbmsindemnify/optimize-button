@@ -12,6 +12,8 @@ Checked 2026-10-24. The refresh job watches the official docs in `guidance/sourc
 | Playwright / Browserbase | scripted real browsers | yes / hosted | logins, dynamic pages, forms |
 | Perplexity Search API | search with answers; led a Sept 2026 independent accuracy benchmark (openbenchmarks.com) | no | when the task is "answer with sources" rather than "give me pages" |
 
+2026-11-14: For Tavily's OpenCode setup, the documented terminal example is `npx @tavily/cli init`; follow the rest of the setup guide separately. Source: https://docs.tavily.com/
+
 Pairing that works: **Exa finds, Firecrawl reads.** Exa returns the five pages that match what you meant; Firecrawl turns each into clean text; the model gets exactly the pages that matter, with the source attached to every fact.
 
 Rule the button enforces: the question can leave the building, the file cannot. Searches go out; client files, PII and internal strategy never go into a search query or a hosted scraper.
