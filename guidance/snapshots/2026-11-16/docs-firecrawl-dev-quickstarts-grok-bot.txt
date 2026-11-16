@@ -1,0 +1,72 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.firecrawl.dev/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Firecrawl in Grok Bot
+
+> Add the Firecrawl plugin to Grok Bot to search the web, read pages, and work with live web data.
+
+[Grok Bot](https://x.ai/bot) is xAI's agent app. Firecrawl is listed as a Grok Bot plugin, so your Bots can search the web, scrape pages, and interact with dynamic sites through Firecrawl after you sign in once.
+
+![](https://mintcdn.com/firecrawl/Ivk3Cd1mDCAfuybU/images/agent-clients/grok-bot.svg?fit=max\&auto=format\&n=Ivk3Cd1mDCAfuybU\&q=85\&s=045555e3515e6a458f9084b8256a53e5)
+
+Add to Grok Bot
+
+
+[Open](https://x.ai/bot/plugin/789)
+
+## Install Firecrawl
+
+**1. Open the Firecrawl plugin**
+
+Click **Add to Grok Bot** above to open Firecrawl's plugin listing, then select **Add to Grok Bot** there. The Grok Bot desktop app opens to finish the install. You can also open **Connect apps** from the Grok Bot sidebar and search for **Firecrawl**.
+
+**2. Sign in to Firecrawl**
+
+When Grok Bot asks you to authorize the plugin, finish the Firecrawl sign-in in your browser, choose a team, and approve access. Grok Bot shows the connection once sign-in completes.
+
+**3. Start a task**
+
+Confirm Firecrawl appears under **Installed** in **Connect apps**. In a chat, type `@` and choose Firecrawl to attach it to the task, or ask your Bot to use Firecrawl with the prompt below.
+
+The plugin connects to Firecrawl's hosted MCP server with browser sign-in and includes Firecrawl skills. You do not need to configure an MCP server, copy an API key, or install skills separately. Connected apps are account-wide, so every Bot on your Grok Bot account can use Firecrawl.
+
+## Try it in Grok Bot
+
+```text theme={null}
+Using Firecrawl, look up the latest AI news and scrape the top result.
+```
+
+```text theme={null}
+Use Firecrawl to find the latest Next.js release notes.
+Read the official sources and summarize what changed, with links.
+```
+
+## What you can do
+
+> [card] [Search](https://docs.firecrawl.dev/features/search.md)
+>
+> Find current information and read the content of relevant results.
+
+> [card] [Scrape](https://docs.firecrawl.dev/features/scrape.md)
+>
+> Turn URLs into clean markdown or structured data.
+
+> [card] [Interact](https://docs.firecrawl.dev/features/interact.md)
+>
+> Navigate, click, and fill forms to reach the data you need.
+
+> [card] [Alexandria](https://docs.firecrawl.dev/features/alexandria.md)
+>
+> Discover structured data tools, inspect inputs and pricing, then run them through Firecrawl.
+
+## If Firecrawl does not appear
+
+* **The plugin shows Needs auth or Disconnected:** open Firecrawl in **Connect apps** and choose **Authenticate**, or **Reconnect**, to bring the sign-in page back.
+* **Sign-in did not finish:** start it again from the plugin and complete the Firecrawl sign-in in your browser.
+* **The Bot says Firecrawl is missing:** check that Firecrawl is listed under **Installed** in **Connect apps**, then start a new message.
+
+Review or revoke the connection under [Connected apps in Settings](https://www.firecrawl.dev/app/settings?tab=mcp). For other clients, see the [For Humans sign-in guide](https://docs.firecrawl.dev/mcp-server/oauth.md). Using xAI's coding CLI instead? Follow the [Grok Build guide](https://docs.firecrawl.dev/quickstarts/grok-build.md).
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
