@@ -2258,3 +2258,105 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-Apache-2.0`
     - `-2,480`
     - `+18,674`
+
+## 2026-11-16
+
+- **OpenAI / Codex / Codex best practices** — changed (26,662 -> 26,832 chars; last seen 2026-11-15) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **OpenAI / Codex / Codex prompting** — changed (32,766 -> 32,936 chars; last seen 2026-11-15) — https://learn.chatgpt.com/docs/prompting
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **OpenAI / Codex / Codex: build skills** — changed (22,166 -> 22,336 chars; last seen 2026-11-15) — https://learn.chatgpt.com/docs/build-skills
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **OpenAI / Codex / Codex app-server** — changed (112,695 -> 112,865 chars; last seen 2026-11-15) — https://learn.chatgpt.com/docs/app-server
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (39,248 -> 39,418 chars; last seen 2026-11-15) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,486 -> 19,656 chars; last seen 2026-11-15) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (52,814 -> 52,984 chars; last seen 2026-11-15) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (18,695 -> 18,865 chars; last seen 2026-11-15) — https://developers.openai.com/blog
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,111 -> 176,308 chars; last seen 2026-11-15) — https://docs.firecrawl.dev/
+    - `+Grok Bot`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (25,496 -> 25,496 chars; last seen 2026-11-15) — https://github.com/firecrawl/firecrawl
+    - `-Issues 117 ( 117 )`
+    - `-Pull requests 688 ( 688 )`
+    - `+Issues 118 ( 118 )`
+    - `+Pull requests 687 ( 687 )`
+    - `-202.0k stars`
+    - `+202.2k stars`
+- **Web scraping and search for agents / Exa docs** — changed (361,505 -> 361,505 chars; last seen 2026-11-15) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-15) — https://github.com/unclecode/crawl4ai
+    - `-Issues 65 ( 65 )`
+    - `-Pull requests 286 ( 286 )`
+    - `+Issues 66 ( 66 )`
+    - `+Pull requests 281 ( 281 )`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,425 chars; last seen 2026-11-15) — https://github.com/Wan-Video
+    - `-383`
+    - `+384`
+    - `-18,674`
+    - `-Apache-2.0`
+    - `-2,484`
+    - `-290`
+- **Video generation / Seedance (ByteDance Seed)** — changed (5,065 -> 4,659 chars; last seen 2026-11-15) — https://seed.bytedance.com/
+    - `-Home Models Blog & Publication Seed Edge Join Us`
+    - `-Try now`
+    - `+Home Models Blog & Publication Seed Edge Join Us Try now Try Dola Try in Playground`
+    - `-Jul 31, 2026 Visual Learn more`
+    - `+Nov 16, 2026 Visual Learn more`
+    - `-Jul 20, 2026 Audio Learn more`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (40,287 -> 40,457 chars; last seen 2026-11-15) — https://platform.openai.com/docs/guides/video-generation
+    - `-Explore use cases`
+    - `-Collections`
+    - `+Home`
+    - `+All use cases`
+    - `-Explore use cases`
+    - `+Home`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-15) — https://github.com/Lightricks/LTX-Video
+    - `-Issues 94 ( 94 )`
+    - `+Issues 95 ( 95 )`
