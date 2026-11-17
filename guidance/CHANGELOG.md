@@ -2399,3 +2399,120 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-15) — https://github.com/Lightricks/LTX-Video
     - `-Issues 94 ( 94 )`
     - `+Issues 95 ( 95 )`
+
+## 2026-11-17
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,300 -> 224,493 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/best-practices
+    - `-Keep "$defaults" in every list you set, because without it your entries replace that list’s built-in rules instead of adding to them. For environment and allow you’d lose the built-in context and exc`
+    - `+Keep "$defaults" in every list you set, because without it your entries can replace that list’s built-in rules instead of adding to them. You can lose the built-in context in environment , the except`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,231 -> 192,469 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/costs
+    - `-The Session block at the top of /usage shows detailed token usage statistics for your current session.`
+    - `+Run /usage at the Claude Code prompt and look under the Session heading for your current session’s token usage.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (480,070 -> 480,218 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/skills
+    - `-Cowork sessions and cloud sessions , including cloud scheduled tasks , don’t read ~/.claude/skills/ on your machine. Both interactive and scheduled Cowork sessions load the skills enabled for your cl`
+    - `+Cowork sessions and cloud sessions , including cloud scheduled tasks , don’t read ~/.claude/skills/ on your machine. Both interactive and scheduled Cowork sessions load the skills enabled for your cl`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,404 -> 202,652 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/commands
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (200,505 -> 200,683 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (317,169 -> 317,403 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-When you uninstall a plugin from the last scope it’s installed at, Claude Code also deletes the plugin’s stored options and secrets and its data directory, ~/.claude/plugins/data/<id>/ . There are th`
+    - `+When you uninstall a plugin from the last scope it’s installed at, Claude Code also deletes the plugin’s stored options and secrets and its data directory, ~/.claude/plugins/data/<id>/ . Some or all `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (578,675 -> 578,209 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/mcp
+    - `-Claude Code displays a warning when MCP tool output exceeds 10,000 tokens and limits output to 25,000 tokens by default. To change the token limit, set the MAX_MCP_OUTPUT_TOKENS environment variable,`
+    - `+For limits on the size of tool output, see MCP output limits and warnings`
+    - `-Output warning threshold : Claude Code displays a warning when any MCP tool output exceeds 10,000 tokens`
+    - `+Output warning threshold : the transcript viewer displays a warning when any MCP tool output exceeds a fixed 10,000 tokens`
+    - `-anyOf and oneOf : properties from every branch are merged, and each branch’s required list is described in the tool description instead of enforced by the schema`
+    - `+anyOf and oneOf : properties from every branch are merged, and each branch’s required list is described in the tool description`
+- **OpenAI / Codex / Codex best practices** — changed (26,848 -> 26,904 chars; last seen 2026-11-16) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+    - `-Use GPT-6.1 Sol when available to your account and client, starting with the reasoning effort available by default in your client. Start with High for GPT-6 Luna or Light for GPT-6 Astra ( low in con`
+    - `+If GPT-6.2 Sol is available to you, start there for most tasks. For a change`
+    - `+that spans packages, choose GPT-6.2 Astra from the model picker.`
+    - `+With either model, start with the reasoning effort your client selects. For GPT-6 Luna,`
+- **OpenAI / Codex / Codex prompting** — changed (32,952 -> 33,057 chars; last seen 2026-11-16) — https://learn.chatgpt.com/docs/prompting
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+    - `+For GPT-6.2 guidance on reasoning effort, subagents, and visual work, see`
+    - `+Prompting GPT-6.2 in Codex .`
+- **OpenAI / Codex / Codex: build skills** — changed (22,352 -> 22,354 chars; last seen 2026-11-16) — https://learn.chatgpt.com/docs/build-skills
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+- **OpenAI / Codex / Codex app-server** — changed (113,864 -> 115,930 chars; last seen 2026-11-16) — https://learn.chatgpt.com/docs/app-server
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+    - `-The examples use GPT-6.1 Sol , which requires access`
+    - `+The request examples use GPT-6.1 Sol , which requires access`
+    - `-Example (Node.js / TypeScript):`
+    - `+The following examples use the stdio transport:`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (39,434 -> 39,436 chars; last seen 2026-11-16) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,672 -> 19,674 chars; last seen 2026-11-16) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (53,016 -> 53,110 chars; last seen 2026-11-16) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+    - `-model: "gpt-6-astra" ,`
+    - `+model: "gpt-6.2-astra" ,`
+    - `-model="gpt-6-astra",`
+    - `+model="gpt-6.2-astra",`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (18,881 -> 18,883 chars; last seen 2026-11-16) — https://developers.openai.com/blog
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,308 -> 176,490 chars; last seen 2026-11-16) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (25,496 -> 25,472 chars; last seen 2026-11-16) — https://github.com/firecrawl/firecrawl
+    - `-Issues 118 ( 118 )`
+    - `-Pull requests 687 ( 687 )`
+    - `+Issues 119 ( 119 )`
+    - `+Pull requests 698 ( 698 )`
+    - `-Star 202k ( 202k ) You must be signed in to star a repository`
+    - `+Star 203k ( 203k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (361,505 -> 361,774 chars; last seen 2026-11-16) — https://docs.exa.ai/
+    - `+Pricing`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,323 -> 15,331 chars; last seen 2026-11-16) — https://exa.ai/privacy
+    - `+Websets`
+- **Web scraping and search for agents / Tavily docs** — changed (121,754 -> 121,932 chars; last seen 2026-11-16) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-16) — https://github.com/unclecode/crawl4ai
+    - `-Star 87.4k ( 87.4k ) You must be signed in to star a repository`
+    - `+Star 87.5k ( 87.5k ) You must be signed in to star a repository`
+    - `-87.4k stars`
+    - `+87.5k stars`
+    - `-1,792 Commits`
+    - `-1,792 Commits`
+- **Video generation / Kling AI** — changed (7,107 -> 7,018 chars; last seen 2026-11-16) — https://klingai.com/
+    - `-Kling Image 3.0`
+    - `-Enhanced Cinematic Storytelling Understands cinematic language with precision, giving every still image the narrative power of film. Native 4K Ultra-HD Generation Generate stunning native 4K visuals `
+    - `+Kling Image 4.0`
+    - `+True-to-Life Realism Natural Lighting. Lifelike Results. Native 8K Resolution Rich Detail. Intricate Textures. Exceptional Text Rendering Crisp Small Text. Creative Typography. Coherent Image Sets On`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,425 chars; last seen 2026-11-16) — https://github.com/Wan-Video
+    - `-17.4k`
+    - `+17.5k`
+    - `-385`
+    - `+386`
+    - `-18,701`
+    - `-Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (40,473 -> 40,477 chars; last seen 2026-11-16) — https://platform.openai.com/docs/guides/video-generation
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
+    - `-Using GPT-6`
+    - `+Using GPT-6.2`
