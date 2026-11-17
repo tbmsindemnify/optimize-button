@@ -2399,3 +2399,68 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-15) — https://github.com/Lightricks/LTX-Video
     - `-Issues 94 ( 94 )`
     - `+Issues 95 ( 95 )`
+
+## 2026-11-17
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,300 -> 224,300 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,231 -> 192,291 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/costs
+    - `-The Session block at the top of /usage shows detailed token usage statistics for your current session.`
+    - `+Run /usage at the Claude Code prompt and look under the Session heading for your current session’s token usage.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (480,070 -> 480,036 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/skills
+    - `-Cowork sessions and cloud sessions , including cloud scheduled tasks , don’t read ~/.claude/skills/ on your machine. Both interactive and scheduled Cowork sessions load the skills enabled for your cl`
+    - `+Cowork sessions and cloud sessions , including cloud scheduled tasks , don’t read ~/.claude/skills/ on your machine. Both interactive and scheduled Cowork sessions load the skills enabled for your cl`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,404 -> 202,474 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/commands
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (200,505 -> 200,505 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (317,169 -> 317,221 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-When you uninstall a plugin from the last scope it’s installed at, Claude Code also deletes the plugin’s stored options and secrets and its data directory, ~/.claude/plugins/data/<id>/ . There are th`
+    - `+When you uninstall a plugin from the last scope it’s installed at, Claude Code also deletes the plugin’s stored options and secrets and its data directory, ~/.claude/plugins/data/<id>/ . Some or all `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (578,675 -> 578,607 chars; last seen 2026-11-16) — https://code.claude.com/docs/en/mcp
+    - `-anyOf and oneOf : properties from every branch are merged, and each branch’s required list is described in the tool description instead of enforced by the schema`
+    - `+anyOf and oneOf : properties from every branch are merged, and each branch’s required list is described in the tool description`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,308 -> 176,490 chars; last seen 2026-11-16) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (25,496 -> 25,472 chars; last seen 2026-11-16) — https://github.com/firecrawl/firecrawl
+    - `-Issues 118 ( 118 )`
+    - `-Pull requests 687 ( 687 )`
+    - `+Issues 119 ( 119 )`
+    - `+Pull requests 693 ( 693 )`
+    - `-202.3k stars`
+    - `+202.5k stars`
+- **Web scraping and search for agents / Exa docs** — changed (361,505 -> 361,774 chars; last seen 2026-11-16) — https://docs.exa.ai/
+    - `+Pricing`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,323 -> 15,331 chars; last seen 2026-11-16) — https://exa.ai/privacy
+    - `+Websets`
+- **Web scraping and search for agents / Tavily docs** — changed (121,754 -> 115,865 chars; last seen 2026-11-16) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-16) — https://github.com/unclecode/crawl4ai
+    - `-Star 87.4k ( 87.4k ) You must be signed in to star a repository`
+    - `+Star 87.5k ( 87.5k ) You must be signed in to star a repository`
+    - `-87.4k stars`
+    - `+87.5k stars`
+    - `-422 watching`
+    - `+423 watching`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,425 chars; last seen 2026-11-16) — https://github.com/Wan-Video
+    - `-385`
+    - `+386`
+    - `-18,701`
+    - `-Apache-2.0`
+    - `-2,501`
+    - `+18,721`
