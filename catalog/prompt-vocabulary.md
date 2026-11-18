@@ -20,6 +20,7 @@ The labs' guidance (see `guidance/provider-guidance.md`) converges on one idea: 
 - Point at the exact file, page, record, or number. "Look at X" beats "you know my project."
 - Load only the skill/tool the job needs. Every tool definition left plugged in is tokens on every turn.
 - When context is missing, ask the one question that unblocks the task instead of guessing.
+- 2026-11-18: For OpenAI Responses conversations, put reusable guidance first in a developer message and turn-specific guidance in `instructions`; place reusable examples and references before changing user input for cache eligibility. Source: https://platform.openai.com/docs/guides/prompt-engineering
 
 ## Compaction
 - When a thread is long or stale: summarize goal, decisions, constraints, exact paths, open defects, verification evidence; drop the chatter. Claude: `/compact <focus>`. Codex: `/compact`.
