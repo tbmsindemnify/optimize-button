@@ -1,16 +1,18 @@
 # Provider guidance — the rules the Optimize button applies
 
-These rules come from the labs' own published pages (sources listed under each section). They are refreshed from the daily snapshots in `snapshots/` by a reviewed pull request; the date in the first line below is the last human review. Originally written for Tyler's Herdr fork, which is why some lines reference installed Codex/Claude Code versions; the generic rules are the same.
+These rules come from the labs' own published pages (sources listed under each section). They are refreshed from the daily snapshots in `snapshots/` by a pull request for human review; the date below is the source review date. Originally written for Tyler's Herdr fork, which is why some lines reference installed Codex/Claude Code versions; the generic rules are the same.
 
 ---
 
-# Provider guidance reviewed 2026-10-24
+# Provider guidance reviewed 2026-11-18
 
 These are dated implementation principles, not a promise that every installed model or extension is available. The Optimize button loads separate policy records from `optimizer_providers.py` and passes them to BOTH Ollama and EXO. Model-specific effort defaults are not guessed.
 
 ## OpenAI Codex
 
 Write direct outcome-oriented tasks with relevant repository context, exact constraints and completion checks. Audit stale/overlapping skill instructions; use progressive discovery. Preserve ongoing work and use native compaction. The September 11 article evaluates leaner skills/prompts for newer models; its benchmark numbers are not a guaranteed saving for this installation.
+
+- 2026-11-18: For the Responses API, put reusable guidance in the first developer message and turn-specific guidance in top-level `instructions`; with `previous_response_id`, the initial developer message remains in the conversation. Put reusable examples and references before changing input for prompt-cache eligibility. Source: https://platform.openai.com/docs/guides/prompt-engineering
 
 Sources:
 - https://learn.chatgpt.com/docs/learn/best-practices
@@ -25,6 +27,8 @@ Installed Codex 0.164.0 and local source `970111f6cb` support bare `/compact`; i
 ## Claude Code
 
 Provide clear scope and an observable verification method. Keep context relevant, load skills progressively, retain useful deferred tool search, and use independent subagents where context isolation or parallel work helps. Compaction should retain current goal, corrections, constraints, decisions, exact paths, unresolved defects and verification evidence. Avoid overlapping specialist scaffolding solely for domain labels; October 22's architecture article emphasizes end-to-end task evaluations.
+
+- 2026-11-18: Avoid uninstalling plugins merely to reduce prompt context: when Claude Code deletes a plugin's saved options and secrets, it also deletes that plugin's MCP-bundle files extracted by v2.1.326 or later unless another plugin uses an identical bundle. Source: https://code.claude.com/docs/en/plugins/cli-reference
 
 Sources:
 - https://code.claude.com/docs/en/best-practices
