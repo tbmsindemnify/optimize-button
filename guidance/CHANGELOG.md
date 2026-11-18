@@ -2516,3 +2516,112 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+Using GPT-6.2`
     - `-Using GPT-6`
     - `+Using GPT-6.2`
+
+## 2026-11-18
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,493 -> 224,635 chars; last seen 2026-11-17) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,469 -> 192,607 chars; last seen 2026-11-17) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (480,218 -> 480,352 chars; last seen 2026-11-17) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,652 -> 202,794 chars; last seen 2026-11-17) — https://code.claude.com/docs/en/commands
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (200,683 -> 200,825 chars; last seen 2026-11-17) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (317,403 -> 318,579 chars; last seen 2026-11-17) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `+When Claude Code deletes the options and secrets, it also deletes the files that v2.1.326 or later extracted into ~/.claude/plugins/mcpb/ from the plugin’s MCP bundles . It keeps them while another p`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (578,209 -> 578,423 chars; last seen 2026-11-17) — https://code.claude.com/docs/en/mcp
+    - `-Tool set to ask : Claude Code prompts on every call with the reason Your organization requires approval for this tool . The prompt appears even in acceptEdits , auto , and bypassPermissions permissio`
+    - `+Tool set to ask : Claude Code prompts on every call Claude makes, with the reason Your organization requires approval for this tool . The prompt appears even in acceptEdits , auto , and bypassPermiss`
+    - `-If you’re building an MCP server, you can mark a tool as requiring explicit approval on every call by setting _meta["anthropic/requiresUserInteraction"] to true in the tool’s tools/list response entr`
+    - `-Claude Code shows that tool’s permission prompt on every call, even in acceptEdits , auto , and bypassPermissions permission modes , and doesn’t offer a “don’t ask again” option for it. Allow rules t`
+    - `+If you’re building an MCP server, you can mark a tool as requiring explicit approval by setting _meta["anthropic/requiresUserInteraction"] to true in the tool’s tools/list response entry. The value m`
+    - `+Claude Code shows that tool’s permission prompt on every call Claude makes, even in acceptEdits , auto , and bypassPermissions permission modes , and doesn’t offer a “don’t ask again” option for it. `
+- **Anthropic / Claude / Prompting best practices (Claude platform docs)** — changed (3,692 -> 3,696 chars; last seen 2026-11-17) — https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+    - `- Search Ctrl K`
+    - `+ Search ⌘ K Ctrl K`
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (23,033 -> 23,196 chars; last seen 2026-11-17) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `+Article Nov 17, 2026`
+    - `+Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests`
+    - `+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to `
+    - `+Claude Code Claude apps`
+    - `+(opens in new tab)`
+    - `+Article Nov 16, 2026`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,817 -> 4,817 chars; last seen 2026-11-17) — https://www.anthropic.com/engineering
+    - `-51 posts`
+    - `+50 posts`
+    - `-26 posts`
+    - `+27 posts`
+    - `-39 posts`
+    - `+38 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,904 -> 26,917 chars; last seen 2026-11-17) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Google Cloud`
+- **OpenAI / Codex / Codex prompting** — changed (33,057 -> 33,070 chars; last seen 2026-11-17) — https://learn.chatgpt.com/docs/prompting
+    - `+Google Cloud`
+- **OpenAI / Codex / Codex: build skills** — changed (22,354 -> 22,367 chars; last seen 2026-11-17) — https://learn.chatgpt.com/docs/build-skills
+    - `+Google Cloud`
+- **OpenAI / Codex / Codex app-server** — changed (115,930 -> 115,943 chars; last seen 2026-11-17) — https://learn.chatgpt.com/docs/app-server
+    - `+Google Cloud`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (39,436 -> 39,449 chars; last seen 2026-11-17) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Google Cloud`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,674 -> 19,687 chars; last seen 2026-11-17) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Google Cloud`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (53,110 -> 54,243 chars; last seen 2026-11-17) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Google Cloud`
+    - `-Some prompt engineering techniques work with every model, like using message roles. But different model types (like reasoning versus GPT models) might need to be prompted differently to produce the b`
+    - `+Some prompt engineering techniques work with every model, like using message roles. But different model types (like reasoning versus GPT models) might need to be prompted differently to produce the b`
+    - `-The instructions parameter gives the model high-level instructions on how it should behave while generating a response, including tone, goals, and examples of correct responses. Any instructions prov`
+    - `+The instructions parameter gives the model high-level instructions on how it should behave while generating a response, including tone, goals, and examples of correct responses. These instructions ta`
+    - `-The example above is roughly equivalent to using the following input messages in the input array:`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (18,883 -> 18,896 chars; last seen 2026-11-17) — https://developers.openai.com/blog
+    - `+Google Cloud`
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,490 -> 176,739 chars; last seen 2026-11-17) — https://docs.firecrawl.dev/
+    - `+Firecrawl Local`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (25,472 -> 25,708 chars; last seen 2026-11-17) — https://github.com/firecrawl/firecrawl
+    - `-GitHub - firecrawl/firecrawl: Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 · GitHub`
+    - `+GitHub - firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API. · GitHub`
+    - `-Pull requests 698 ( 698 )`
+    - `+Pull requests 700 ( 700 )`
+    - `-Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥`
+    - `+Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.`
+- **Web scraping and search for agents / Exa docs** — changed (361,774 -> 361,912 chars; last seen 2026-11-17) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Tavily docs** — changed (121,932 -> 122,074 chars; last seen 2026-11-17) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-17) — https://github.com/unclecode/crawl4ai
+    - `-Issues 66 ( 66 )`
+    - `+Issues 68 ( 68 )`
+- **Video generation / Kling AI** — changed (7,018 -> 7,016 chars; last seen 2026-11-17) — https://klingai.com/
+    - `-True-to-Life Realism Natural Lighting. Lifelike Results. Native 8K Resolution Rich Detail. Intricate Textures. Exceptional Text Rendering Crisp Small Text. Creative Typography. Coherent Image Sets On`
+    - `+True-to-Life Realism Natural Lighting. Lifelike Results. Native 8K Ultra HD Rich Detail. Intricate Textures. Exceptional Text Rendering Crisp Small Text. Creative Typography. Coherent Image Sets One `
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,425 chars; last seen 2026-11-17) — https://github.com/Wan-Video
+    - `-18.7k`
+    - `+18.8k`
+    - `-386`
+    - `+387`
+    - `-18,730`
+    - `-Apache-2.0`
+- **Video generation / Seedance (ByteDance Seed)** — changed (4,659 -> 4,667 chars; last seen 2026-11-17) — https://seed.bytedance.com/
+    - `-Learn more Tech blog`
+    - `+Learn more Tech blog Try now`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (40,477 -> 40,490 chars; last seen 2026-11-17) — https://platform.openai.com/docs/guides/video-generation
+    - `+Google Cloud`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-17) — https://github.com/Lightricks/LTX-Video
+    - `-Fork 1.2k ( 1.2k )`
+    - `+Fork 1.3k ( 1.3k )`
+    - `-1.2k forks`
+    - `+1.3k forks`
+    - `-1.2k forks`
+    - `+1.3k forks`
