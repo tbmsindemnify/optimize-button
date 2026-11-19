@@ -2625,3 +2625,87 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+1.3k forks`
     - `-1.2k forks`
     - `+1.3k forks`
+
+## 2026-11-19
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,635 -> 218,154 chars; last seen 2026-11-18) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/best-practices","slug":"/en/best-practices","pageMetadata":{"title":"Best practices for Claude Code","sidebarTitle":"Best practices","description":"Get more out of Claude Code`
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,607 -> 192,609 chars; last seen 2026-11-18) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/costs","slug":"/en/costs","pageMetadata":{"sidebarTitle":"Costs","title":"Manage costs effectively","description":"Track token usage, set team spend limits, and reduce Claude `
+- **Anthropic / Claude / Claude Code skills** — changed (480,352 -> 480,354 chars; last seen 2026-11-18) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/skills","slug":"/en/skills","pageMetadata":{"title":"Extend Claude with skills","description":"Create, manage, and share skills to extend Claude's capabilities in Claude Code.`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,794 -> 202,961 chars; last seen 2026-11-18) — https://code.claude.com/docs/en/commands
+    - `-/tui [default|fullscreen] Set the terminal UI renderer and relaunch into it with your conversation intact. fullscreen enables the flicker-free alt-screen renderer . With no argument, prints the activ`
+    - `+/tui [classic|fullscreen] Set the terminal UI renderer and relaunch into it. fullscreen enables the flicker-free alt-screen renderer . default , or classic on v2.1.327 or later, selects the classic r`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/commands","slug":"/en/commands","pageMetadata":{"title":"Commands","description":"Complete reference for commands available in Claude Code, including built-in commands and bun`
+- **Anthropic / Claude / Claude Code settings** — changed (200,825 -> 200,823 chars; last seen 2026-11-18) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/settings","slug":"/en/settings","pageMetadata":{"title":"Settings files and precedence","description":"Change Claude Code settings, pick the scope a key belongs in, verify the`
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (318,579 -> 318,539 chars; last seen 2026-11-18) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-/plugin list [--enabled|--disabled] ls Prints your marketplace-installed plugins inline, with version, scope, and status. A filter flag shows only that state. A plugin whose enable state hasn’t been `
+    - `+/plugin list [--enabled|--disabled] ls Prints your marketplace-installed plugins inline, with version, scope, and status. A filter flag shows only that state. A plugin whose enable state hasn’t been `
+    - `-If you name a plugin that isn’t installed in the current project in /plugin enable , disable , uninstall , or configure , Claude Code prints Plugin "<plugin>" is not installed in this project instead`
+    - `+If you name a plugin that isn’t on the Installed tab in /plugin enable , disable , uninstall , or configure , Claude Code prints a message ending in installed in this project .`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (578,423 -> 580,160 chars; last seen 2026-11-18) — https://code.claude.com/docs/en/mcp
+    - `-In an interactive session : /mcp shows the server as pending while Claude Code reconnects. After five failed attempts, Claude Code marks the server as failed, or as needing authentication when the se`
+    - `+In an interactive session : /mcp shows the server as pending while Claude Code reconnects. After five failed attempts, Claude Code marks the server as failed, or as needing authentication when the se`
+    - `+MCP server "<name>" disconnected · still retrying · open /mcp to reconnect now : Claude Code can keep retrying the server for up to about a day. In /mcp , the failed server shows as retrying . You ca`
+    - `+MCP server "<name>" disconnected · open /mcp to reconnect : Claude Code isn’t retrying the server in the background. Reconnect it from /mcp .`
+    - `-After a transient error, such as a 5xx response or a timeout : Claude Code keeps retrying an HTTP or SSE server in the background. Retries last up to about half an hour, and the server’s tools become`
+    - `+After a transient error, such as a 5xx response or a timeout : Claude Code keeps retrying an HTTP or SSE server in the background. Retries last up to about half an hour, or about a day for some serve`
+- **OpenAI / Codex / Codex app-server** — changed (115,943 -> 120,413 chars; last seen 2026-11-18) — https://learn.chatgpt.com/docs/app-server
+    - `+100`
+    - `+101`
+    - `+102`
+    - `+103`
+    - `+104`
+    - `+105`
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,739 -> 176,741 chars; last seen 2026-11-18) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"page":{"pagePath":"introduction","slug":"/introduction","pageMetadata":{"title":"Introduction","description":"The context API for AI agents. Search the web, scrape any page, and interact with it th`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (25,708 -> 19,876 chars; last seen 2026-11-18) — https://github.com/firecrawl/firecrawl
+    - `-Issues 119 ( 119 )`
+    - `-Pull requests 700 ( 700 )`
+    - `+Issues 121 ( 121 )`
+    - `+Pull requests 715 ( 715 )`
+    - `-Fork 10.6k ( 10.6k )`
+    - `-Star 203k ( 203k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (361,912 -> 361,910 chars; last seen 2026-11-18) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,331 -> 15,344 chars; last seen 2026-11-18) — https://exa.ai/privacy
+    - `+For Startups`
+- **Web scraping and search for agents / Tavily docs** — changed (122,074 -> 122,076 chars; last seen 2026-11-18) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,489 chars; last seen 2026-11-18) — https://github.com/unclecode/crawl4ai
+    - `-Pull requests 281 ( 281 )`
+    - `+Pull requests 280 ( 280 )`
+    - `-Star 87.5k ( 87.5k ) You must be signed in to star a repository`
+    - `+Star 87.6k ( 87.6k ) You must be signed in to star a repository`
+    - `-87.5k stars`
+    - `+87.6k stars`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,425 chars; last seen 2026-11-18) — https://github.com/Wan-Video
+    - `-18,759`
+    - `-Apache-2.0`
+    - `-2,519`
+    - `+18,776`
+    - `+Apache-2.0`
+    - `+2,525`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-18) — https://github.com/Lightricks/LTX-Video
+    - `-Pull requests 14 ( 14 )`
+    - `+Pull requests 15 ( 15 )`
