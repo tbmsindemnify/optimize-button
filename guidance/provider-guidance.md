@@ -4,7 +4,7 @@ These rules come from the labs' own published pages (sources listed under each s
 
 ---
 
-# Provider guidance reviewed 2026-10-24
+# Provider guidance reviewed 2026-11-19
 
 These are dated implementation principles, not a promise that every installed model or extension is available. The Optimize button loads separate policy records from `optimizer_providers.py` and passes them to BOTH Ollama and EXO. Model-specific effort defaults are not guessed.
 
@@ -25,6 +25,10 @@ Installed Codex 0.164.0 and local source `970111f6cb` support bare `/compact`; i
 ## Claude Code
 
 Provide clear scope and an observable verification method. Keep context relevant, load skills progressively, retain useful deferred tool search, and use independent subagents where context isolation or parallel work helps. Compaction should retain current goal, corrections, constraints, decisions, exact paths, unresolved defects and verification evidence. Avoid overlapping specialist scaffolding solely for domain labels; October 22's architecture article emphasizes end-to-end task evaluations.
+
+- **2026-11-19:** For a disconnected MCP server, check the notification and `/mcp`: some servers continue background retries for about a day; reconnect manually when retries have stopped. https://code.claude.com/docs/en/mcp
+- **2026-11-19:** Claude Code 2.1.327 or later can read `claude mcp add-json <name> -` from standard input; run the command outside a Claude Code session. https://code.claude.com/docs/en/mcp
+- **2026-11-19:** An MCP tool with organization-mandated or tool-declared per-call approval is denied in Claude Code `-p` when no one can answer; matching allow rules do not skip that approval. https://code.claude.com/docs/en/mcp
 
 Sources:
 - https://code.claude.com/docs/en/best-practices
