@@ -2709,3 +2709,158 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
 - **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-18) — https://github.com/Lightricks/LTX-Video
     - `-Pull requests 14 ( 14 )`
     - `+Pull requests 15 ( 15 )`
+
+## 2026-11-20
+
+- **Anthropic / Claude / Claude Code best practices** — changed (218,154 -> 224,740 chars; last seen 2026-11-19) — https://code.claude.com/docs/en/best-practices
+    - `-A prompt or agent hook asks another model to decide, so it isn’t deterministic either. For real enforcement, use a command or http hook, and add onFailure: "block" if the action should also be stoppe`
+    - `+A prompt or agent hook asks another model to decide, so it isn’t deterministic either. For real enforcement, use a command , http , or mcp_tool hook, and add onFailure: "block" if the action should a`
+    - `+--bare skips your hooks, skills, plugins, MCP servers, and CLAUDE.md files from the repo and your home directory. It also doesn’t use your claude.ai login: auth comes from ANTHROPIC_API_KEY , an apiK`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/best-practices","slug":"/en/best-practices","pageMetadata":{"title":"Best practices for Claude Code","sidebarTitle":"Best practices","description":"Get more out of Claude Code`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,609 -> 192,708 chars; last seen 2026-11-19) — https://code.claude.com/docs/en/costs
+    - `-API organizations manage Claude Code spend through workspaces . You can set workspace spend limits on total Claude Code spend and view cost and usage reporting in the Console.`
+    - `-When you first authenticate Claude Code with your Claude Console account, a workspace called “Claude Code” is automatically created for you. This workspace provides centralized cost tracking and mana`
+    - `+API organizations manage Claude Code spend through workspaces . You can set workspace spend limits and view cost and usage reporting in the Console.`
+    - `+The first time a member signs in and Claude Code creates an API key for them, a workspace called “Claude Code” is automatically created in your Console organization. You can’t create API keys for thi`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/costs","slug":"/en/costs","pageMetadata":{"sidebarTitle":"Costs","title":"Manage costs effectively","description":"Track token usage, set team spend limits, and reduce Claude `
+- **Anthropic / Claude / Claude Code skills** — changed (480,354 -> 480,392 chars; last seen 2026-11-19) — https://code.claude.com/docs/en/skills
+    - `-If you create a top-level skills directory that didn’t exist when the session started, run /reload-skills to pick up the skills you put there. Claude Code isn’t watching that directory yet, so run /r`
+    - `+If a new skill doesn’t appear, run /reload-skills .`
+    - `-paths No Glob patterns that limit when this skill is activated. Accepts a comma-separated string or a YAML list. When set, Claude loads the skill automatically only when working with files matching t`
+    - `+paths No Glob patterns for the files that activate this skill. Accepts a comma-separated string or a YAML list. Patterns are relative to Claude’s current working directory. In the main conversation, `
+    - `-If the skill sets paths , check that the files Claude reads, edits, or writes are inside Claude’s current working directory. The skill doesn’t activate for files outside it, such as those in a siblin`
+    - `+If the skill sets paths , check that the files Claude reads, edits, or writes are inside the directory the patterns are relative to . The skill doesn’t activate for files outside it, such as those in`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,961 -> 202,589 chars; last seen 2026-11-19) — https://code.claude.com/docs/en/commands
+    - `-/terminal-setup Install a Shift+Enter keybinding for newlines in VS Code, Cursor, Devin Desktop, Alacritty, or Zed. In Apple Terminal, enable Option+Enter for newlines and turn off the audible bell i`
+    - `+/terminal-setup Install a Shift+Enter keybinding for newlines in VS Code, Cursor, Devin Desktop, Alacritty, or Zed. In Apple Terminal, turn off the audible bell instead. In iTerm2, turn on clipboard `
+    - `-Commands that aren’t available to you : Claude Code leaves them out of the menu. When nothing matches, Claude Code shows No commands match "/name" . Most unavailable commands return Unknown command w`
+    - `+Commands that aren’t available to you : Claude Code leaves most of them out of the menu. When nothing matches, Claude Code shows No commands match "/name" . If you submit an unavailable command, you `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/commands","slug":"/en/commands","pageMetadata":{"title":"Commands","description":"Complete reference for commands available in Claude Code, including built-in commands and bun`
+- **Anthropic / Claude / Claude Code settings** — changed (200,823 -> 200,373 chars; last seen 2026-11-19) — https://code.claude.com/docs/en/settings
+    - `-User and Project local : create them yourself, or let Claude Code create them. It writes ~/.claude/settings.json the first time you change an option in the /config menu that it stores in user setting`
+    - `+User and Project local : create them yourself, or let Claude Code create them. It writes ~/.claude/settings.json when you save a user setting, such as the theme. It writes .claude/settings.local.json`
+    - `-A few options, such as Show tips : .claude/settings.local.json`
+    - `+Output style : .claude/settings.local.json`
+    - `-A cloud session runs in a cloud environment on a fresh clone of your repository, not on your machine. That changes which settings reach it:`
+    - `+A cloud session runs in a cloud environment on a fresh clone of your repository. That changes which settings reach it:`
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (318,539 -> 324,212 chars; last seen 2026-11-19) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `+plugin restore-set-aside`
+    - `+Dependencies installed during a reload`
+    - `-Plugin arguments : a <plugin> argument is a plugin name or name@marketplace . When two marketplaces offer the same name, use the qualified form. configure takes only the qualified form.`
+    - `+Plugin arguments : a <plugin> argument is a plugin name or name@marketplace . When two marketplaces offer the same name, use the qualified form. configure and restore-set-aside take only the qualifie`
+    - `+In a terminal, success lines leave out Successfully , as in Installed plugin: . When stdout or stderr isn’t a terminal, Successfully stays.`
+    - `+plugin restore-set-aside`
+- **Anthropic / Claude / Claude Code MCP** — changed (580,160 -> 580,160 chars; last seen 2026-11-19) — https://code.claude.com/docs/en/mcp
+    - `-After you resume a session, Claude can call a tool from the saved conversation while the tool’s MCP server is still connecting. While the server is on its first connection attempt, Claude Code holds `
+    - `+After you resume a session, Claude can call a tool from the saved conversation while the tool’s MCP server is still connecting. While the server is on its first connection attempt, Claude Code holds `
+    - `-When the server needs you to sign in again : Claude Code stops retrying, and an Agent SDK session reports the server’s status as needs-auth . Sign in with claude mcp login <name> in your shell. Then `
+    - `+When the server needs you to sign in again : an Agent SDK session reports the server’s status as needs-auth . If claude mcp list shows the server, sign in with claude mcp login <name> in your shell. `
+    - `-Tool set to blocked : Claude Code filters the tool out before Claude sees it, so it never appears in Claude’s tool list. In sessions where Claude Code fetches connectors itself, the /mcp tool list st`
+    - `+Tool set to blocked : Claude Code filters the tool out before Claude sees it, so it doesn’t appear in Claude’s tool list. In sessions where Claude Code fetches connectors itself, the /mcp tool list s`
+- **OpenAI / Codex / Codex best practices** — changed (26,917 -> 26,920 chars; last seen 2026-11-19) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **OpenAI / Codex / Codex prompting** — changed (33,070 -> 33,073 chars; last seen 2026-11-19) — https://learn.chatgpt.com/docs/prompting
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **OpenAI / Codex / Codex: build skills** — changed (22,367 -> 22,370 chars; last seen 2026-11-19) — https://learn.chatgpt.com/docs/build-skills
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **OpenAI / Codex / Codex app-server** — changed (120,413 -> 120,416 chars; last seen 2026-11-19) — https://learn.chatgpt.com/docs/app-server
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (39,449 -> 39,452 chars; last seen 2026-11-19) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,687 -> 19,703 chars; last seen 2026-11-19) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (54,243 -> 54,246 chars; last seen 2026-11-19) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (18,896 -> 19,258 chars; last seen 2026-11-19) — https://developers.openai.com/blog
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,741 -> 163,457 chars; last seen 2026-11-19) — https://docs.firecrawl.dev/
+    - `+Alexandria`
+    - `+More`
+    - `-More`
+    - `-Alexandria`
+    - `-query = "firecrawl" ,`
+    - `-limit = 3 ,`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (19,876 -> 19,897 chars; last seen 2026-11-19) — https://github.com/firecrawl/firecrawl
+    - `-GitHub - firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API. · GitHub`
+    - `+GitHub - firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. · GitHub`
+    - `-Issues 121 ( 121 )`
+    - `-Pull requests 715 ( 715 )`
+    - `+Issues 126 ( 126 )`
+    - `+Pull requests 756 ( 756 )`
+- **Web scraping and search for agents / Exa docs** — changed (361,910 -> 362,039 chars; last seen 2026-11-19) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,344 -> 15,408 chars; last seen 2026-11-19) — https://exa.ai/privacy
+    - `-For Startups`
+    - `+For Startups New`
+    - `+Why Exa`
+    - `+AWS re:Invent 2026 guide`
+    - `+AWS re:Invent 2026 parties`
+- **Web scraping and search for agents / Tavily docs** — changed (122,076 -> 122,201 chars; last seen 2026-11-19) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,489 -> 23,488 chars; last seen 2026-11-19) — https://github.com/unclecode/crawl4ai
+    - `-Issues 68 ( 68 )`
+    - `-Pull requests 280 ( 280 )`
+    - `+Issues 50 ( 50 )`
+    - `+Pull requests 291 ( 291 )`
+    - `-Security and quality 25 ( 25 )`
+    - `+Security and quality 36 ( 36 )`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,425 chars; last seen 2026-11-19) — https://github.com/Wan-Video
+    - `-18,776`
+    - `-Apache-2.0`
+    - `-2,525`
+    - `+18,794`
+    - `+Apache-2.0`
+    - `+2,527`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (40,490 -> 40,493 chars; last seen 2026-11-19) — https://platform.openai.com/docs/guides/video-generation
+    - `-ChatGPT Start searching API Dashboard`
+    - `+ChatGPT API Dashboard`
+    - `-Theme Light Dark System`
+    - `+Language`
+    - `+Loading languages…`
+    - `+Theme Theme`
