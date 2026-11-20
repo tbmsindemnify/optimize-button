@@ -20,6 +20,11 @@ The labs' guidance (see `guidance/provider-guidance.md`) converges on one idea: 
 - Point at the exact file, page, record, or number. "Look at X" beats "you know my project."
 - Load only the skill/tool the job needs. Every tool definition left plugged in is tokens on every turn.
 - When context is missing, ask the one question that unblocks the task instead of guessing.
+- 2026-11-20: Claude Code path-scoped skills in the main conversation stay relative to the primary working directory after `cd` within the same worktree; use `/reload-skills` if a new skill is missing. Source: https://code.claude.com/docs/en/skills
+- 2026-11-20: Claude Code `--bare` skips hooks, skills, plugins, MCP servers and repo/home `CLAUDE.md` files; do not rely on them in a bare session. Source: https://code.claude.com/docs/en/best-practices
+
+## Voice
+- 2026-11-20: For GPT-Live, specify language switches, regional speaking style and register, then test pronunciation, amounts and identifiers; an accent prompt does not guarantee accent consistency. Source: https://developers.openai.com/blog/prompting-multilingual-voice-agents
 
 ## Compaction
 - When a thread is long or stale: summarize goal, decisions, constraints, exact paths, open defects, verification evidence; drop the chatter. Claude: `/compact <focus>`. Codex: `/compact`.
