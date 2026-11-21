@@ -2864,3 +2864,142 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+Language`
     - `+Loading languages…`
     - `+Theme Theme`
+
+## 2026-11-21
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,740 -> 224,205 chars; last seen 2026-11-20) — https://code.claude.com/docs/en/best-practices
+    - `-None of this replaces your deterministic controls, because it runs after them. Deny and ask rules and PreToolUse hooks apply before the classifier sees anything, so a deny rule blocks in auto mode ex`
+    - `+The sandbox still confines the shell commands it wraps .`
+    - `-Was this page helpful?`
+    - `-Yes No`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/best-practices","slug":"/en/best-practices","pageMetadata":{"title":"Best practices for Claude Code","sidebarTitle":"Best practices","description":"Get more out of Claude Code`
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,708 -> 192,729 chars; last seen 2026-11-20) — https://code.claude.com/docs/en/costs
+    - `-Was this page helpful?`
+    - `-Yes No`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/costs","slug":"/en/costs","pageMetadata":{"sidebarTitle":"Costs","title":"Manage costs effectively","description":"Track token usage, set team spend limits, and reduce Claude `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/costs","slug":"/en/costs","pageMetadata":{"sidebarTitle":"Costs","title":"Manage costs effectively","description":"Track token usage, set team spend limits, and reduce Claude `
+- **Anthropic / Claude / Claude Code skills** — changed (480,392 -> 480,236 chars; last seen 2026-11-20) — https://code.claude.com/docs/en/skills
+    - `-Project .claude/skills/<skill-name>/SKILL.md Sessions in this repository, but not cloud threads in a project . Commit it so your team gets it too`
+    - `-Nested <subdir>/.claude/skills/<skill-name>/SKILL.md Sessions started in or below <subdir> , but not cloud threads in a project. Outside those threads, a session started above it loads the skill once`
+    - `+Project .claude/skills/<skill-name>/SKILL.md Sessions in this repository. For a project’s cloud threads, check which threads load it . Commit it so your team gets it too`
+    - `+Nested <subdir>/.claude/skills/<skill-name>/SKILL.md Sessions started in or below <subdir> . A session started above it can load the skill once Claude works on files there. See monorepos and subdirec`
+    - `-For Cowork sessions, cloud sessions, and cloud threads in a project , enable the skill for your claude.ai account. In a project’s cloud thread, skills committed to a repository’s .claude/skills/ aren`
+    - `-For cloud sessions other than project threads, you can instead commit the skill to the repository’s .claude/skills/ . Plugins declared in the repository’s .claude/settings.json and plugins enabled on`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,589 -> 202,584 chars; last seen 2026-11-20) — https://code.claude.com/docs/en/commands
+    - `-/teleport Pull a cloud session into this terminal. Opens a picker, then fetches the branch and conversation. Also available as /tp . Requires a claude.ai subscription`
+    - `+/teleport Pull a cloud session into this terminal. Opens a picker, then loads the conversation. Also available as /tp . Requires a claude.ai subscription`
+    - `-Was this page helpful?`
+    - `-Yes No`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/commands","slug":"/en/commands","pageMetadata":{"title":"Commands","description":"Complete reference for commands available in Claude Code, including built-in commands and bun`
+- **Anthropic / Claude / Claude Code settings** — changed (200,373 -> 200,386 chars; last seen 2026-11-20) — https://code.claude.com/docs/en/settings
+    - `-Was this page helpful?`
+    - `-Yes No`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/settings","slug":"/en/settings","pageMetadata":{"title":"Settings files and precedence","description":"Change Claude Code settings, pick the scope a key belongs in, verify the`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/settings","slug":"/en/settings","pageMetadata":{"title":"Settings files and precedence","description":"Change Claude Code settings, pick the scope a key belongs in, verify the`
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (324,212 -> 326,388 chars; last seen 2026-11-20) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `+Two fields report how a command source ran. Both require Claude Code v2.1.330 or later:`
+    - `+commandPrinted : true when the install succeeded and the source’s command wrote to stderr`
+    - `+commandFailed : true when the source’s command exited with an error, was killed by a signal, or timed out`
+    - `+modules : one item per hooks module, with fields such as hooks and uses , or null when it’s unknown which code loads. Requires Claude Code v2.1.326 or later`
+    - `+wasm : the WebAssembly each hooks module compiles. Requires Claude Code v2.1.326 or later`
+    - `+provides : the plugin’s components by kind, or null when the run can’t list them. Requires Claude Code v2.1.326 or later`
+- **Anthropic / Claude / Claude Code MCP** — changed (580,160 -> 583,405 chars; last seen 2026-11-20) — https://code.claude.com/docs/en/mcp
+    - `+Choose a time to live and a poll interval`
+    - `-MCP tasks are in public beta in the Claude Code CLI and require Claude Code v2.1.304 or later. What a call needs to become an MCP task lists the sessions and servers that get them.`
+    - `+MCP tasks are in public beta and require Claude Code v2.1.304 or later. What a call needs to become an MCP task lists the sessions and servers that get them.`
+    - `-Anthropic has turned MCP tasks on for your kind of session. On v2.1.304 or later that covers terminal CLI sessions, Agent SDK sessions, and GitHub Actions runs. Other surfaces, such as the VS Code ex`
+    - `+Anthropic has turned MCP tasks on for your kind of session:`
+    - `+Terminal CLI sessions, Agent SDK sessions, and GitHub Actions runs have them on v2.1.304 or later`
+- **OpenAI / Codex / Codex best practices** — changed (26,920 -> 26,900 chars; last seen 2026-11-20) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+- **OpenAI / Codex / Codex prompting** — changed (33,073 -> 33,053 chars; last seen 2026-11-20) — https://learn.chatgpt.com/docs/prompting
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+- **OpenAI / Codex / Codex: build skills** — changed (22,370 -> 22,350 chars; last seen 2026-11-20) — https://learn.chatgpt.com/docs/build-skills
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+- **OpenAI / Codex / Codex app-server** — changed (120,416 -> 120,396 chars; last seen 2026-11-20) — https://learn.chatgpt.com/docs/app-server
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (39,452 -> 39,432 chars; last seen 2026-11-20) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,703 -> 19,656 chars; last seen 2026-11-20) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (54,246 -> 54,226 chars; last seen 2026-11-20) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (19,258 -> 19,386 chars; last seen 2026-11-20) — https://developers.openai.com/blog
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Nov 20`
+- **Web scraping and search for agents / Firecrawl docs** — changed (163,457 -> 163,453 chars; last seen 2026-11-20) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `-{"page":{"pagePath":"introduction","slug":"/introduction","pageMetadata":{"title":"Introduction","description":"The context API for AI agents. Search the web, scrape any page, and interact with it th`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"page":{"pagePath":"introduction","slug":"/introduction","pageMetadata":{"title":"Introduction","description":"The context API for AI agents. Search the web, scrape any page, and interact with it th`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (19,897 -> 19,897 chars; last seen 2026-11-20) — https://github.com/firecrawl/firecrawl
+    - `-Issues 126 ( 126 )`
+    - `-Pull requests 756 ( 756 )`
+    - `+Issues 130 ( 130 )`
+    - `+Pull requests 768 ( 768 )`
+    - `-Fork 10.7k ( 10.7k )`
+    - `-Star 205k ( 205k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (362,039 -> 362,052 chars; last seen 2026-11-20) — https://docs.exa.ai/
+    - `-Snapshot`
+    - `+Snapshot NEW`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+- **Web scraping and search for agents / Tavily docs** — changed (122,201 -> 122,201 chars; last seen 2026-11-20) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,488 -> 23,488 chars; last seen 2026-11-20) — https://github.com/unclecode/crawl4ai
+    - `-423 watching`
+    - `+422 watching`
+    - `-423 watching`
+    - `+422 watching`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,492 chars; last seen 2026-11-20) — https://github.com/Wan-Video
+    - `-18,794`
+    - `-Apache-2.0`
+    - `-2,527`
+    - `-291`
+    - `+18,813`
+    - `+Apache-2.0`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (40,493 -> 39,502 chars; last seen 2026-11-20) — https://platform.openai.com/docs/guides/video-generation
+    - `+How I stay in the flow with Ultrafast`
+    - `-Building a retro handheld game with Codex and ModRetro Chromatic`
+    - `+Ask AI`
+    - `+Ruby SDK 1.0 removes client.videos , its types, and the /v1/videos Batch`
+    - `+endpoint option. See the`
+    - `+Ruby SDK migration guide .`
+- **Video generation / LTX-Video GitHub (open weights)** — changed (20,415 -> 20,415 chars; last seen 2026-11-20) — https://github.com/Lightricks/LTX-Video
+    - `-Star 11.4k ( 11.4k ) You must be signed in to star a repository`
+    - `+Star 11.5k ( 11.5k ) You must be signed in to star a repository`
+    - `-11.4k stars`
+    - `+11.5k stars`
+    - `-11.4k stars`
+    - `+11.5k stars`
