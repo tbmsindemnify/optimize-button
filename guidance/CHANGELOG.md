@@ -3003,3 +3003,51 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+11.5k stars`
     - `-11.4k stars`
     - `+11.5k stars`
+
+## 2026-11-22
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,205 -> 224,205 chars; last seen 2026-11-21) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,729 -> 192,729 chars; last seen 2026-11-21) — https://code.claude.com/docs/en/costs
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code skills** — changed (480,236 -> 480,236 chars; last seen 2026-11-21) — https://code.claude.com/docs/en/skills
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,584 -> 202,580 chars; last seen 2026-11-21) — https://code.claude.com/docs/en/commands
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code settings** — changed (200,386 -> 200,386 chars; last seen 2026-11-21) — https://code.claude.com/docs/en/settings
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (326,388 -> 326,388 chars; last seen 2026-11-21) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code MCP** — changed (583,405 -> 583,409 chars; last seen 2026-11-21) — https://code.claude.com/docs/en/mcp
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (19,897 -> 19,897 chars; last seen 2026-11-21) — https://github.com/firecrawl/firecrawl
+    - `-Issues 130 ( 130 )`
+    - `-Pull requests 768 ( 768 )`
+    - `+Issues 133 ( 133 )`
+    - `+Pull requests 781 ( 781 )`
+    - `-Star 206k ( 206k ) You must be signed in to star a repository`
+    - `+Star 207k ( 207k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (362,052 -> 362,052 chars; last seen 2026-11-21) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,488 -> 23,488 chars; last seen 2026-11-21) — https://github.com/unclecode/crawl4ai
+    - `-Issues 50 ( 50 )`
+    - `-Pull requests 291 ( 291 )`
+    - `+Issues 51 ( 51 )`
+    - `+Pull requests 294 ( 294 )`
+    - `-Star 87.6k ( 87.6k ) You must be signed in to star a repository`
+    - `+Star 87.7k ( 87.7k ) You must be signed in to star a repository`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,492 -> 4,492 chars; last seen 2026-11-21) — https://github.com/Wan-Video
+    - `-446`
+    - `+447`
+    - `-387`
+    - `+388`
+    - `-18,813`
+    - `-Apache-2.0`
