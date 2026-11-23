@@ -3051,3 +3051,145 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+388`
     - `-18,813`
     - `-Apache-2.0`
+
+## 2026-11-23
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,205 -> 226,265 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/best-practices
+    - `+Claude Ship`
+    - `-Review code locally`
+    - `-Ultrareview`
+    - `+PR Steward`
+    - `+Claude Approvals`
+    - `+/ship and /steward`
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,729 -> 192,788 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/costs
+    - `-Claude Code computes the dollar figure locally from token counts at list price, unless a modelPricing table is in effect. An administrator sets one in your organization’s managed settings so the figu`
+    - `-Total cost: $0.55`
+    - `+Claude Code computes the dollar figure locally from token counts at list price, unless a modelPricing table is in effect. An administrator sets one in your organization’s managed settings so the figu`
+    - `+Estimated cost: $0.55`
+    - `-To confirm the rates are in effect, run /usage in a session that has received the managed settings : the Session block’s Total cost line carries the note at your organization's configured rates . The`
+    - `+To confirm the rates are in effect, run /usage in a session that has received the managed settings : the Session block’s Estimated cost line carries the note at your organization's configured rates .`
+- **Anthropic / Claude / Claude Code skills** — changed (480,236 -> 480,980 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/skills
+    - `-Any of those locations and a bundled skill Your skill replaces the bundled command, but not its aliases. A project code-review skill replaces /code-review , and the bundled alias /review never runs y`
+    - `+Any of those locations and a bundled skill with a name other than ship , ship-local , or steward Your skill replaces the bundled command, but not its aliases. A project code-review skill replaces /co`
+    - `+A skill or command of yours named ship , ship-local , or steward Where /ship is available, the bundled /ship or /steward . Claude Code doesn’t load yours`
+    - `-For cloud sessions, you can instead commit the skill to the repository’s .claude/skills/ . For a project, check which threads load it . Plugins declared in the repository’s .claude/settings.json and `
+    - `+For cloud sessions, you can instead commit the skill to the repository’s .claude/skills/ . For a project, check which threads load it . Plugins enabled only in your user settings don’t load in cloud `
+    - `-If your organization turns Skills off on claude.ai, Claude Code removes the downloaded skills and they stop loading. The removed skills move to ~/.claude/skills/.trash/ , where you can recover the fi`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,580 -> 205,670 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/commands
+    - `-Complete reference for commands available in Claude Code, including built-in commands and bundled skills.`
+    - `+Reference for commands available in Claude Code, including built-in commands and bundled skills.`
+    - `-/export [filename] Export the current conversation as plain text. With a filename, writes directly to that file. Without, opens a dialog to copy to clipboard or save to a file`
+    - `+/export [filename] Export the current conversation as plain text. With a filename, writes directly to that file, and on v2.1.327 or later refuses one that already exists. Without, opens a dialog to c`
+    - `+/ship [level] [pr] [+bot] Skill . Commit and push your work and open a GitHub pull request, if your branch has none. Then review the change. Claude then watches the pull request in this session and p`
+    - `+/ship:review Alias for /code-review`
+- **Anthropic / Claude / Claude Code settings** — changed (200,386 -> 200,603 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/settings
+    - `-To try a value without saving it, set it when you start Claude Code. The value applies to that session and your settings files stay as they were. You have three ways to do it:`
+    - `+To try a value without saving it, set it when you start Claude Code. You have three ways to do it:`
+    - `+--settings : pass a key as JSON, inline or as a path to a file. Claude Code applies it above your user, project, and local files and below managed settings. With --settings , you can’t set Managed or`
+    - `-Shared project settings with several repositories : in an Anthropic-hosted environment, a session with several repositories starts above the clones and reads only the enabledPlugins and extraKnownMar`
+    - `+Shared project settings with several repositories : in an Anthropic-hosted environment, a session with several repositories starts above the clones and reads only the enabledPlugins and extraKnownMar`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (326,388 -> 326,528 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/plugins/cli-reference","slug":"/en/plugins/cli-reference","pageMetadata":{"title":"Plugin commands reference","sidebarTitle":"Plugin commands","description":"Reference for the`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/plugins/cli-reference","slug":"/en/plugins/cli-reference","pageMetadata":{"title":"Plugin commands reference","sidebarTitle":"Plugin commands","description":"Reference for the`
+- **Anthropic / Claude / Claude Code MCP** — changed (583,409 -> 583,666 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/mcp
+    - `-Local scope is the default. A local-scoped server loads only in the project where you added it and stays private to you. Claude Code stores it in ~/.claude.json under that project’s path, so the same`
+    - `+Local scope is the default. A local-scoped server loads only in the project where you added it and stays private to you. Claude Code stores it in ~/.claude.json under that project’s path. Use local s`
+    - `-claude.ai connectors`
+    - `+claude.ai connectors . In claude -p , Agent SDK, and VS Code sessions, connectors rank above plugin-provided servers.`
+    - `-Form mode : Claude Code shows a dialog with form fields defined by the server (for example, a username and password prompt). Fill in the fields and submit.`
+    - `+Form mode : Claude Code shows a dialog with form fields defined by the server, such as a project name and a due date. Fill in the fields and submit.`
+- **Anthropic / Claude / Building agents: when to fold subagents into the main loop** — changed (23,196 -> 23,416 chars; last seen 2026-11-22) — https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+    - `+Claude Ship`
+    - `+Claude Ship`
+    - `+Manufacturing`
+    - `+Article Nov 23, 2026`
+    - `+KPMG's Todd Lohr on AI when your data is also your clients' data`
+    - `+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,817 -> 4,817 chars; last seen 2026-11-22) — https://www.anthropic.com/engineering
+    - `-27 posts`
+    - `+28 posts`
+    - `-27 posts`
+    - `+28 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,900 -> 26,917 chars; last seen 2026-11-22) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+- **OpenAI / Codex / Codex prompting** — changed (33,053 -> 33,070 chars; last seen 2026-11-22) — https://learn.chatgpt.com/docs/prompting
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+- **OpenAI / Codex / Codex: build skills** — changed (22,350 -> 22,367 chars; last seen 2026-11-22) — https://learn.chatgpt.com/docs/build-skills
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+- **OpenAI / Codex / Codex app-server** — changed (120,396 -> 120,413 chars; last seen 2026-11-22) — https://learn.chatgpt.com/docs/app-server
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (39,432 -> 39,449 chars; last seen 2026-11-22) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,656 -> 19,675 chars; last seen 2026-11-22) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (54,226 -> 54,243 chars; last seen 2026-11-22) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (19,386 -> 19,577 chars; last seen 2026-11-22) — https://developers.openai.com/blog
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
+    - `+Nov 23`
+- **Web scraping and search for agents / Firecrawl docs** — changed (163,453 -> 176,865 chars; last seen 2026-11-22) — https://docs.firecrawl.dev/
+    - `-query= "firecrawl" ,`
+    - `-limit=3,`
+    - `+query = "firecrawl" ,`
+    - `+limit = 3 ,`
+    - `-print(results)`
+    - `+print (results)`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (19,897 -> 19,897 chars; last seen 2026-11-22) — https://github.com/firecrawl/firecrawl
+    - `-Issues 133 ( 133 )`
+    - `+Issues 139 ( 139 )`
+    - `-Fork 10.8k ( 10.8k )`
+    - `-Star 207k ( 207k ) You must be signed in to star a repository`
+    - `+Fork 10.9k ( 10.9k )`
+    - `+Star 208k ( 208k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (362,052 -> 362,052 chars; last seen 2026-11-22) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+- **Web scraping and search for agents / Tavily docs** — changed (122,201 -> 122,398 chars; last seen 2026-11-22) — https://docs.tavily.com/
+    - `+Google Antigravity`
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,488 -> 23,502 chars; last seen 2026-11-22) — https://github.com/unclecode/crawl4ai
+    - `-Pull requests 294 ( 294 )`
+    - `+Pull requests 289 ( 289 )`
+    - `-crawl4ai.com/?ref=github-about`
+    - `+crawl4ai.com/signin/?ref=github-about`
+    - `-1,903 Commits`
+    - `-1,903 Commits`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,492 -> 4,425 chars; last seen 2026-11-22) — https://github.com/Wan-Video
+    - `-18.8k`
+    - `+18.9k`
+    - `-18,828`
+    - `-Apache-2.0`
+    - `-2,532`
+    - `-295`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,502 -> 39,519 chars; last seen 2026-11-22) — https://platform.openai.com/docs/guides/video-generation
+    - `+Usage and cost`
+    - `+Building security review into your SDLC with Codex Security`
+    - `-Pushing voice agents further: inside four GPT-Live builds`
