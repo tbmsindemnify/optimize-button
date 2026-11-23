@@ -3051,3 +3051,89 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+388`
     - `-18,813`
     - `-Apache-2.0`
+
+## 2026-11-23
+
+- **Anthropic / Claude / Claude Code best practices** — changed (224,205 -> 224,205 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/best-practices
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/best-practices","slug":"/en/best-practices","pageMetadata":{"title":"Best practices for Claude Code","sidebarTitle":"Best practices","description":"Get more out of Claude Code`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/best-practices","slug":"/en/best-practices","pageMetadata":{"title":"Best practices for Claude Code","sidebarTitle":"Best practices","description":"Get more out of Claude Code`
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,729 -> 192,749 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/costs
+    - `-Claude Code computes the dollar figure locally from token counts at list price, unless a modelPricing table is in effect. An administrator sets one in your organization’s managed settings so the figu`
+    - `-Total cost: $0.55`
+    - `+Claude Code computes the dollar figure locally from token counts at list price, unless a modelPricing table is in effect. An administrator sets one in your organization’s managed settings so the figu`
+    - `+Estimated cost: $0.55`
+    - `-To confirm the rates are in effect, run /usage in a session that has received the managed settings : the Session block’s Total cost line carries the note at your organization's configured rates . The`
+    - `+To confirm the rates are in effect, run /usage in a session that has received the managed settings : the Session block’s Estimated cost line carries the note at your organization's configured rates .`
+- **Anthropic / Claude / Claude Code skills** — changed (480,236 -> 480,070 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/skills
+    - `-For cloud sessions, you can instead commit the skill to the repository’s .claude/skills/ . For a project, check which threads load it . Plugins declared in the repository’s .claude/settings.json and `
+    - `+For cloud sessions, you can instead commit the skill to the repository’s .claude/skills/ . For a project, check which threads load it . Plugins enabled only in your user settings don’t load in cloud `
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/skills","slug":"/en/skills","pageMetadata":{"title":"Extend Claude with skills","description":"Create, manage, and share skills to extend Claude's capabilities in Claude Code.`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/skills","slug":"/en/skills","pageMetadata":{"title":"Extend Claude with skills","description":"Create, manage, and share skills to extend Claude's capabilities in Claude Code.`
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (202,580 -> 202,696 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/commands
+    - `-/export [filename] Export the current conversation as plain text. With a filename, writes directly to that file. Without, opens a dialog to copy to clipboard or save to a file`
+    - `+/export [filename] Export the current conversation as plain text. With a filename, writes directly to that file, and on v2.1.327 or later refuses one that already exists. Without, opens a dialog to c`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/commands","slug":"/en/commands","pageMetadata":{"title":"Commands","description":"Complete reference for commands available in Claude Code, including built-in commands and bun`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/commands","slug":"/en/commands","pageMetadata":{"title":"Commands","description":"Complete reference for commands available in Claude Code, including built-in commands and bun`
+- **Anthropic / Claude / Claude Code settings** — changed (200,386 -> 200,627 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/settings
+    - `+--settings : pass a key as JSON, inline or as a path to a file. Claude Code applies it above your user, project, and local files and below managed settings. With --settings , you can’t set Managed or`
+    - `-Shared project settings with several repositories : in an Anthropic-hosted environment, a session with several repositories starts above the clones and reads only the enabledPlugins and extraKnownMar`
+    - `+Shared project settings with several repositories : in an Anthropic-hosted environment, a session with several repositories starts above the clones and reads only the enabledPlugins and extraKnownMar`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/settings","slug":"/en/settings","pageMetadata":{"title":"Settings files and precedence","description":"Change Claude Code settings, pick the scope a key belongs in, verify the`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (326,388 -> 326,392 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/plugins/cli-reference","slug":"/en/plugins/cli-reference","pageMetadata":{"title":"Plugin commands reference","sidebarTitle":"Plugin commands","description":"Reference for the`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/plugins/cli-reference","slug":"/en/plugins/cli-reference","pageMetadata":{"title":"Plugin commands reference","sidebarTitle":"Plugin commands","description":"Reference for the`
+- **Anthropic / Claude / Claude Code MCP** — changed (583,409 -> 583,633 chars; last seen 2026-11-22) — https://code.claude.com/docs/en/mcp
+    - `-claude.ai connectors`
+    - `+claude.ai connectors . In claude -p , Agent SDK, and VS Code sessions, connectors rank above plugin-provided servers.`
+    - `-Form mode : Claude Code shows a dialog with form fields defined by the server (for example, a username and password prompt). Fill in the fields and submit.`
+    - `+Form mode : Claude Code shows a dialog with form fields defined by the server, such as a project name and a due date. Fill in the fields and submit.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/mcp","slug":"/en/mcp","pageMetadata":{"sidebarTitle":"Reference","title":"Connect Claude Code to tools via MCP","description":"Learn how to connect Claude Code to your tools w`
+- **Web scraping and search for agents / Firecrawl docs** — changed (163,453 -> 176,869 chars; last seen 2026-11-22) — https://docs.firecrawl.dev/
+    - `-query= "firecrawl" ,`
+    - `-limit=3,`
+    - `+query = "firecrawl" ,`
+    - `+limit = 3 ,`
+    - `-print(results)`
+    - `+print (results)`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (19,897 -> 19,897 chars; last seen 2026-11-22) — https://github.com/firecrawl/firecrawl
+    - `-Issues 133 ( 133 )`
+    - `-Pull requests 781 ( 781 )`
+    - `+Issues 137 ( 137 )`
+    - `+Pull requests 787 ( 787 )`
+    - `-206.8k stars`
+    - `+207.5k stars`
+- **Web scraping and search for agents / Exa docs** — changed (362,052 -> 362,052 chars; last seen 2026-11-22) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+- **Web scraping and search for agents / Tavily docs** — changed (122,201 -> 122,201 chars; last seen 2026-11-22) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,488 -> 23,502 chars; last seen 2026-11-22) — https://github.com/unclecode/crawl4ai
+    - `-crawl4ai.com/?ref=github-about`
+    - `+crawl4ai.com/signin/?ref=github-about`
+    - `-1,903 Commits`
+    - `-1,903 Commits`
+    - `+1,922 Commits`
+    - `+1,922 Commits`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,492 -> 4,425 chars; last seen 2026-11-22) — https://github.com/Wan-Video
+    - `-18.8k`
+    - `+18.9k`
+    - `-18,828`
+    - `-Apache-2.0`
+    - `-2,532`
+    - `-295`
