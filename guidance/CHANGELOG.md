@@ -3296,3 +3296,137 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `-Apache-2.0`
     - `-2,535`
     - `-296`
+
+## 2026-11-25
+
+- **Anthropic / Claude / Claude Code best practices** — changed (226,269 -> 225,493 chars; last seen 2026-11-24) — https://code.claude.com/docs/en/best-practices
+    - `-Non-deterministic: you write the instruction, and Claude (the model) reads it. This can be your prompt, CLAUDE.md , or a skill. The model then decides what to do with this information. It usually fol`
+    - `+Non-deterministic: you write the instruction, and Claude (the model) reads it. This can be your prompt, CLAUDE.md , or a skill. The model then decides what to do with this information. It usually fol`
+    - `-Subagent worktrees disappear when the subagent finishes without changes.`
+    - `-Subagent and background-session worktrees that do get left behind are swept once they’re older than cleanupPeriodDays and hold no work.`
+    - `+Subagent and background-session worktrees that get left behind can be removed automatically once they’re older than cleanupPeriodDays and hold no work.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code costs and context** — changed (192,788 -> 192,176 chars; last seen 2026-11-24) — https://code.claude.com/docs/en/costs
+    - `-Add this to your settings.json to run the hook before every Bash command:`
+    - `+Add this to your settings.json to run the hook before every Bash tool call:`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/costs","slug":"/en/costs","pageMetadata":{"sidebarTitle":"Costs","title":"Manage costs effectively","description":"Track token usage, set team spend limits, and reduce Claude `
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/costs","slug":"/en/costs","pageMetadata":{"sidebarTitle":"Costs","title":"Manage costs effectively","description":"Track token usage, set team spend limits, and reduce Claude `
+- **Anthropic / Claude / Claude Code skills** — changed (485,265 -> 484,523 chars; last seen 2026-11-24) — https://code.claude.com/docs/en/skills
+    - `-A session where your organization’s managed settings lock skills to plugin sources , or one you start with a --setting-sources list that leaves out user`
+    - `+A session where managed settings lock skills to plugin sources , or one you start with a --setting-sources list that omits user`
+    - `-model No Model to use when this skill is active. The override applies for the rest of the current turn and isn’t saved to settings. The session model resumes when you send your next prompt. Accepts t`
+    - `+model No Model for the turn when you run this skill with /name . Accepts /model values, or inherit for the active model. When Claude runs the skill, the session keeps its model. The same happens when`
+    - `+PreToolUse hooks don’t fire for injected commands that run as the skill loads. To log or block the ones that pass the permission check, use a PreSkillShellCommand hook .`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+- **Anthropic / Claude / Claude Code commands (incl. /compact)** — changed (208,749 -> 209,358 chars; last seen 2026-11-24) — https://code.claude.com/docs/en/commands
+    - `-/artifact-capabilities Skill . Load the reference for the runtime capabilities a published artifact can use, such as calling your connectors or offering a file download , including which ones your ac`
+    - `+/artifact-capabilities Skill . Load the reference for the runtime capabilities a published artifact can use, such as calling your connectors or offering a file download , including which ones your ac`
+    - `-/background [prompt] Detach the current session to run as a background agent and free this terminal. Pass a prompt to send one more instruction before detaching. Monitor the session with claude agent`
+    - `+/background [prompt] Detach the current session to run as a background agent and free this terminal. Pass a prompt to send one more instruction before detaching. Monitor the session with claude agent`
+    - `+/claude-approvals [what to change or explain] Skill . Edit, explain, or tune a Claude Approvals policy file or classifier. Requires Claude Code v2.1.331 or later and feature-flag fetching`
+    - `-/privacy-settings View and update your privacy settings. Only available for Pro, Max, and Ultra plan subscribers`
+- **Anthropic / Claude / Claude Code settings** — changed (203,566 -> 202,862 chars; last seen 2026-11-24) — https://code.claude.com/docs/en/settings
+    - `-To change a setting for yourself in one project without changing it for your teammates, save it in .claude/settings.local.json inside the project. Claude Code applies that file over the committed .cl`
+    - `+To change a setting for yourself in one project, save it in .claude/settings.local.json inside the project. Claude Code applies that file over the committed .claude/settings.json , so if the committe`
+    - `-Shared project settings ( .claude/settings.json ): settings your team checks into source control.`
+    - `+Shared project settings ( .claude/settings.json ): settings checked into source control.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/settings","slug":"/en/settings","pageMetadata":{"title":"Settings files and precedence","description":"Change Claude Code settings, pick the scope a key belongs in, verify the`
+- **Anthropic / Claude / Claude Code plugins CLI** — changed (326,528 -> 325,885 chars; last seen 2026-11-24) — https://code.claude.com/docs/en/plugins/cli-reference
+    - `-Put the target before --tag , --allow-tools , and --json . Each of these options takes the words that follow it as its value, so a target written after one of them is read as a tag, a tool name, or t`
+    - `+Put the target before --tag , --allow-tools , --disallow-tools , and --json . A target written after one of them can be read as a tag, a tool name, or the JSON output path.`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/plugins/cli-reference","slug":"/en/plugins/cli-reference","pageMetadata":{"title":"Plugin commands reference","sidebarTitle":"Plugin commands","description":"Reference for the`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/plugins/cli-reference","slug":"/en/plugins/cli-reference","pageMetadata":{"title":"Plugin commands reference","sidebarTitle":"Plugin commands","description":"Reference for the`
+- **Anthropic / Claude / Claude Code MCP** — changed (635,626 -> 634,988 chars; last seen 2026-11-24) — https://code.claude.com/docs/en/mcp
+    - `-Set oauth.scopes to pin the scopes Claude Code requests during the authorization flow. This is the supported way to restrict an MCP server to a security-team-approved subset when the upstream authori`
+    - `+Set oauth.scopes to pin the scopes Claude Code requests during the authorization flow. This is the supported way to restrict an MCP server to an approved subset when the upstream authorization server`
+    - `-{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `-{"page":{"pagePath":"en/mcp","slug":"/en/mcp","pageMetadata":{"sidebarTitle":"Reference","title":"Connect Claude Code to tools via MCP","description":"Learn how to connect Claude Code to your tools w`
+    - `+{"docsConfig":{"theme":"mint","$schema":"https://mintlify.com/docs.json","name":"Claude Code Docs","description":"Official documentation for Claude Code, Anthropic's agentic coding tool available in `
+    - `+{"page":{"pagePath":"en/mcp","slug":"/en/mcp","pageMetadata":{"sidebarTitle":"Reference","title":"Connect Claude Code to tools via MCP","description":"Learn how to connect Claude Code to your tools w`
+- **Anthropic / Claude / Anthropic engineering blog index** — changed (4,815 -> 4,805 chars; last seen 2026-11-24) — https://www.anthropic.com/engineering
+    - `+Nov 25, 2026 Migrating our Messages API to Rust`
+    - `-Jun 13, 2025 How we built our multi-agent research system`
+    - `-29 posts`
+    - `+30 posts`
+    - `-29 posts`
+    - `+30 posts`
+- **OpenAI / Codex / Codex best practices** — changed (26,917 -> 26,899 chars; last seen 2026-11-24) — https://learn.chatgpt.com/docs/learn/best-practices
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex prompting** — changed (33,070 -> 33,052 chars; last seen 2026-11-24) — https://learn.chatgpt.com/docs/prompting
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex: build skills** — changed (22,367 -> 22,349 chars; last seen 2026-11-24) — https://learn.chatgpt.com/docs/build-skills
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex app-server** — changed (120,995 -> 120,977 chars; last seen 2026-11-24) — https://learn.chatgpt.com/docs/app-server
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Codex MCP (CLI)** — changed (39,828 -> 39,810 chars; last seen 2026-11-24) — https://learn.chatgpt.com/docs/extend/mcp?surface=cli
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / Rethinking skills and prompts for GPT-6 Astra** — changed (19,675 -> 19,639 chars; last seen 2026-11-24) — https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / OpenAI prompt engineering guide** — changed (54,243 -> 54,225 chars; last seen 2026-11-24) — https://platform.openai.com/docs/guides/prompt-engineering
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+- **OpenAI / Codex / OpenAI developers blog index** — changed (19,577 -> 19,677 chars; last seen 2026-11-24) — https://developers.openai.com/blog
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
+    - `+Nov 24`
+    - `+Production monitoring with Codex`
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,865 -> 176,253 chars; last seen 2026-11-24) — https://docs.firecrawl.dev/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `-{"page":{"pagePath":"introduction","slug":"/introduction","pageMetadata":{"title":"Introduction","description":"The context API for AI agents. Search the web, scrape any page, and interact with it th`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Firecrawl Docs","colors":{"primary":"#000","light":"#fff","dark":"#000"},"logo":{"light":"https://mintcdn.com/firecra`
+    - `+{"page":{"pagePath":"introduction","slug":"/introduction","pageMetadata":{"title":"Introduction","description":"The context API for AI agents. Search the web, scrape any page, and interact with it th`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (19,897 -> 19,893 chars; last seen 2026-11-24) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 783 ( 783 )`
+    - `+Pull requests 776 ( 776 )`
+    - `-Fork 10.9k ( 10.9k )`
+    - `-Star 209k ( 209k ) You must be signed in to star a repository`
+    - `+Fork 11k ( 11k )`
+    - `+Star 210k ( 210k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (362,056 -> 361,418 chars; last seen 2026-11-24) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,408 -> 15,379 chars; last seen 2026-11-24) — https://exa.ai/privacy
+    - `-Introducing Exa 3.0 Introducing Exa 3.0: Our largest ever improvement to search quality Learn more`
+    - `+Meet Exa at re:Invent -> Meet Exa at AWS re:Invent: Book a meeting ->`
+- **Web scraping and search for agents / Tavily docs** — changed (122,402 -> 122,402 chars; last seen 2026-11-24) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,502 -> 23,502 chars; last seen 2026-11-24) — https://github.com/unclecode/crawl4ai
+    - `-Issues 52 ( 52 )`
+    - `-Pull requests 289 ( 289 )`
+    - `+Issues 55 ( 55 )`
+    - `+Pull requests 295 ( 295 )`
+    - `-Fork 9.1k ( 9.1k )`
+    - `-Star 87.8k ( 87.8k ) You must be signed in to star a repository`
+- **Video generation / Runway** — changed (4,089 -> 4,085 chars; last seen 2026-11-24) — https://runwayml.com/
+    - `-Resource Hub`
+    - `+Articles`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,425 -> 4,425 chars; last seen 2026-11-24) — https://github.com/Wan-Video
+    - `-2.5k`
+    - `+2.6k`
+    - `-447`
+    - `+448`
+    - `-390`
+    - `+391`
+- **Video generation / OpenAI video guide (Sora shutdown notice)** — changed (39,519 -> 39,501 chars; last seen 2026-11-24) — https://platform.openai.com/docs/guides/video-generation
+    - `+Production monitoring with Codex`
+    - `-Securing persistent agents like OpenClaw at OpenAI`
