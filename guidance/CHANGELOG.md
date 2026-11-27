@@ -3504,3 +3504,44 @@ What changed on the labs' own pages and the tool catalogs, by day. Snapshots liv
     - `+392`
     - `-18,919`
     - `-Apache-2.0`
+
+## 2026-11-27
+
+- **Web scraping and search for agents / Firecrawl docs** — changed (176,109 -> 176,139 chars; last seen 2026-11-26) — https://docs.firecrawl.dev/
+    - `-"cdpUrl" : "wss://browser.firecrawl.dev/..." ,`
+    - `-"liveViewUrl" : "https://liveview.firecrawl.dev/..." ,`
+    - `-"interactiveLiveViewUrl" : "https://liveview.firecrawl.dev/..." ,`
+    - `+"cdpUrl" : "wss://hangar.firecrawl.dev/cdp?token=..." ,`
+    - `+"liveViewUrl" : "https://hangar.firecrawl.dev/live#..." ,`
+    - `+"interactiveLiveViewUrl" : "https://hangar.firecrawl.dev/live#..." ,`
+- **Web scraping and search for agents / Firecrawl GitHub** — changed (19,893 -> 19,897 chars; last seen 2026-11-26) — https://github.com/firecrawl/firecrawl
+    - `-Pull requests 785 ( 785 )`
+    - `+Pull requests 725 ( 725 )`
+    - `-Fork 11k ( 11k )`
+    - `-Star 211k ( 211k ) You must be signed in to star a repository`
+    - `+Fork 11.1k ( 11.1k )`
+    - `+Star 212k ( 212k ) You must be signed in to star a repository`
+- **Web scraping and search for agents / Exa docs** — changed (361,274 -> 361,278 chars; last seen 2026-11-26) — https://docs.exa.ai/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Exa","description":"A powerful web search tool designed for agents. Everything optimized to get you token-efficient, `
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Start building with Exa","sidebarTitle":"Overview","description":"A powerful web search tool designed for agents. Everything optimized `
+- **Web scraping and search for agents / Exa privacy policy (query use)** — changed (15,379 -> 15,383 chars; last seen 2026-11-26) — https://exa.ai/privacy
+    - `+MCP`
+- **Web scraping and search for agents / Tavily docs** — changed (121,790 -> 121,646 chars; last seen 2026-11-26) — https://docs.tavily.com/
+    - `-{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `-{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+    - `+{"docsConfig":{"theme":"aspen","$schema":"https://mintlify.com/docs.json","name":"Tavily Docs","colors":{"primary":"#80AF9B","light":"#80AF9B","dark":"#817FFF"},"logo":{"light":"https://mintcdn.com/t`
+    - `+{"page":{"pagePath":"index","slug":"/","pageMetadata":{"title":"Connect your AI agent to the web","sidebarTitle":"Quickstart","description":"Add Tavily's web search, extraction, crawling, and researc`
+- **Web scraping and search for agents / Crawl4AI GitHub** — changed (23,498 -> 23,498 chars; last seen 2026-11-26) — https://github.com/unclecode/crawl4ai
+    - `-Issues 56 ( 56 )`
+    - `-Pull requests 301 ( 301 )`
+    - `+Issues 57 ( 57 )`
+    - `+Pull requests 304 ( 304 )`
+- **Video generation / Wan (Alibaba) GitHub** — changed (4,423 -> 4,423 chars; last seen 2026-11-26) — https://github.com/Wan-Video
+    - `-392`
+    - `+393`
+    - `-18,951`
+    - `-Apache-2.0`
+    - `-2,559`
+    - `+18,976`
